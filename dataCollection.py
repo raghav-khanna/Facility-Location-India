@@ -3,41 +3,6 @@ from bs4 import BeautifulSoup
 import csv
 
 
-def get_latLong(url):
-     # Send an HTTP GET request to the URL
-    response = requests.get(url)
-
-    # Check if the request was successful (status code 200)
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-
-        table = soup.find('table')
-
-        # Initialize an empty list to store the table data
-        table_data = []
-
-        # Iterate through the rows of the table
-        for row in table.find_all('tr'):
-            row_data = []
-            # Iterate through the cells (columns) of each row
-            for cell in row.find_all(['th', 'td']):
-                row_data.append(cell.get_text(strip=True).encode('utf-8'))
-            table_data.append(row_data)
-
-        # Define the name for the CSV file where you want to save the table data
-        csv_filename = 'data/districts_coordinates.csv'
-
-        # Write the table data to a CSV file
-        with open(csv_filename, 'wb') as csv_file:
-            csv_writer = csv.writer(csv_file)
-            for row_data in table_data:
-                csv_writer.writerow(row_data)
-
-        print ('Table data has been extracted and saved as : ', csv_filename)
-    else:
-        print ('Failed to retrieve the webpage. Status code:', response.status_code)
-  
-
 def get_districts(url):
     # Send an HTTP GET request to the URL
     response = requests.get(url)
@@ -89,6 +54,7 @@ def get_districts(url):
     else:
         print ('Failed to retrieve the webpage. Status code:', response.status_code)
 
+
 # Function to make a GET request to the PositionStack API
 def get_location_info(district):
     api_key = 'd0905eff7bc12206ec8e6db40662f5c4'  # Replace with your PositionStack API key
@@ -133,9 +99,8 @@ def getLatLong():
     print('New CSV file with location information has been created:', new_csv_filename)
 
 
-# districts_url = 'https://www.censusindia.co.in/districts' 
-# get_districts(districts_url)
+districts_url = 'https://www.censusindia.co.in/districts' 
+get_districts(districts_url)
 
-# get_latLong('https://www.gisvacancy.com/map/districts-wise-latitudes-longitudes-finder/#Districts_wise_latitudes_and_longitudes')
-
+#Creates the combined data CSV file
 getLatLong()
