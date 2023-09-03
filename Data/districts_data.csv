@@ -1,0 +1,641 @@
+District,State,Density
+Thane,Maharashtra,1157.1613308223477
+North Twenty Four Parganas,West Bengal,2444.9880312652663
+Bangalore,Karnataka,4381.398451730419
+Pune,Maharashtra,602.7877005689446
+Mumbai Suburban,Maharashtra,20979.735426008967
+South Twenty Four Parganas,West Bengal,819.4739959839358
+Barddhaman,West Bengal,1098.7418849658313
+Ahmadabad,Gujarat,889.8760330578513
+Murshidabad,West Bengal,1334.2988354620586
+Jaipur,Rajasthan,594.6493762900476
+Nashik,Maharashtra,393.25093367675464
+Surat,Gujarat,1336.848098483183
+Allahabad,Uttar Pradesh,1086.1712878511491
+Paschim Medinipur,West Bengal,631.240072587532
+Patna,Bihar,1823.3806995627733
+Hugli,West Bengal,1752.6659256906955
+Rangareddy,Andhra Pradesh,706.8918991058321
+Nadia,West Bengal,1315.9154570919277
+East Godavari,Andhra Pradesh,476.9405015267882
+Purba Champaran,Bihar,1285.1237399193549
+Purba Medinipur,West Bengal,1081.2380649267982
+Guntur,Andhra Pradesh,429.094284961812
+Haora,West Bengal,3306.0865712338104
+Muzaffarpur,Bihar,1513.5756620428751
+Belgaum,Karnataka,355.81485892950195
+Moradabad,Uttar Pradesh,1283.487358795051
+Ghaziabad,Uttar Pradesh,3970.860899067006
+Nagpur,Maharashtra,470.4377274565305
+Chennai,Tamil Nadu,26552.754285714287
+Azamgarh,Uttar Pradesh,1138.1137148495313
+Lucknow,Uttar Pradesh,1815.6004746835442
+Kanpur Nagar,Uttar Pradesh,1452.0659270998415
+Ahmadnagar,Maharashtra,266.4921984983576
+Krishna,Andhra Pradesh,517.634696917612
+Kolkata,West Bengal,24306.454054054055
+Jaunpur,Uttar Pradesh,1112.9777117384845
+Madhubani,Bihar,1281.7420736932304
+Sitapur,Uttar Pradesh,780.7752045969006
+Bareilly,Uttar Pradesh,1079.698786407767
+Gorakhpur,Uttar Pradesh,1337.2161999397772
+Agra,Uttar Pradesh,1093.4909675822817
+Gaya,Bihar,882.519694533762
+Solapur,Maharashtra,289.879556898288
+Visakhapatnam,Andhra Pradesh,384.42693307051337
+Samastipur,Bihar,1467.4814049586778
+Jalgaon,Maharashtra,359.5339566510837
+Chittoor,Andhra Pradesh,275.4794086589229
+Vadodara,Gujarat,552.03100980652
+Muzaffarnagar,Uttar Pradesh,1033.810379241517
+Malappuram,Kerala,1157.2650534608892
+Hardoi,Uttar Pradesh,683.7362178416305
+Anantapur,Andhra Pradesh,213.33758494511238
+Raipur,Chhattisgarh,328.18153920697733
+Kurnool,Andhra Pradesh,229.55391324045758
+Mahbubnagar,Andhra Pradesh,219.89084201388889
+Kheri,Uttar Pradesh,523.5993489583333
+Kancheepuram,Tamil Nadu,891.8697300914566
+Maldah,West Bengal,1068.536030002679
+Saran,Bihar,1496.3506247633472
+Hyderabad,Andhra Pradesh,18171.99539170507
+Darbhanga,Bihar,1727.681000438789
+West Godavari,Andhra Pradesh,508.5205373288556
+Vellore,Tamil Nadu,647.955720164609
+Pashchim Champaran,Bihar,752.685921958684
+Kolhapur,Maharashtra,504.35927130774235
+Jalpaiguri,West Bengal,621.944114340774
+Rajkot,Gujarat,339.7533488122879
+Sultanpur,Uttar Pradesh,855.9776825969342
+Karimnagar,Andhra Pradesh,319.4002368265246
+Thiruvallur,Tamil Nadu,1098.4395992928698
+Aurangabad,Maharashtra,366.20975561492037
+Jodhpur,Rajasthan,161.36389496717723
+Bijnor,Uttar Pradesh,807.4354308265731
+Budaun,Uttar Pradesh,712.4411764705883
+Varanasi,Uttar Pradesh,2395.3361563517915
+Alwar,Rajasthan,438.44618138424823
+Aligarh,Uttar Pradesh,1006.5449315068494
+North West,Delhi,8254.038374717833
+Ghazipur,Uttar Pradesh,1072.0367189813444
+Bankura,West Bengal,522.6204591688463
+Kushinagar,Uttar Pradesh,1227.03752151463
+Ganjam,Odisha,430.0549597855228
+Warangal,Andhra Pradesh,273.43733457885725
+Birbhum,West Bengal,770.6059405940595
+Bulandshahar,Uttar Pradesh,775.5254875886525
+Ludhiana,Punjab,977.8476802683064
+Vaishali,Bihar,1716.611493123772
+Nalgonda,Andhra Pradesh,245.0006320224719
+Bahraich,Uttar Pradesh,665.978804659156
+Salem,Tamil Nadu,664.8951689898797
+Saharanpur,Uttar Pradesh,939.6535646516671
+Viluppuram,Tamil Nadu,480.79969418960246
+Coimbatore,Tamil Nadu,730.778740490279
+Meerut,Uttar Pradesh,1345.716686205549
+Gonda,Uttar Pradesh,857.8363727204596
+Sitamarhi,Bihar,1492.4036617262423
+Rae Bareli,Uttar Pradesh,738.8932523323931
+Prakasam,Andhra Pradesh,192.75207080449337
+Nanded,Maharashtra,319.2716565349544
+Durg,Chhattisgarh,391.7834797891037
+Siwan,Bihar,1500.8850833708877
+Nagaur,Rajasthan,186.68828310193024
+Thiruvananthapuram,Kerala,1508.1895842850618
+Ernakulam,Kerala,1071.6252040483187
+Indore,Madhya Pradesh,840.6097998973833
+Purnia,Bihar,1011.0309693403531
+Barabanki,Uttar Pradesh,740.731258518855
+Ballia,Uttar Pradesh,1086.8077826232807
+Pratapgarh,Uttar Pradesh,863.3685768092548
+Thrissur,Kerala,1031.1199207135778
+Banaskantha,Gujarat,290.4687703620962
+Unnao,Uttar Pradesh,681.958534444932
+Deoria,Uttar Pradesh,1220.8448818897639
+Kozhikode,Kerala,1316.1164179104478
+Mumbai,Maharashtra,19652.299363057326
+Tirunelveli,Tamil Nadu,459.76886299118485
+Katihar,Bihar,1004.5891396794243
+Udaipur,Rajasthan,261.7212555441829
+Madurai,Tamil Nadu,818.9358490566037
+Bhagalpur,Bihar,1182.4702218762163
+Medak,Andhra Pradesh,312.7423445716053
+Uttar Dinajpur,West Bengal,957.6859872611465
+Shahjahanpur,Uttar Pradesh,685.172743846855
+Satara,Maharashtra,286.6165076335878
+Mysore,Karnataka,475.840653242429
+Begusarai,Bihar,1548.7700729927008
+Sri Potti Sriramulu Nellore,Andhra Pradesh,226.64094524319364
+Rohtas,Bihar,762.668899768101
+Puruliya,West Bengal,468.14427224796293
+Ranchi,Jharkhand,571.758485383559
+Amravati,Maharashtra,236.56388206388206
+YSR,Andhra Pradesh,187.67296047919785
+Bhavnagar,Gujarat,287.06049431931433
+Nalanda,Bihar,1221.9333333333334
+Nagaon,Assam,710.7394915680845
+Sangli,Maharashtra,329.2280681287914
+Koch Bihar,West Bengal,832.3253616770003
+Araria,Bihar,993.4872791519434
+Palakkad,Kerala,626.9375278893351
+Khammam,Andhra Pradesh,174.5193087528854
+Yavatmal,Maharashtra,204.11927551170666
+Junagadh,Gujarat,310.6196353753822
+Adilabad,Andhra Pradesh,170.21043154299906
+South,Delhi,11060.44129554656
+Bhojpur,Bihar,1139.2096033402922
+Tiruchirappalli,Tamil Nadu,603.7458416500333
+Srikakulam,Andhra Pradesh,463.0998800753812
+Maharajganj,Uttar Pradesh,909.4522357723578
+Dhanbad,Jharkhand,1315.925
+Tumkur,Karnataka,252.80551099367744
+Sikar,Rajasthan,346.2665545783756
+Bilaspur,Chhattisgarh,322.0054400386847
+Kollam,Kerala,1061.3672976238422
+Raigarh,Maharashtra,368.3165548098434
+Fatehpur,Uttar Pradesh,634.0879094412331
+Cuttack,Odisha,667.4643947100712
+Cuddalore,Tamil Nadu,703.7304887928707
+Barmer,Rajasthan,91.72335928417938
+Buldana,Maharashtra,267.70085912431426
+Bid,Maharashtra,241.75151968577575
+Ajmer,Rajasthan,304.5692724914515
+Gulbarga,Karnataka,234.2820887347088
+Gopalganj,Bihar,1260.212493851451
+Siddharthnagar,Uttar Pradesh,884.040414507772
+Nizamabad,Andhra Pradesh,320.68061840120663
+Bharatpur,Rajasthan,503.0521121200158
+Mathura,Uttar Pradesh,762.6299401197605
+West,Delhi,19563.407692307694
+Aurangabad,Bihar,768.5546142208775
+Kannur,Kerala,852.0780141843971
+Mayurbhanj,Odisha,241.86388942215396
+Firozabad,Uttar Pradesh,1037.8712089738262
+Mirzapur,Uttar Pradesh,566.8490351872872
+Amritsar,Punjab,928.3101006336191
+Tiruppur,Tamil Nadu,477.93560825139775
+Faizabad,Uttar Pradesh,1055.5301153353269
+Tiruvannamalai,Tamil Nadu,398.3314479638009
+Basti,Uttar Pradesh,916.8392857142857
+Jabalpur,Madhya Pradesh,472.7094607560929
+Latur,Maharashtra,342.9084812072097
+Bellary,Karnataka,289.87058267344287
+Giridih,Jharkhand,492.8403869407497
+Sabarkantha,Gujarat,328.4540167703543
+Bhilwara,Rajasthan,230.37044476327117
+Thanjavur,Tamil Nadu,705.3327469950161
+Ambedkar Nagar,Uttar Pradesh,1020.3778723404255
+Panchmahal,Gujarat,457.03995411967117
+Sagar,Madhya Pradesh,231.9994147483418
+Bhopal,Madhya Pradesh,855.3611111111111
+Rewa,Madhya Pradesh,374.5812480202724
+Bikaner,Rajasthan,78.17510499685837
+Surguja,Chhattisgarh,150.00546656496314
+Vizianagaram,Andhra Pradesh,358.5370851812204
+Rampur,Uttar Pradesh,986.8267849598648
+Baleshwar,Odisha,609.7028376248029
+Kheda,Gujarat,581.8074879838098
+Gurdaspur,Punjab,647.2326105322444
+Purbi Singhbhum,Jharkhand,643.9974733295901
+South West,Delhi,5446.456057007126
+Erode,Tamil Nadu,390.9277777777778
+Khordha,Odisha,800.4525417703519
+North East,Delhi,36155.22580645161
+Supaul,Bihar,919.2065979381443
+Satna,Madhya Pradesh,297.1121034390829
+Nawada,Bihar,889.793905372895
+Mau,Uttar Pradesh,1287.780502043199
+Chandrapur,Maharashtra,192.63366250109237
+Jalandhar,Punjab,835.9717987804878
+Dhar,Madhya Pradesh,268.0967741935484
+Bijapur,Karnataka,207.40436273575918
+Jamnagar,Gujarat,152.29265369430345
+Dindigul,Tamil Nadu,357.815606361829
+Balrampur,Uttar Pradesh,641.5840549417736
+Jhunjhunun,Rajasthan,360.50016869095816
+Alappuzha,Kerala,1503.7378091872793
+Dahod,Gujarat,584.043382756727
+Sundargarh,Odisha,215.55158566721582
+Anand,Gujarat,653.166354556804
+Kachchh,Gujarat,45.81098655690327
+Chhindwara,Madhya Pradesh,176.97181548878544
+Dakshina Kannada,Karnataka,429.88047726805183
+Bokaro,Jharkhand,715.3416579951439
+Dhule,Maharashtra,285.03988881167476
+Churu,Rajasthan,147.41937116010118
+Pali,Rajasthan,164.49285541293293
+Mahesana,Gujarat,462.40945239718246
+Banka,Bihar,673.7625827814569
+Gwalior,Madhya Pradesh,445.6219298245614
+Pilibhit,Uttar Pradesh,551.0056972327726
+Firozpur,Punjab,382.4833176248822
+Madhepura,Bihar,1119.5536912751677
+Jhansi,Uttar Pradesh,397.8111066878981
+Ujjain,Madhya Pradesh,326.1966836315876
+Kottayam,Kerala,895.0820489573889
+Ganganagar,Rajasthan,179.37402076881034
+Morena,Madhya Pradesh,394.06093405492084
+Jalna,Maharashtra,253.8281938325991
+Chandauli,Uttar Pradesh,768.4990161353797
+Kota,Rajasthan,373.97239792984476
+Dhubri,Assam,895.7987132352941
+Davanagere,Karnataka,328.40935178933154
+Virudhunagar,Tamil Nadu,457.9787785899552
+Palamu,Jharkhand,441.58183473708175
+Raichur,Karnataka,228.47808576166784
+Sonitpur,Assam,369.7367409684858
+Saharsa,Bihar,1126.6514522821576
+Patiala,Punjab,570.1311278195489
+Hardwar,Uttarakhand,801.0262711864407
+Bagalkot,Karnataka,288.4236874236874
+Farrukhabad,Uttar Pradesh,864.3759743237047
+Krishnagiri,Tamil Nadu,366.5059465782804
+Khargone,Madhya Pradesh,233.4013707165109
+Kanniyakumari,Tamil Nadu,1110.6733966745844
+Mainpuri,Uttar Pradesh,677.0032608695652
+Sonbhadra,Uttar Pradesh,269.740622737147
+Dharwad,Karnataka,433.5734741784037
+Darjiling,West Bengal,586.4791997459511
+Jyotiba Phule Nagar,Uttar Pradesh,818.239662072032
+Parbhani,Maharashtra,295.4757000321854
+Jalor,Rajasthan,171.87312030075188
+Jajapur,Odisha,630.2835460503622
+Akola,Maharashtra,319.57470049330516
+Faridabad,Hariyana,2442.284750337382
+Mandya,Karnataka,363.9195888754534
+Kendujhar,Odisha,216.9978321088763
+Banda,Uttar Pradesh,408.21460980036295
+Banswara,Rajasthan,397.49778858911986
+Kanpur Dehat,Uttar Pradesh,594.566037735849
+Hassan,Karnataka,260.7016436747872
+Hanumangarh,Rajasthan,183.79163214581607
+Etah,Uttar Pradesh,729.9382969971206
+Chhatarpur,Madhya Pradesh,202.87498561068264
+Jamui,Bihar,568.2391865719819
+Surendranagar,Gujarat,168.499280437494
+Shimoga,Karnataka,206.741330502477
+Thoothukkudi,Tamil Nadu,368.8463645943098
+Hisar,Hariyana,437.84358523725837
+Cachar,Assam,458.6944004226096
+Hazaribagh,Jharkhand,487.9029535864979
+Namakkal,Tamil Nadu,504.8540935672515
+Shivpuri,Madhya Pradesh,171.47327637591894
+West Tripura,Tripura,576.5917139993318
+Sant Kabir Nagar,Uttar Pradesh,1042.0309842041313
+East,Delhi,27132.47619047619
+Buxar,Bihar,1001.968291250734
+Valsad,Gujarat,567.0472074468086
+Bidar,Karnataka,312.6468428781204
+Bhind,Madhya Pradesh,381.9253195783808
+Balaghat,Madhya Pradesh,184.38595730848414
+Puri,Odisha,488.2811152630066
+Dehradun,Uttarakhand,549.4475388601036
+Barpeta,Assam,742.1656441717791
+Kishanganj,Bihar,897.23991507431
+Jalaun,Uttar Pradesh,370.20240963855423
+Dakshin Dinajpur,West Bengal,755.4195583596214
+Khagaria,Bihar,1121.7267833109017
+Chitradurga,Karnataka,196.7112375533428
+Osmanabad,Maharashtra,218.99537587528076
+Kannauj,Uttar Pradesh,791.5031055900621
+Sangrur,Punjab,456.59834482758623
+Balangir,Odisha,250.79802281368822
+Udham Singh Nagar,Uttarakhand,648.663257277734
+Nandurbar,Maharashtra,276.791771620487
+Gautam Buddha Nagar,Uttar Pradesh,1285.5811232449298
+Bhiwani,Hariyana,342.0772289660946
+Dausa,Rajasthan,476.2263986013986
+Kaimur,Bihar,488.11044417767107
+Janjgir - Champa,Chhattisgarh,420.3755515182974
+Pudukkottai,Tamil Nadu,348.4808354866494
+Nagapattinam,Tamil Nadu,629.2137018295057
+Ratnagiri,Maharashtra,196.7676656920078
+Kaushambi,Uttar Pradesh,899.1545812254076
+Haveri,Karnataka,331.2602114866266
+Hoshiarpur,Punjab,468.5838747784997
+Etawah,Uttar Pradesh,684.469926438771
+Sant Ravidas Nagar,Uttar Pradesh,1554.8896551724138
+Kalahandi,Odisha,199.0996212121212
+Betul,Madhya Pradesh,156.86169471273524
+Mahamaya Nagar,Uttar Pradesh,850.3847826086957
+Dewas,Madhya Pradesh,222.7514245014245
+Bharuch,Gujarat,238.28836994930097
+Rajgarh,Madhya Pradesh,251.2293190313668
+Chittaurgarh,Rajasthan,197.4351828176937
+Rajnandgaon,Chhattisgarh,190.47496902106568
+Kolar,Karnataka,386.1274189494848
+Jammu,Jammu and Kashmir,653.2698548249359
+Kamrup,Assam,488.741384863124
+Gurgaon,Hariyana,1203.8410174880762
+Amreli,Gujarat,204.70325807759903
+Shajapur,Madhya Pradesh,244.1777239709443
+Kangra,Himachal Pradesh,263.1251089039902
+Dharmapuri,Tamil Nadu,335.0773849232822
+Bhadrak,Odisha,601.3321357285429
+Karnal,Hariyana,597.3507936507937
+Pashchimi Singhbhum,Jharkhand,207.96483942414176
+Raigarh,Chhattisgarh,210.83601467682755
+Deoghar,Jharkhand,602.3710133225676
+Bargarh,Odisha,253.76991605276683
+Vidisha,Madhya Pradesh,197.92090625423958
+Karauli,Rajasthan,263.9840695148443
+Ratlam,Madhya Pradesh,299.335321950216
+Sonipat,Hariyana,683.318096135721
+Tikamgarh,Madhya Pradesh,286.2848652931854
+Kendrapara,Odisha,544.7658850226929
+Uttara Kannada,Karnataka,139.84324219130096
+Kanshiram Nagar,Uttar Pradesh,734.8946291560102
+Tonk,Rajasthan,197.57103141506812
+Bastar,Chhattisgarh,134.97602674307547
+Jhalawar,Rajasthan,226.90609422736773
+Gandhinagar,Gujarat,650.3518691588785
+Koppal,Karnataka,249.53680430879712
+Dungarpur,Rajasthan,368.3161803713528
+Bathinda,Punjab,414.11422606620937
+Barwani,Madhya Pradesh,255.36779067624838
+Koraput,Odisha,156.65345747700692
+Auraiya,Uttar Pradesh,684.2981150793651
+Seoni,Madhya Pradesh,157.47099794473624
+Munger,Bihar,963.8935870331219
+Ramanathapuram,Tamil Nadu,329.78679337231966
+Patan,Gujarat,231.998273480663
+Mandsaur,Madhya Pradesh,242.17000903342367
+Sivaganga,Tamil Nadu,316.3479801559178
+Sawai Madhopur,Rajasthan,296.9210760337928
+Jind,Hariyana,493.76461880088823
+Raisen,Madhya Pradesh,157.28762107252538
+Navsari,Gujarat,592.0178094390027
+Tinsukia,Assam,350.37704485488126
+Dibrugarh,Assam,392.29074238391007
+Garhwa,Jharkhand,323.1820180796482
+Gondiya,Maharashtra,252.67615590370653
+Dumka,Jharkhand,351.3538952406275
+Godda,Jharkhand,579.6782877316858
+Sehore,Madhya Pradesh,199.35117056856188
+Khandwa,Madhya Pradesh,178.19110446137105
+Kasaragod,Kerala,657.3026646556058
+Baghpat,Uttar Pradesh,986.4102952308857
+Wardha,Maharashtra,206.17752417181805
+Sirsa,Hariyana,302.8265139116203
+Katni,Madhya Pradesh,261.0185858585859
+Anugul,Odisha,199.8150588235294
+Thiruvarur,Tamil Nadu,555.9705364995602
+Damoh,Madhya Pradesh,173.03846153846155
+Chikkaballapura,Karnataka,295.73609802073514
+Kamrup Metropolitan,Assam,1313.0240837696335
+Theni,Tamil Nadu,434.4138772663877
+Guna,Madhya Pradesh,194.29092331768388
+Hoshangabad,Madhya Pradesh,185.19319707593615
+Srinagar,Jammu and Kashmir,624.9767559373421
+Karimganj,Assam,679.2072968490879
+Baran,Rajasthan,174.87914759725402
+Lalitpur,Uttar Pradesh,242.42746576701725
+Nabarangapur,Odisha,230.75902475902475
+Yamunanagar,Hariyana,686.7675339366516
+Korba,Chhattisgarh,182.87966050318278
+Dhaulpur,Rajasthan,397.79624134520276
+Panipat,Hariyana,950.660094637224
+Bhandara,Maharashtra,293.6956202593589
+Pathanamthitta,Kerala,451.5128205128205
+Washim,Maharashtra,244.4181298489179
+Dhenkanal,Odisha,267.92699910152743
+Singrauli,Madhya Pradesh,207.62519823788546
+Udupi,Karnataka,328.68816303740925
+Hingoli,Maharashtra,243.90822457012638
+Yadgir,Karnataka,222.82182163187855
+Rajsamand,Rajasthan,248.46337271750807
+Sivasagar,Assam,431.428035982009
+Sahibganj,Jharkhand,557.7154629180804
+Chikmagalur,Karnataka,158.006248264371
+Jagatsinghapur,Odisha,681.6372901678657
+Ambala,Hariyana,716.8678526048285
+Sidhi,Madhya Pradesh,232.33003504432077
+Jehanabad,Bihar,1208.7142857142858
+Tarn Taran,Punjab,463.80571665285834
+Shrawasti,Uttar Pradesh,681.3176829268293
+Bundi,Rajasthan,192.33137119113573
+Idukki,Kerala,254.5853994490358
+Hamirpur,Uttar Pradesh,274.62944541158913
+Jorhat,Assam,383.11329358119957
+Narsimhapur,Madhya Pradesh,212.71264367816093
+Mewat,Hariyana,722.8022561380226
+Ramanagara,Karnataka,307.91695108077363
+Anantnag,Jammu and Kashmir,301.8164521544488
+Kaithal,Hariyana,463.66163141993957
+Gadchiroli,Maharashtra,74.44782126006106
+Golaghat,Assam,304.6510565391205
+Shahdol,Madhya Pradesh,171.80709105560032
+Saraikela-Kharsawan,Jharkhand,400.84907790741437
+Gadag,Karnataka,228.59566244363324
+Karur,Tamil Nadu,366.56095041322317
+Rohtak,Hariyana,608.1398280802292
+Chandigarh,Chandigarh,9258.333333333334
+Mandla,Madhya Pradesh,181.8801724137931
+Chatra,Jharkhand,280.4965034965035
+Palwal,Hariyana,767.2612214863871
+Lakhimpur,Assam,457.6798418972332
+Sambalpur,Odisha,157.1707427536232
+Sirohi,Rajasthan,201.7807632398754
+Mahasamund,Chhattisgarh,215.6062630480167
+Gumla,Jharkhand,191.27108208955224
+Jhabua,Madhya Pradesh,284.73555555555555
+Chamarajanagar,Karnataka,180.73495042492917
+Panna,Madhya Pradesh,142.46951646811493
+Goalpara,Assam,552.7319078947369
+Baramula,Jammu and Kashmir,237.57695027103463
+Lakhisarai,Bihar,815.0749185667753
+Mandi,Himachal Pradesh,253.1081012658228
+Moga,Punjab,444.1329170383586
+Sahibzada Ajit Singh Nagar,Punjab,909.1663619744058
+Chitrakoot,Uttar Pradesh,308.3737562189055
+Bangalore Rural,Karnataka,431.21105308964314
+Rayagada,Odisha,136.84589283189595
+Kurukshetra,Hariyana,630.4934640522875
+Nayagarh,Odisha,247.50359897172237
+Jhajjar,Hariyana,522.5763358778626
+Morigaon,Assam,617.2940038684719
+Karbi Anglong,Assam,91.65353651523864
+Nainital,Uttarakhand,224.56010350505764
+Puducherry,Puducherry,3232.2755102040815
+Baksa,Assam,386.68091168091166
+Ramgarh,Jharkhand,708.0111856823266
+Fatehabad,Hariyana,371.16272655634356
+Darrang,Assam,585.8044164037855
+Mahendragarh,Hariyana,485.5650342285413
+Muktsar,Punjab,347.81951407635944
+Pakur,Jharkhand,497.1960242959691
+Rewari,Hariyana,564.8255959849436
+North,Delhi,14557.016393442624
+Kokrajhar,Assam,269.15716019417476
+South Tripura,Tripura,286.555773634282
+Mahoba,Uttar Pradesh,278.6125954198473
+Kupwara,Jammu and Kashmir,365.84867591424967
+Pratapgarh,Rajasthan,195.06585749606654
+Jashpur,Chhattisgarh,145.88369304556355
+Sindhudurg,Maharashtra,163.1747647397734
+Ashoknagar,Madhya Pradesh,180.80252460419342
+Udalguri,Assam,413.3538767395626
+Neemuch,Madhya Pradesh,194.09468984962405
+East Khasi Hills,Meghalaya,300.55385735080057
+Kabirdham,Chhattisgarh,194.22101534828806
+North Goa,Goa,471.2027649769585
+Wayanad,Kerala,383.76525821596243
+Kapurthala,Punjab,499.1843233312921
+Shimla,Himachal Pradesh,158.64548820892614
+Tapi,Gujarat,257.0952532653711
+Dhamtari,Chhattisgarh,195.83276199804115
+Jamtara,Jharkhand,436.79845389287686
+Datia,Madhya Pradesh,271.1075120606478
+Nalbari,Assam,733.4971482889733
+Mansa,Punjab,350.205186533212
+Burhanpur,Madhya Pradesh,221.14006419608987
+Ariyalur,Tamil Nadu,389.120618556701
+Badgam,Jammu and Kashmir,553.817046289493
+Anuppur,Madhya Pradesh,199.95649853215906
+Kanker (Uttar Bastar Kanker),Chhattisgarh,104.58609132802681
+Bongaigaon,Assam,675.9414455626716
+The Nilgiris,Tamil Nadu,286.70331384015594
+Kandhamal,Odisha,91.39882807629971
+Alirajpur,Madhya Pradesh,229.10087994971715
+Latehar,Jharkhand,169.41924959216965
+Kodarma,Jharkhand,281.99173228346456
+Dindori,Madhya Pradesh,94.31378848728247
+Arwal,Bihar,1098.5
+North Tripura,Tripura,340.8384086444008
+Sheopur,Madhya Pradesh,104.1267029972752
+Garhwal,Uttarakhand,128.9680990805029
+Dhemaji,Assam,211.96570898980536
+Rupnagar,Punjab,504.8871681415929
+Jaisalmer,Rajasthan,17.44535298559933
+Hailakandi,Assam,496.8319517709118
+Koriya,Chhattisgarh,99.77543912780133
+Sheohar,Bihar,1880.3610315186247
+Umaria,Madhya Pradesh,158.18400392541707
+West Garo Hills,Meghalaya,174.94995920587436
+Rajouri,Jammu and Kashmir,244.26425855513307
+South Goa,Goa,325.80722278738557
+Sheikhpura,Bihar,923.5732946298984
+Almora,Uttarakhand,197.99809160305344
+Tehri Garhwal,Uttarakhand,169.94261394838
+Faridkot,Punjab,423.5308641975309
+Kathua,Jammu and Kashmir,246.37689848121502
+Malkangiri,Odisha,105.8870661371093
+Shahid Bhagat Singh Nagar,Punjab,477.62090483619346
+Nuapada,Odisha,158.45846313603323
+Subarnapur,Odisha,261.0967051775781
+Fatehgarh Sahib,Punjab,508.6127118644068
+Simdega,Jharkhand,158.8706942236354
+Barnala,Punjab,401.8400809716599
+Narmada,Gujarat,209.54810081647142
+Porbandar,Gujarat,252.78454231433506
+Central,Delhi,27729.52380952381
+Solan,Himachal Pradesh,299.75206611570246
+Jharsuguda,Odisha,274.1272469252602
+Gajapati,Odisha,133.5993063583815
+Harda,Madhya Pradesh,171.10527894421116
+Perambalur,Tamil Nadu,321.88097949886105
+Panchkula,Hariyana,625.0478841870824
+Pulwama,Jammu and Kashmir,516.0589318600369
+Udhampur,Jammu and Kashmir,210.46075085324233
+Kodagu,Karnataka,135.1825938566553
+Dakshin Bastar Dantewada,Chhattisgarh,64.30923114003375
+Khunti,Jharkhand,209.81656804733728
+Sirmaur,Himachal Pradesh,187.55929203539824
+Una,Himachal Pradesh,338.424025974026
+Chamba,Himachal Pradesh,79.58908310334253
+Imphal West,Manipur,998.0578034682081
+Pithoragarh,Uttarakhand,68.18603667136813
+Chirang,Assam,250.73426937077483
+Senapati,Manipur,146.48364414552125
+Punch,Jammu and Kashmir,284.84767025089604
+Lohardaga,Jharkhand,307.45006657789617
+Imphal East,Manipur,643.3187588152327
+Hamirpur,Himachal Pradesh,406.7692307692308
+Baudh,Odisha,142.40219496449322
+Kullu,Himachal Pradesh,79.57532255133563
+Kulgam,Jammu and Kashmir,1035.3243902439024
+Thoubal,Manipur,821.3385214007782
+Doda,Jammu and Kashmir,45.998204667863554
+Aizawl,Mizoram,111.9432326621924
+Jaintia Hills,Meghalaya,103.46268656716418
+Bandipora,Jammu and Kashmir,1136.904347826087
+Chamoli,Uttarakhand,48.76774595267746
+West Khasi Hills,Meghalaya,73.08195159138555
+Bilaspur,Himachal Pradesh,327.2973436161097
+Dimapur,Nagaland,408.6418554476807
+Dhalai,Tripura,157.59583333333333
+Dadra & Nagar Haveli,Dadra and Nagar Haveli,700.0183299389003
+Uttarkashi,Uttarakhand,41.17839321357285
+Samba,Jammu and Kashmir,352.7632743362832
+East Garo Hills,Meghalaya,122.13484441029581
+Reasi,Jammu and Kashmir,183.0523560209424
+Debagarh,Odisha,106.29931972789116
+Ganderbal,Jammu and Kashmir,1148.4401544401544
+Ramban,Jammu and Kashmir,213.4785553047404
+East District,Sikkim,297.25681341719076
+Churachandpur,Manipur,59.98752735229759
+Kohima,Nagaland,183.17703349282297
+Shupiyan,Jammu and Kashmir,853.2532051282051
+Bageshwar,Uttarakhand,115.97411869701027
+Champawat,Uttarakhand,147.02604756511892
+Ribhoi,Meghalaya,105.73529411764706
+Bijapur,Chhattisgarh,29.921453692848768
+Mon,Nagaland,140.1231802911534
+Rudraprayag,Uttarakhand,122.1194556451613
+South Andaman,Andaman and Nicobar,89.125
+Bishnupur,Manipur,478.62701612903226
+Kishtwar,Jammu and Kashmir,140.32603406326035
+The Dangs,Gujarat,129.2701019252548
+Dima Hasao,Assam,43.80155482815057
+Karaikal,Puducherry,1275.2993630573249
+Tuensang,Nagaland,77.52208201892745
+Mokokchung,Nagaland,120.50897832817337
+Daman,Daman and Diu,2655.1805555555557
+Ukhrul,Manipur,40.4925176056338
+Papum Pare,Arunachal Pradesh,51.00317735413056
+Wokha,Nagaland,102.17628992628993
+Phek,Nagaland,80.6604146100691
+Lunglei,Mizoram,35.58818342151675
+Changlang,Arunachal Pradesh,31.794508794508793
+South District,Sikkim,195.8
+Lohit,Arunachal Pradesh,27.95970836531082
+Chandel,Manipur,43.520072441895564
+South Garo Hills,Meghalaya,75.42872284048755
+New Delhi,Delhi,4057.2571428571428
+Kargil,Jammu and Kashmir,10.031490453120547
+Zunheboto,Nagaland,112.15697211155378
+Tamenglong,Manipur,32.03165565930312
+Narayanpur,Chhattisgarh,30.04943047496239
+West District,Sikkim,117.01114922813036
+Leh,Jammu and Kashmir,2.959144313899357
+Champhai,Mizoram,39.480376766091055
+Lawngtlai,Mizoram,46.106374657802114
+West Siang,Arunachal Pradesh,13.486366366366367
+Tirap,Arunachal Pradesh,47.40685859441152
+North & Middle Andaman,Andaman and Nicobar,28.264721627408992
+East Siang,Arunachal Pradesh,27.536497363308353
+Peren,Nagaland,57.673531193216235
+Kurung Kumey,Arunachal Pradesh,15.244370860927152
+Mamit,Mizoram,28.550082644628098
+Kinnaur,Himachal Pradesh,13.141852835494454
+Kolasib,Mizoram,60.74891461649783
+West Kameng,Arunachal Pradesh,11.310563190514687
+Upper Subansiri,Arunachal Pradesh,11.866894197952218
+Lower Subansiri,Arunachal Pradesh,23.668757126567844
+East Kameng,Arunachal Pradesh,19.034833091436866
+Kiphire,Nagaland,65.49026548672566
+Serchhip,Mizoram,45.69809992962702
+Lakshadweep,Lakshadweep,2149.1
+Saiha,Mizoram,40.438884917798426
+Yanam,Puducherry,1854.2
+Lower Dibang Valley,Arunachal Pradesh,13.866666666666667
+Diu,Daman and Diu,1335.2307692307693
+Longleng,Nagaland,89.82918149466192
+Tawang,Arunachal Pradesh,23.009668508287294
+North District,Sikkim,10.34287742546143
+Mahe,Puducherry,4646.222222222223
+Nicobars,Andaman and Nicobar,20.011950027159152
+Upper Siang,Arunachal Pradesh,5.359635811836116
+Lahul & Spiti,Himachal Pradesh,2.280471064229463
+Anjaw,Arunachal Pradesh,3.4195476575121164
+Dibang Valley,Arunachal Pradesh,0.8767663489976997
