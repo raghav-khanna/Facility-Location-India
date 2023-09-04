@@ -1,6 +1,23 @@
-import requests
 from bs4 import BeautifulSoup
+from dotenv import dotenv_values
+import requests
+import psycopg2
 import csv
+
+
+def main():
+    db_details = dotenv_values('.env')
+    conn = psycopg2.connect(dbname=db_details.DB_NAME, user=db_details.DB_USER, password=db_details.DB_PASS, host=db_details.DB_HOST)
+    cur = conn.cursor()
+    try:
+        cur.execute("CREATE TABLE IF NOT EXIST districts(id SERIAL PRIMARY KEY,name TEXT NOT NULL,state TEXT NOT NULL,pop_density INTEGER NOT NULL,longlat geography(POINT,4326) NOT NULL);")
+        conn.commit()
+    except:
+        print("failed to create table")
+    finally:
+        cur.close()
+        conn.close()
+        return
 
 
 def get_districts(url):
@@ -20,17 +37,19 @@ def get_districts(url):
             row_data = []
             # Iterate through the cells (columns) of each row
             cells = row.find_all(['th', 'td'])
-    
-            for cell in row.find_all(['th', 'td']):
-                row_data.append(cell.get_text(strip=True))   
 
-            if(cells[0].get_text(strip=True) != '#'):
+            for cell in row.find_all(['th', 'td']):
+                row_data.append(cell.get_text(strip=True))
+
+            if cells[0].get_text(strip=True) != '#':
                 # Calculate and add the 'Density' column
-                population = float(row_data[5].replace(',', ''))  # Remove commas and convert to float
-                area = float(row_data[4].replace(',', ''))  # Remove commas and convert to float
+                # Remove commas and convert to float
+                population = float(row_data[5].replace(',', ''))
+                # Remove commas and convert to float
+                area = float(row_data[4].replace(',', ''))
                 density = population / area
                 row_data.append(density)
-            else :
+            else:
                 row_data.append('Density')
             altered_row_data = []
 
@@ -39,7 +58,6 @@ def get_districts(url):
                     altered_row_data.append(row_data[i])
 
             table_data.append(altered_row_data)
-
 
         # Define the name for the CSV file where you want to save the table data
         csv_filename = 'data/districts_data.csv'
@@ -50,14 +68,15 @@ def get_districts(url):
             for row_data in table_data:
                 csv_writer.writerow(row_data)
 
-        print ('Table data has been extracted and saved as : ', csv_filename)
+        print('Table data has been extracted and saved as : ', csv_filename)
     else:
-        print ('Failed to retrieve the webpage. Status code:', response.status_code)
+        print('Failed to retrieve the webpage. Status code:', response.status_code)
 
 
 # Function to make a GET request to the PositionStack API
 def get_location_info(district):
-    api_key = 'd0905eff7bc12206ec8e6db40662f5c4'  # Replace with your PositionStack API key
+    # Replace with your PositionStack API key
+    api_key = 'd0905eff7bc12206ec8e6db40662f5c4'
     base_url = 'http://api.positionstack.com/v1/forward'
     query_params = {
         'access_key': api_key,
@@ -74,7 +93,7 @@ def get_location_info(district):
 
 def getLatLong():
     # Read the existing CSV file
-    csv_filename = 'Data/districts_data.csv' 
+    csv_filename = 'Data/districts_data.csv'
     new_csv_filename = 'Data/coordinates_data.csv'
     with open(csv_filename, 'rb') as csv_file:  # Use 'rb' mode for reading binary data
         csv_reader = csv.reader(csv_file)
@@ -87,20 +106,24 @@ def getLatLong():
 
             # Iterate through the rows
             for row in csv_reader:
-                district = row[1]  # 'District' column is the second column (index 1)
+                # 'District' column is the second column (index 1)
+                district = row[1]
                 location_info = get_location_info(district)
                 if location_info:
                     latitude = location_info.get('latitude', '')
                     longitude = location_info.get('longitude', '')
                     csv_writer.writerow(row + [latitude, longitude])
                 else:
-                    csv_writer.writerow(row + ['', ''])  # Empty values if data not found
+                    # Empty values if data not found
+                    csv_writer.writerow(row + ['', ''])
 
     print('New CSV file with location information has been created:', new_csv_filename)
 
 
-districts_url = 'https://www.censusindia.co.in/districts' 
-get_districts(districts_url)
+if __name__ == "__main__":
+    main()
+    districts_url = 'https://www.censusindia.co.in/districts'
+    get_districts(districts_url)
 
-#Creates the combined data CSV file
-getLatLong()
+    # Creates the combined data CSV file
+    getLatLong()
