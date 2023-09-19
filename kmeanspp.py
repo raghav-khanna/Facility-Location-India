@@ -26,7 +26,7 @@ def perform_kmeans(data):
     haversine_distance = distance_metric(type_metric.USER_DEFINED, func=haversine)
 
     print('initial centers: ' + initial_centers)
-    kmeans_instance = kmeans(data, initial_centers, metric=haversine_distance)  # ADD Haversine distance metric here
+    kmeans_instance = kmeans(data, initial_centers, metric=haversine_distance)
     final_centers = kmeans_instance.get_centers()
     print('final centers: ' + final_centers)
 
@@ -36,7 +36,7 @@ def main():
     conn = psycopg2.connect(dbname=db_details.DB_NAME, user=db_details.DB_USER, password=db_details.DB_PASS, host=db_details.DB_HOST)
     cur = conn.cursor()
     try:
-        # cur.execute("SELECT qcid FROM test_subjects WHERE query = %s AND city = %s", (query, city))
+        # cur.execute("SELECT * FROM districts WHERE query = %s AND city = %s", (query, city))
         # conn.commit()
         print("retrieve data here")
     except:
