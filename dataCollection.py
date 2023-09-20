@@ -8,7 +8,8 @@ import csv
 
 def main():
     db_details = dotenv_values('.env')
-    conn = psycopg2.connect(dbname=db_details.DB_NAME, user=db_details.DB_USER, password=db_details.DB_PASS, host=db_details.DB_HOST)
+    # print(db_details)
+    conn = psycopg2.connect(dbname=db_details['DB_NAME'], user=db_details['DB_USER'], password=db_details['DB_PASS'], host=db_details['DB_HOST'])
     cur = conn.cursor()
     try:
         cur.execute("CREATE TABLE IF NOT EXISTS districts(id SERIAL PRIMARY KEY,name TEXT NOT NULL,state TEXT NOT NULL,pop_density INTEGER NOT NULL,latitude NUMERIC(7,6),longitude NUMERIC(7,6));")
@@ -20,7 +21,8 @@ def main():
     finally:
         cur.close()
         conn.close()
-        return
+        print("It's all done")
+    return
 
 
 def get_districts(url):
@@ -110,7 +112,7 @@ def getLatLong():
             # Iterate through the rows
             for row in csv_reader:
                 # 'District' column is the second column (index 1)
-                district = row[1]
+                district = row[0]
                 location_info = get_location_info(district)
                 if location_info:
                     latitude = location_info.get('latitude', '')
@@ -126,9 +128,10 @@ def getLatLong():
 if __name__ == "__main__":
     main()
 
-    # lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
-    districts_url = 'https://www.censusindia.co.in/districts'
-    get_districts(districts_url)
+    # # lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
+    # districts_url = 'https://www.censusindia.co.in/districts'
+    # get_districts(districts_url)
 
-    # Creates the combined data CSV file
-    getLatLong()
+    # # Creates the combined data CSV file
+    # getLatLong()
+    # # print("Hello")
