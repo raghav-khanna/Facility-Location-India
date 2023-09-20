@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 from dotenv import dotenv_values
 import requests
 import psycopg2
+from math import radians
 import csv
 
 
@@ -10,7 +11,9 @@ def main():
     conn = psycopg2.connect(dbname=db_details.DB_NAME, user=db_details.DB_USER, password=db_details.DB_PASS, host=db_details.DB_HOST)
     cur = conn.cursor()
     try:
-        cur.execute("CREATE TABLE IF NOT EXIST districts(id SERIAL PRIMARY KEY,name TEXT NOT NULL,state TEXT NOT NULL,pop_density INTEGER NOT NULL,longlat geography(POINT,4326) NOT NULL);")
+        cur.execute("CREATE TABLE IF NOT EXISTS districts(id SERIAL PRIMARY KEY,name TEXT NOT NULL,state TEXT NOT NULL,pop_density INTEGER NOT NULL,latitude NUMERIC(7,6),longitude NUMERIC(7,6));")
+        # cur.execute("TRUNCATE TABLE districts RESTART IDENTITY CASCADE;")
+        # cur.execute("INSERT INTO districts(name, state, pop_density, latitude, longitude) VALUES (%s,%s);", (name, state, pop_density, latitude, longitude))
         conn.commit()
     except:
         print("failed to create table")
@@ -122,6 +125,8 @@ def getLatLong():
 
 if __name__ == "__main__":
     main()
+
+    # lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
     districts_url = 'https://www.censusindia.co.in/districts'
     get_districts(districts_url)
 
