@@ -1,0 +1,225 @@
+{'State': 'West Bengal', 'District': 'North Twenty Four Parganas', 'Density': '2444.9880312652663'}
+{'State': 'Maharashtra', 'District': 'Mumbai Suburban', 'Density': '20979.735426008967'}
+{'State': 'West Bengal', 'District': 'South Twenty Four Parganas', 'Density': '819.4739959839358'}
+{'State': 'West Bengal', 'District': 'Barddhaman', 'Density': '1098.7418849658313'}
+{'State': 'West Bengal', 'District': 'Paschim Medinipur', 'Density': '631.240072587532'}
+{'State': 'West Bengal', 'District': 'Hugli', 'Density': '1752.6659256906955'}
+{'State': 'Andhra Pradesh', 'District': 'Rangareddy', 'Density': '706.8918991058321'}
+{'State': 'Andhra Pradesh', 'District': 'East Godavari', 'Density': '476.9405015267882'}
+{'State': 'Bihar', 'District': 'Purba Champaran', 'Density': '1285.1237399193549'}
+{'State': 'West Bengal', 'District': 'Purba Medinipur', 'Density': '1081.2380649267982'}
+{'State': 'West Bengal', 'District': 'Haora', 'Density': '3306.0865712338104'}
+{'State': 'Uttar Pradesh', 'District': 'Moradabad', 'Density': '1283.487358795051'}
+{'State': 'Maharashtra', 'District': 'Ahmadnagar', 'Density': '266.4921984983576'}
+{'State': 'Andhra Pradesh', 'District': 'Mahbubnagar', 'Density': '219.89084201388889'}
+{'State': 'Uttar Pradesh', 'District': 'Kheri', 'Density': '523.5993489583333'}
+{'State': 'Bihar', 'District': 'Saran', 'Density': '1496.3506247633472'}
+{'State': 'Andhra Pradesh', 'District': 'Hyderabad', 'Density': '18171.99539170507'}
+{'State': 'Andhra Pradesh', 'District': 'West Godavari', 'Density': '508.5205373288556'}
+{'State': 'Bihar', 'District': 'Pashchim Champaran', 'Density': '752.685921958684'}
+{'State': 'Andhra Pradesh', 'District': 'Karimnagar', 'Density': '319.4002368265246'}
+{'State': 'Andhra Pradesh', 'District': 'Warangal', 'Density': '273.43733457885725'}
+{'State': 'Uttar Pradesh', 'District': 'Bulandshahar', 'Density': '775.5254875886525'}
+{'State': 'Andhra Pradesh', 'District': 'Nalgonda', 'Density': '245.0006320224719'}
+{'State': 'Tamil Nadu', 'District': 'Viluppuram', 'Density': '480.79969418960246'}
+{'State': 'Uttar Pradesh', 'District': 'Meerut', 'Density': '1345.716686205549'}
+{'State': 'Uttar Pradesh', 'District': 'Rae Bareli', 'Density': '738.8932523323931'}
+{'State': 'Uttar Pradesh', 'District': 'Pratapgarh', 'Density': '863.3685768092548'}
+{'State': 'Andhra Pradesh', 'District': 'Medak', 'Density': '312.7423445716053'}
+{'State': 'Andhra Pradesh', 'District': 'Sri Potti Sriramulu Nellore', 'Density': '226.64094524319364'}
+{'State': 'West Bengal', 'District': 'Puruliya', 'Density': '468.14427224796293'}
+{'State': 'Andhra Pradesh', 'District': 'YSR', 'Density': '187.67296047919785'}
+{'State': 'West Bengal', 'District': 'Koch Bihar', 'Density': '832.3253616770003'}
+{'State': 'Andhra Pradesh', 'District': 'Khammam', 'Density': '174.5193087528854'}
+{'State': 'Andhra Pradesh', 'District': 'Adilabad', 'Density': '170.21043154299906'}
+{'State': 'Tamil Nadu', 'District': 'Tiruchirappalli', 'Density': '603.7458416500333'}
+{'State': 'Uttar Pradesh', 'District': 'Maharajganj', 'Density': '909.4522357723578'}
+{'State': 'Tamil Nadu', 'District': 'Cuddalore', 'Density': '703.7304887928707'}
+{'State': 'Maharashtra', 'District': 'Buldana', 'Density': '267.70085912431426'}
+{'State': 'Maharashtra', 'District': 'Bid', 'Density': '241.75151968577575'}
+{'State': 'Uttar Pradesh', 'District': 'Siddharthnagar', 'Density': '884.040414507772'}
+{'State': 'Andhra Pradesh', 'District': 'Nizamabad', 'Density': '320.68061840120663'}
+{'State': 'Odisha', 'District': 'Mayurbhanj', 'Density': '241.86388942215396'}
+{'State': 'Tamil Nadu', 'District': 'Tiruvannamalai', 'Density': '398.3314479638009'}
+{'State': 'Gujarat', 'District': 'Panchmahal', 'Density': '457.03995411967117'}
+{'State': 'Odisha', 'District': 'Baleshwar', 'Density': '609.7028376248029'}
+{'State': 'Jharkhand', 'District': 'Purbi Singhbhum', 'Density': '643.9974733295901'}
+{'State': 'Odisha', 'District': 'Khordha', 'Density': '800.4525417703519'}
+{'State': 'Tamil Nadu', 'District': 'Dindigul', 'Density': '357.815606361829'}
+{'State': 'Karnataka', 'District': 'Dakshina Kannada', 'Density': '429.88047726805183'}
+{'State': 'Gujarat', 'District': 'Mahesana', 'Density': '462.40945239718246'}
+{'State': 'Karnataka', 'District': 'Davanagere', 'Density': '328.40935178933154'}
+{'State': 'Tamil Nadu', 'District': 'Virudhunagar', 'Density': '457.9787785899552'}
+{'State': 'Madhya Pradesh', 'District': 'Khargone', 'Density': '233.4013707165109'}
+{'State': 'Tamil Nadu', 'District': 'Kanniyakumari', 'Density': '1110.6733966745844'}
+{'State': 'West Bengal', 'District': 'Darjiling', 'Density': '586.4791997459511'}
+{'State': 'Uttar Pradesh', 'District': 'Jyotiba Phule Nagar', 'Density': '818.239662072032'}
+{'State': 'Rajasthan', 'District': 'Jalor', 'Density': '171.87312030075188'}
+{'State': 'Odisha', 'District': 'Jajapur', 'Density': '630.2835460503622'}
+{'State': 'Odisha', 'District': 'Kendujhar', 'Density': '216.9978321088763'}
+{'State': 'Rajasthan', 'District': 'Hanumangarh', 'Density': '183.79163214581607'}
+{'State': 'Tamil Nadu', 'District': 'Thoothukkudi', 'Density': '368.8463645943098'}
+{'State': 'Tamil Nadu', 'District': 'Namakkal', 'Density': '504.8540935672515'}
+{'State': 'Tripura', 'District': 'West Tripura', 'Density': '576.5917139993318'}
+{'State': 'Madhya Pradesh', 'District': 'Bhind', 'Density': '381.9253195783808'}
+{'State': 'West Bengal', 'District': 'Dakshin Dinajpur', 'Density': '755.4195583596214'}
+{'State': 'Maharashtra', 'District': 'Osmanabad', 'Density': '218.99537587528076'}
+{'State': 'Uttar Pradesh', 'District': 'Kannauj', 'Density': '791.5031055900621'}
+{'State': 'Tamil Nadu', 'District': 'Pudukkottai', 'Density': '348.4808354866494'}
+{'State': 'Uttar Pradesh', 'District': 'Sant Ravidas Nagar', 'Density': '1554.8896551724138'}
+{'State': 'Odisha', 'District': 'Kalahandi', 'Density': '199.0996212121212'}
+{'State': 'Uttar Pradesh', 'District': 'Mahamaya Nagar', 'Density': '850.3847826086957'}
+{'State': 'Madhya Pradesh', 'District': 'Rajgarh', 'Density': '251.2293190313668'}
+{'State': 'Rajasthan', 'District': 'Chittaurgarh', 'Density': '197.4351828176937'}
+{'State': 'Jammu and Kashmir', 'District': 'Jammu', 'Density': '653.2698548249359'}
+{'State': 'Madhya Pradesh', 'District': 'Shajapur', 'Density': '244.1777239709443'}
+{'State': 'Jharkhand', 'District': 'Pashchimi Singhbhum', 'Density': '207.96483942414176'}
+{'State': 'Madhya Pradesh', 'District': 'Tikamgarh', 'Density': '286.2848652931854'}
+{'State': 'Karnataka', 'District': 'Uttara Kannada', 'Density': '139.84324219130096'}
+{'State': 'Uttar Pradesh', 'District': 'Kanshiram Nagar', 'Density': '734.8946291560102'}
+{'State': 'Odisha', 'District': 'Koraput', 'Density': '156.65345747700692'}
+{'State': 'Tamil Nadu', 'District': 'Ramanathapuram', 'Density': '329.78679337231966'}
+{'State': 'Madhya Pradesh', 'District': 'Mandsaur', 'Density': '242.17000903342367'}
+{'State': 'Tamil Nadu', 'District': 'Sivaganga', 'Density': '316.3479801559178'}
+{'State': 'Rajasthan', 'District': 'Sawai Madhopur', 'Density': '296.9210760337928'}
+{'State': 'Jharkhand', 'District': 'Garhwa', 'Density': '323.1820180796482'}
+{'State': 'Kerala', 'District': 'Kasaragod', 'Density': '657.3026646556058'}
+{'State': 'Uttar Pradesh', 'District': 'Baghpat', 'Density': '986.4102952308857'}
+{'State': 'Tamil Nadu', 'District': 'Thiruvarur', 'Density': '555.9705364995602'}
+{'State': 'Karnataka', 'District': 'Chikkaballapura', 'Density': '295.73609802073514'}
+{'State': 'Assam', 'District': 'Kamrup Metropolitan', 'Density': '1313.0240837696335'}
+{'State': 'Jammu and Kashmir', 'District': 'Srinagar', 'Density': '624.9767559373421'}
+{'State': 'Odisha', 'District': 'Nabarangapur', 'Density': '230.75902475902475'}
+{'State': 'Rajasthan', 'District': 'Dhaulpur', 'Density': '397.79624134520276'}
+{'State': 'Kerala', 'District': 'Pathanamthitta', 'Density': '451.5128205128205'}
+{'State': 'Madhya Pradesh', 'District': 'Singrauli', 'Density': '207.62519823788546'}
+{'State': 'Maharashtra', 'District': 'Hingoli', 'Density': '243.90822457012638'}
+{'State': 'Odisha', 'District': 'Jagatsinghapur', 'Density': '681.6372901678657'}
+{'State': 'Uttar Pradesh', 'District': 'Shrawasti', 'Density': '681.3176829268293'}
+{'State': 'Madhya Pradesh', 'District': 'Narsimhapur', 'Density': '212.71264367816093'}
+{'State': 'Jammu and Kashmir', 'District': 'Anantnag', 'Density': '301.8164521544488'}
+{'State': 'Maharashtra', 'District': 'Gadchiroli', 'Density': '74.44782126006106'}
+{'State': 'Jharkhand', 'District': 'Saraikela-Kharsawan', 'Density': '400.84907790741437'}
+{'State': 'Chandigarh', 'District': 'Chandigarh', 'Density': '9258.333333333334'}
+{'State': 'Assam', 'District': 'Lakhimpur', 'Density': '457.6798418972332'}
+{'State': 'Jharkhand', 'District': 'Gumla', 'Density': '191.27108208955224'}
+{'State': 'Madhya Pradesh', 'District': 'Jhabua', 'Density': '284.73555555555555'}
+{'State': 'Karnataka', 'District': 'Chamarajanagar', 'Density': '180.73495042492917'}
+{'State': 'Punjab', 'District': 'Sahibzada Ajit Singh Nagar', 'Density': '909.1663619744058'}
+{'State': 'Karnataka', 'District': 'Bangalore Rural', 'Density': '431.21105308964314'}
+{'State': 'Assam', 'District': 'Karbi Anglong', 'Density': '91.65353651523864'}
+{'State': 'Puducherry', 'District': 'Puducherry', 'Density': '3232.2755102040815'}
+{'State': 'Assam', 'District': 'Darrang', 'Density': '585.8044164037855'}
+{'State': 'Tripura', 'District': 'South Tripura', 'Density': '286.555773634282'}
+{'State': 'Uttar Pradesh', 'District': 'Mahoba', 'Density': '278.6125954198473'}
+{'State': 'Jammu and Kashmir', 'District': 'Kupwara', 'Density': '365.84867591424967'}
+{'State': 'Madhya Pradesh', 'District': 'Ashoknagar', 'Density': '180.80252460419342'}
+{'State': 'Meghalaya', 'District': 'East Khasi Hills', 'Density': '300.55385735080057'}
+{'State': 'Chhattisgarh', 'District': 'Kabirdham', 'Density': '194.22101534828806'}
+{'State': 'Goa', 'District': 'North Goa', 'Density': '471.2027649769585'}
+{'State': 'Punjab', 'District': 'Kapurthala', 'Density': '499.1843233312921'}
+{'State': 'Madhya Pradesh', 'District': 'Datia', 'Density': '271.1075120606478'}
+{'State': 'Tamil Nadu', 'District': 'Ariyalur', 'Density': '389.120618556701'}
+{'State': 'Jammu and Kashmir', 'District': 'Badgam', 'Density': '553.817046289493'}
+{'State': 'Madhya Pradesh', 'District': 'Anuppur', 'Density': '199.95649853215906'}
+{'State': 'Tamil Nadu', 'District': 'The Nilgiris', 'Density': '286.70331384015594'}
+{'State': 'Odisha', 'District': 'Kandhamal', 'Density': '91.39882807629971'}
+{'State': 'Madhya Pradesh', 'District': 'Alirajpur', 'Density': '229.10087994971715'}
+{'State': 'Jharkhand', 'District': 'Kodarma', 'Density': '281.99173228346456'}
+{'State': 'Madhya Pradesh', 'District': 'Dindori', 'Density': '94.31378848728247'}
+{'State': 'Tripura', 'District': 'North Tripura', 'Density': '340.8384086444008'}
+{'State': 'Uttarakhand', 'District': 'Garhwal', 'Density': '128.9680990805029'}
+{'State': 'Assam', 'District': 'Dhemaji', 'Density': '211.96570898980536'}
+{'State': 'Bihar', 'District': 'Sheohar', 'Density': '1880.3610315186247'}
+{'State': 'Madhya Pradesh', 'District': 'Umaria', 'Density': '158.18400392541707'}
+{'State': 'Meghalaya', 'District': 'West Garo Hills', 'Density': '174.94995920587436'}
+{'State': 'Jammu and Kashmir', 'District': 'Rajouri', 'Density': '244.26425855513307'}
+{'State': 'Goa', 'District': 'South Goa', 'Density': '325.80722278738557'}
+{'State': 'Uttarakhand', 'District': 'Tehri Garhwal', 'Density': '169.94261394838'}
+{'State': 'Jammu and Kashmir', 'District': 'Kathua', 'Density': '246.37689848121502'}
+{'State': 'Odisha', 'District': 'Malkangiri', 'Density': '105.8870661371093'}
+{'State': 'Punjab', 'District': 'Shahid Bhagat Singh Nagar', 'Density': '477.62090483619346'}
+{'State': 'Odisha', 'District': 'Subarnapur', 'Density': '261.0967051775781'}
+{'State': 'Odisha', 'District': 'Gajapati', 'Density': '133.5993063583815'}
+{'State': 'Madhya Pradesh', 'District': 'Harda', 'Density': '171.10527894421116'}
+{'State': 'Jammu and Kashmir', 'District': 'Pulwama', 'Density': '516.0589318600369'}
+{'State': 'Jammu and Kashmir', 'District': 'Udhampur', 'Density': '210.46075085324233'}
+{'State': 'Karnataka', 'District': 'Kodagu', 'Density': '135.1825938566553'}
+{'State': 'Chhattisgarh', 'District': 'Dakshin Bastar Dantewada', 'Density': '64.30923114003375'}
+{'State': 'Himachal Pradesh', 'District': 'Sirmaur', 'Density': '187.55929203539824'}
+{'State': 'Manipur', 'District': 'Imphal West', 'Density': '998.0578034682081'}
+{'State': 'Manipur', 'District': 'Senapati', 'Density': '146.48364414552125'}
+{'State': 'Jammu and Kashmir', 'District': 'Punch', 'Density': '284.84767025089604'}
+{'State': 'Manipur', 'District': 'Imphal East', 'Density': '643.3187588152327'}
+{'State': 'Odisha', 'District': 'Baudh', 'Density': '142.40219496449322'}
+{'State': 'Jammu and Kashmir', 'District': 'Kulgam', 'Density': '1035.3243902439024'}
+{'State': 'Manipur', 'District': 'Thoubal', 'Density': '821.3385214007782'}
+{'State': 'Jammu and Kashmir', 'District': 'Doda', 'Density': '45.998204667863554'}
+{'State': 'Meghalaya', 'District': 'Jaintia Hills', 'Density': '103.46268656716418'}
+{'State': 'Jammu and Kashmir', 'District': 'Bandipora', 'Density': '1136.904347826087'}
+{'State': 'Meghalaya', 'District': 'West Khasi Hills', 'Density': '73.08195159138555'}
+{'State': 'Tripura', 'District': 'Dhalai', 'Density': '157.59583333333333'}
+{'State': 'Dadra and Nagar Haveli', 'District': 'Dadra & Nagar Haveli', 'Density': '700.0183299389003'}
+{'State': 'Jammu and Kashmir', 'District': 'Samba', 'Density': '352.7632743362832'}
+{'State': 'Meghalaya', 'District': 'East Garo Hills', 'Density': '122.13484441029581'}
+{'State': 'Jammu and Kashmir', 'District': 'Reasi', 'Density': '183.0523560209424'}
+{'State': 'Odisha', 'District': 'Debagarh', 'Density': '106.29931972789116'}
+{'State': 'Jammu and Kashmir', 'District': 'Ganderbal', 'Density': '1148.4401544401544'}
+{'State': 'Jammu and Kashmir', 'District': 'Ramban', 'Density': '213.4785553047404'}
+{'State': 'Sikkim', 'District': 'East District', 'Density': '297.25681341719076'}
+{'State': 'Jammu and Kashmir', 'District': 'Shupiyan', 'Density': '853.2532051282051'}
+{'State': 'Uttarakhand', 'District': 'Champawat', 'Density': '147.02604756511892'}
+{'State': 'Meghalaya', 'District': 'Ribhoi', 'Density': '105.73529411764706'}
+{'State': 'Andaman and Nicobar', 'District': 'South Andaman', 'Density': '89.125'}
+{'State': 'Jammu and Kashmir', 'District': 'Kishtwar', 'Density': '140.32603406326035'}
+{'State': 'Gujarat', 'District': 'The Dangs', 'Density': '129.2701019252548'}
+{'State': 'Assam', 'District': 'Dima Hasao', 'Density': '43.80155482815057'}
+{'State': 'Puducherry', 'District': 'Karaikal', 'Density': '1275.2993630573249'}
+{'State': 'Nagaland', 'District': 'Tuensang', 'Density': '77.52208201892745'}
+{'State': 'Nagaland', 'District': 'Mokokchung', 'Density': '120.50897832817337'}
+{'State': 'Daman and Diu', 'District': 'Daman', 'Density': '2655.1805555555557'}
+{'State': 'Manipur', 'District': 'Ukhrul', 'Density': '40.4925176056338'}
+{'State': 'Arunachal Pradesh', 'District': 'Papum Pare', 'Density': '51.00317735413056'}
+{'State': 'Nagaland', 'District': 'Wokha', 'Density': '102.17628992628993'}
+{'State': 'Nagaland', 'District': 'Phek', 'Density': '80.6604146100691'}
+{'State': 'Mizoram', 'District': 'Lunglei', 'Density': '35.58818342151675'}
+{'State': 'Arunachal Pradesh', 'District': 'Changlang', 'Density': '31.794508794508793'}
+{'State': 'Sikkim', 'District': 'South District', 'Density': '195.8'}
+{'State': 'Arunachal Pradesh', 'District': 'Lohit', 'Density': '27.95970836531082'}
+{'State': 'Manipur', 'District': 'Chandel', 'Density': '43.520072441895564'}
+{'State': 'Meghalaya', 'District': 'South Garo Hills', 'Density': '75.42872284048755'}
+{'State': 'Delhi', 'District': 'New Delhi', 'Density': '4057.2571428571428'}
+{'State': 'Jammu and Kashmir', 'District': 'Kargil', 'Density': '10.031490453120547'}
+{'State': 'Nagaland', 'District': 'Zunheboto', 'Density': '112.15697211155378'}
+{'State': 'Manipur', 'District': 'Tamenglong', 'Density': '32.03165565930312'}
+{'State': 'Chhattisgarh', 'District': 'Narayanpur', 'Density': '30.04943047496239'}
+{'State': 'Sikkim', 'District': 'West District', 'Density': '117.01114922813036'}
+{'State': 'Jammu and Kashmir', 'District': 'Leh', 'Density': '2.959144313899357'}
+{'State': 'Mizoram', 'District': 'Champhai', 'Density': '39.480376766091055'}
+{'State': 'Mizoram', 'District': 'Lawngtlai', 'Density': '46.106374657802114'}
+{'State': 'Arunachal Pradesh', 'District': 'West Siang', 'Density': '13.486366366366367'}
+{'State': 'Arunachal Pradesh', 'District': 'Tirap', 'Density': '47.40685859441152'}
+{'State': 'Andaman and Nicobar', 'District': 'North & Middle Andaman', 'Density': '28.264721627408992'}
+{'State': 'Arunachal Pradesh', 'District': 'East Siang', 'Density': '27.536497363308353'}
+{'State': 'Nagaland', 'District': 'Peren', 'Density': '57.673531193216235'}
+{'State': 'Arunachal Pradesh', 'District': 'Kurung Kumey', 'Density': '15.244370860927152'}
+{'State': 'Mizoram', 'District': 'Mamit', 'Density': '28.550082644628098'}
+{'State': 'Arunachal Pradesh', 'District': 'West Kameng', 'Density': '11.310563190514687'}
+{'State': 'Arunachal Pradesh', 'District': 'Upper Subansiri', 'Density': '11.866894197952218'}
+{'State': 'Arunachal Pradesh', 'District': 'Lower Subansiri', 'Density': '23.668757126567844'}
+{'State': 'Arunachal Pradesh', 'District': 'East Kameng', 'Density': '19.034833091436866'}
+{'State': 'Nagaland', 'District': 'Kiphire', 'Density': '65.49026548672566'}
+{'State': 'Mizoram', 'District': 'Serchhip', 'Density': '45.69809992962702'}
+{'State': 'Lakshadweep', 'District': 'Lakshadweep', 'Density': '2149.1'}
+{'State': 'Mizoram', 'District': 'Saiha', 'Density': '40.438884917798426'}
+{'State': 'Arunachal Pradesh', 'District': 'Lower Dibang Valley', 'Density': '13.866666666666667'}
+{'State': 'Daman and Diu', 'District': 'Diu', 'Density': '1335.2307692307693'}
+{'State': 'Nagaland', 'District': 'Longleng', 'Density': '89.82918149466192'}
+{'State': 'Arunachal Pradesh', 'District': 'Tawang', 'Density': '23.009668508287294'}
+{'State': 'Sikkim', 'District': 'North District', 'Density': '10.34287742546143'}
+{'State': 'Puducherry', 'District': 'Mahe', 'Density': '4646.222222222223'}
+{'State': 'Andaman and Nicobar', 'District': 'Nicobars', 'Density': '20.011950027159152'}
+{'State': 'Arunachal Pradesh', 'District': 'Upper Siang', 'Density': '5.359635811836116'}
+{'State': 'Himachal Pradesh', 'District': 'Lahul & Spiti', 'Density': '2.280471064229463'}
+{'State': 'Arunachal Pradesh', 'District': 'Anjaw', 'Density': '3.4195476575121164'}
+{'State': 'Arunachal Pradesh', 'District': 'Dibang Valley', 'Density': '0.8767663489976997'}
