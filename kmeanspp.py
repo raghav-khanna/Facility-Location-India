@@ -1,12 +1,9 @@
 import psycopg2
 from dotenv import dotenv_values
-from pyclustering.cluster.kmeans import kmeans
+from pyclustering.cluster.kmeans import kmeans, kmeans_visualizer
 from pyclustering.cluster.center_initializer import kmeans_plusplus_initializer
 from pyclustering.utils.metric import distance_metric, type_metric
 from math import cos, sin, asin, sqrt
-
-
-# CHECK https://pyclustering.github.io/docs/0.8.2/html/db/d6d/classpyclustering_1_1cluster_1_1kmeans_1_1kmeans__visualizer.html
 
 
 def haversine(point1, point2):
@@ -20,16 +17,19 @@ def haversine(point1, point2):
     return c * r
 
 
-def perform_kmeans(data):
-    no_of_facilities = 20
+def perform_kmeans(data, no_of_facilities):
     initial_centers = kmeans_plusplus_initializer(data, no_of_facilities).initialize()
     haversine_distance = distance_metric(type_metric.USER_DEFINED, func=haversine)
-
-    print(initial_centers)
+    # print(initial_centers)
     kmeans_instance = kmeans(data, initial_centers, metric=haversine_distance)
+
     final_centers = kmeans_instance.get_centers()
-    print()
-    print(final_centers)
+    # print(); print(final_centers)
+    # kmeans_instance.process()
+    # clusters = kmeans_instance.get_clusters()
+    # plt = kmeans_visualizer.show_clusters(data, clusters, final_centers, initial_centers=initial_centers)
+    # plt = kmeans_visualizer.animate_cluster_allocation(data, clusters, observer...)
+    return final_centers
 
 
 def main():
@@ -41,11 +41,20 @@ def main():
         data = cur.fetchall()
         coordinates = []
         for row in data:
-            for num in range(0,row[0]):
+            for num in range(0, row[0]):
                 coordinates.append([float(row[1]), float(row[2])])
-        
+
         try:
-            perform_kmeans(coordinates)
+            final_cluster = perform_kmeans(coordinates, int(db_details['NO_OF_FACILITIES']))
+            # print(final_cluster)
+            chosen_districts = []
+            for point in final_cluster:
+                cur.execute("SELECT name, state FROM districts WHERE latitude = (%s) AND longitude = (%s);", (point[0], point[1]))
+                res = cur.fetchone()
+                chosen_districts.append(res)
+
+            print(chosen_districts)
+
         except:
             print("failed to perform kmeans")
         # print(data[0][0])
