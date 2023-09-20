@@ -21,15 +21,15 @@ def haversine(point1, point2):
 
 
 def perform_kmeans(data):
-    no_of_facilities = 3
-    print(type(data[0]))
+    no_of_facilities = 20
     initial_centers = kmeans_plusplus_initializer(data, no_of_facilities).initialize()
-    # haversine_distance = distance_metric(type_metric.USER_DEFINED, func=haversine)
+    haversine_distance = distance_metric(type_metric.USER_DEFINED, func=haversine)
 
-    print('initial centers: ' + initial_centers)
-    # kmeans_instance = kmeans(data, initial_centers)
-    # final_centers = kmeans_instance.get_centers()
-    # print('final centers: ' + final_centers)
+    print(initial_centers)
+    kmeans_instance = kmeans(data, initial_centers, metric=haversine_distance)
+    final_centers = kmeans_instance.get_centers()
+    print()
+    print(final_centers)
 
 
 def main():
@@ -37,11 +37,13 @@ def main():
     conn = psycopg2.connect(dbname=db_details['DB_NAME'], user=db_details['DB_USER'], password=db_details['DB_PASS'], host=db_details['DB_HOST'])
     cur = conn.cursor()
     try:
-        cur.execute("SELECT latitude, longitude FROM districts limit 10;")
+        cur.execute("SELECT pop_density, latitude, longitude FROM districts;")
         data = cur.fetchall()
         coordinates = []
         for row in data:
-            coordinates.append([float(row[0]), float(row[1])])
+            for num in range(0,row[0]):
+                coordinates.append([float(row[1]), float(row[2])])
+        
         try:
             perform_kmeans(coordinates)
         except:
