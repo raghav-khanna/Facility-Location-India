@@ -1,1 +1,7 @@
 **/__pycache__
+.env
+.flake8
+.pep8
+try.py
+.DS_Store
+temp.py
