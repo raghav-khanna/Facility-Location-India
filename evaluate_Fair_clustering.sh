@@ -9,7 +9,7 @@ lmd_tune=False
 dataset=Synthetic-unequal
 cluster_option=ncut
 lmd=10
-py test_fair_clustering.py -d $dataset \
+/usr/bin/python3 test_fair_clustering.py -d $dataset \
                              --cluster_option $cluster_option \
                              --lmbda-tune $lmd_tune \
                              --lmbda $lmd \

@@ -1,0 +1,11 @@
+id,name,state,pop_density,latitude,longitude
+1,Thane,Maharashtra,1157,0.335051,1.273698
+2,North Twenty Four Parganas,West Bengal,2445,0.396364,1.548297
+3,South Twenty Four Parganas,West Bengal,819,0.386358,1.545602
+4,Bulandshahar,Uttar Pradesh,776,0.495796,1.358735
+5,Ribhoi,Meghalaya,106,0.452601,1.606864
+6,Nicobars,Andaman and Nicobar,20,0.187534,1.614430
+7,Bangalore,Karnataka,4381,0.226379,1.354459
+8,Pune,Maharashtra,603,0.322582,1.289061
+9,Mumbai Suburban,Maharashtra,20980,0.333909,1.272195
+10,Barddhaman,West Bengal,1099,0.405518,1.533587
