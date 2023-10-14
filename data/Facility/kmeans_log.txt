@@ -1,4782 +1,707 @@
-Cluster number for dataset Facility is 3
+Cluster number for dataset Facility is 10
 Balance of the dataset 0.2
 Number of points in the dataset 10
 Demographic-probabilites: [0.5, 0.4, 0.1]
 Demographic-numbers per group: [5, 4, 1]
 Lambda tune is true
 Inside Lambda  0
-compute energy
-fair clustering energy = 3.976454151540174
-clustering energy = 3.9764541515401737
-Inside k-means update
-compute energy
-fair clustering energy = 3.976454151540175
-clustering energy = 3.9764541515401746
-Inside k-means update
-compute energy
-fair clustering energy = 3.976454151540175
-clustering energy = 3.9764541515401746
 ......Job  done......
-0.7062657999995281
-lambda = 0, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.7758 |Error lambda =  0
-Best  Avg balance 0.1111 | Avg Balance lambda =  0
-Best  Min balance 0.0000 | Min Balance lambda =  0
+C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 2 7 6 8 5 9 0 3 4]
 Inside Lambda  100
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.15745459999743616
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0020465999987209216
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.002881500004150439
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002614900004118681
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.3419043000030797
-lambda = 100, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.7758 |Error lambda =  0
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 7 3 1 0 2 6 4 8]
 Inside Lambda  200
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.00607789999776287
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0026720000023487955
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.007301600002392661
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006584100003237836
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.1528805000052671
-lambda = 200, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.7758 |Error lambda =  0
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 7 2 8 3 1 6 5 0]
 Inside Lambda  300
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.008281299997179303
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004742900004202966
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021450999993248843
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.003149299998767674
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.1301619000005303
-lambda = 300, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.7758 |Error lambda =  0
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 7 0 8 3 1 6 4 2]
 Inside Lambda  400
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.007656099995074328
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.004814699997950811
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003646800003480166
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021457000038935803
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-not having some labels
-0.1496947999985423
-lambda = 400, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.7758 |Error lambda =  0
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 0 2 3 8 4 9 7 5 1]
 Inside Lambda  500
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.09078659999795491
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002412900001218077
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002093299997795839
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0072396999967168085
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 20.454440970701555
-not having some labels
-0.1883654999983264
-lambda = 500, 
- fairness_error  26.50 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.7758 |Error lambda =  0
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 7 2 8 3 1 6 5 0]
 Inside Lambda  600
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.005645099998218939
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.007424200004606973
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004670900001656264
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.00503000000026077
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.1159713000015472
-lambda = 600, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.7758 |Error lambda =  0
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 1 7 4 0 5 2 6 8]
 Inside Lambda  700
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.0046791999993729405
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0029361999986576848
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0035243999955127947
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004699400000390597
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-not having some labels
-0.10266699999920093
-lambda = 700, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 7 2 8 3 0 6 4 1]
 Inside Lambda  800
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.006387699999322649
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004558099994028453
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0046899999942979775
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.0026189999989583157
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.10966600000392646
-lambda = 800, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 0 6 8 2 5 1 7 3]
 Inside Lambda  900
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.005343299999367446
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002502499999536667
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.0042648000016924925
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0035974999991594814
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.10081759999593487
-lambda = 900, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 2 7 4 0 5 9 6 3 8]
 Inside Lambda  1000
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.006535699998494238
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.0035248999993200414
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0025983000014093705
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0031614000035915524
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.10202779999963241
-lambda = 1000, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 2 1 7 3 4 6 0 5 8]
 Inside Lambda  1100
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.003278899996075779
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003144900001643691
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0030526999980793335
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006091299997933675
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.10384199999680277
-lambda = 1100, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[0 2 7 3 8 4 9 6 5 1]
 Inside Lambda  1200
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.005064700002549216
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004230899998219684
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002711100001761224
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003575399998226203
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.10289000000193482
-lambda = 1200, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 6 0 2 4 1 7 3 8]
 Inside Lambda  1300
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.0035615000015241094
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0023972000053618103
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.0036488999976427294
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.002936600001703482
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.10896270000375807
-lambda = 1300, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 7 0 8 5 1 6 4 2]
 Inside Lambda  1400
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.003665699994598981
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004683799998019822
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0025958999976865016
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0031622000024071895
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.09356429999752436
-lambda = 1400, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 5 7 3 9 2 8 6 4 0]
 Inside Lambda  1500
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.0034077999953296967
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.004535100000794046
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002530300000216812
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.002712599998631049
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.11275860000023386
-lambda = 1500, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 0 7 8 2 6 1 5 3]
 Inside Lambda  1600
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.005351300002075732
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0019248000025982037
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002670800000487361
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.00451710000197636
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.14825310000014724
-lambda = 1600, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 2 0 1 3 5 7 6 8]
 Inside Lambda  1700
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.003785000000789296
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.003020600001036655
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.2180172104565
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005550600006245077
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.0027358000006643124
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-not having some labels
-0.10696979999920586
-lambda = 1700, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 2 7 3 0 5 9 6 4 8]
 Inside Lambda  1800
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.005377999994379934
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004207999998470768
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005154100006620865
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0033632999984547496
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.10603879999689525
-lambda = 1800, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 6 2 0 4 1 7 3 8]
 Inside Lambda  1900
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.005412200000137091
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0028491000048234127
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004543100003502332
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002125500002875924
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-not having some labels
-0.11067080000066198
-lambda = 1900, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 7 0 8 5 1 6 4 2]
 Inside Lambda  2000
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.00673090000054799
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.005122300004586577
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004141400000662543
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0027101000014226884
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.11406629999692086
-lambda = 2000, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 0 7 3 2 5 1 6 8]
 Inside Lambda  2100
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.005931800005782861
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002572699995653238
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.1%Converged
-
- Elapsed Time in bound_update 0.0032245000038528815
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.2180172104565
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024077999987639487
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-not having some labels
-0.09832959999766899
-lambda = 2100, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[8 3 7 2 9 4 1 6 5 0]
 Inside Lambda  2200
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005316599999787286
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003885399994032923
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0028502999994088896
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002025800000410527
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.10581120000279043
-lambda = 2200, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 7 2 8 5 0 6 3 1]
 Inside Lambda  2300
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004878799998550676
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0035777000011876225
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0019985999970231205
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0036741000003530644
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.0979695999994874
-lambda = 2300, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[3 5 7 6 8 1 9 2 0 4]
 Inside Lambda  2400
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004637599995476194
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00521149999985937
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0031816999980947003
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002657299999555107
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-not having some labels
-0.1144711999950232
-lambda = 2400, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 0 3 1 9 4 8 7 5 2]
 Inside Lambda  2500
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004268700002285186
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0035396000021137297
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0020939999958500266
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.00811778392349
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002198900001531001
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.09923929999786196
-lambda = 2500, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[0 5 7 2 8 3 9 6 4 1]
 Inside Lambda  2600
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004852800004300661
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003539400000590831
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021641999992425554
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003249000001233071
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.10383590000128606
-lambda = 2600, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 4 2 1 3 0 9 7 5 8]
 Inside Lambda  2700
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0026087999940500595
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004171000000496861
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0033573999971849844
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0023564000002807006
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.10807690000365255
-lambda = 2700, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 7 2 8 5 1 6 4 0]
 Inside Lambda  2800
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004986799998732749
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021833999999216758
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004644999993615784
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0028450000027078204
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-not having some labels
-0.0994706000055885
-lambda = 2800, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 7 0 8 5 1 6 4 2]
 Inside Lambda  2900
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00537120000080904
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002683399994566571
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004448599996976554
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004709599998022895
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.09242620000441093
-lambda = 2900, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 6 2 8 5 0 7 4 1]
 Inside Lambda  3000
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.018654999999853317
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005757999999332242
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0034301000050618313
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0027645000009215437
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.14677440000377828
-lambda = 3000, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 7 2 8 5 0 6 4 1]
 Inside Lambda  3100
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0038894999961485155
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004757900002005044
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004045000001497101
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00214129999949364
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.10107389999757288
-lambda = 3100, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 4 1 7 8 2 9 0 5 3]
 Inside Lambda  3200
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00504479999653995
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005581100005656481
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0030573999974876642
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004269400000339374
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-not having some labels
-0.10918769999989308
-lambda = 3200, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 6 0 1 5 2 7 3 8]
 Inside Lambda  3300
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.007137400003557559
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002648300003784243
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0030163999981596135
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005387599994719494
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-not having some labels
-0.0964005999994697
-lambda = 3300, 
- fairness_error  26.56 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[2 0 7 3 8 5 9 6 4 1]
 Inside Lambda  3400
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005991399993945379
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002624900000228081
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0022301000062725507
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00322319999395404
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.09821220000594622
-lambda = 3400, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 4 1 2 0 3 9 7 5 8]
 Inside Lambda  3500
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005179099993256386
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002423600002657622
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004138299998885486
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002437400005874224
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.09538099999917904
-lambda = 3500, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 5 7 4 2 3 9 6 0 8]
 Inside Lambda  3600
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0035542999976314604
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003056599998672027
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004873499994573649
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0022666000004392117
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-not having some labels
-0.1044597000000067
-lambda = 3600, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 6 0 2 5 1 7 3 8]
 Inside Lambda  3700
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005531700000574347
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002477400004863739
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0030632999987574294
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021048999988124706
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-not having some labels
-0.10568249999778345
-lambda = 3700, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 4 2 7 8 0 9 1 5 3]
 Inside Lambda  3800
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004341699997894466
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004957800003467128
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002309400006197393
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004761399999551941
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.09297759999753907
-lambda = 3800, 
- fairness_error  26.56 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 7 2 8 3 0 6 4 1]
 Inside Lambda  3900
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003741799999261275
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002292700002726633
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002296299993759021
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003563399994163774
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.10501189999922644
-lambda = 3900, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 5 1 7 8 3 9 2 4 0]
 Inside Lambda  4000
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003876700000546407
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0039264000006369315
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005807100002130028
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003898399998433888
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-not having some labels
-0.11296959999890532
-lambda = 4000, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 6 2 0 4 1 7 3 8]
 Inside Lambda  4100
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00560859999677632
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004721899997093715
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024087000056169927
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003588200001104269
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.10767870000563562
-lambda = 4100, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[0 5 7 2 8 3 9 6 4 1]
 Inside Lambda  4200
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004168699997535441
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003835299998172559
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0029441000006045215
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004335100005846471
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.11279039999499219
-lambda = 4200, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 4 7 6 8 3 9 0 5 2]
 Inside Lambda  4300
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0039484000008087605
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0030929999993531965
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003795799995714333
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0042061999993165955
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.13292690000525909
-lambda = 4300, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 1 7 8 0 6 2 5 3]
 Inside Lambda  4400
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0022873999987496063
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0032092999972519465
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 20.454440970701555
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004923200001940131
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0027358000006643124
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-not having some labels
-0.10215240000252379
-lambda = 4400, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 6 3 1 4 0 7 2 8]
 Inside Lambda  4500
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005196500002057292
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004327499998908024
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004592099998262711
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0020994000005885027
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.09511559999373276
-lambda = 4500, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 6 2 0 4 1 7 3 8]
 Inside Lambda  4600
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004671000002417713
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003515600001264829
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004008099997008685
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002882000000681728
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.09802249999484047
-lambda = 4600, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[0 3 7 2 8 5 9 6 4 1]
 Inside Lambda  4700
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005629499995848164
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004294999998819549
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0027256999965175055
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0029566000011982396
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.10302249999949709
-lambda = 4700, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[8 5 4 3 9 1 2 7 6 0]
 Inside Lambda  4800
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004243399998813402
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021620999978040345
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0028638000003411435
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.2180172104565
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0020924999989802018
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-not having some labels
-0.09234609999839449
-lambda = 4800, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 7 0 8 3 1 6 4 2]
 Inside Lambda  4900
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003881999997247476
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0022525000022142194
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021159999960218556
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004671899994718842
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.09329779999825405
-lambda = 4900, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 0 2 7 8 4 6 1 5 3]
 Inside Lambda  5000
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0034749000042211264
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003322600001411047
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021664000014425255
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.00811778392349
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024083000025711954
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-not having some labels
-0.09690260000206763
-lambda = 5000, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[2 0 7 3 8 5 9 6 4 1]
 Inside Lambda  5100
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005225300003075972
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0026290000023436733
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0020985000010114163
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004792200001247693
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-not having some labels
-0.09888160000264179
-lambda = 5100, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 7 6 8 5 1 2 0 4]
 Inside Lambda  5200
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005113999999593943
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002428199994028546
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004116400006751064
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002358400000957772
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.10462280000501778
-lambda = 5200, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 0 2 6 8 4 7 1 5 3]
 Inside Lambda  5300
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0032065999985206872
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003234200004953891
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004739299998618662
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024803999986033887
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.10025310000492027
-lambda = 5300, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 1 6 3 0 5 2 7 4 8]
 Inside Lambda  5400
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005106799995701294
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0031180000005406328
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0028925000005983748
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0018970000019180588
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.09382789999654051
-lambda = 5400, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 7 6 8 5 1 2 0 4]
 Inside Lambda  5500
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002344299995456822
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0023896999991848134
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004594000005454291
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00441040000441717
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-not having some labels
-0.08326410000154283
-lambda = 5500, 
- fairness_error  26.56 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 3 7 8 1 6 2 0 5]
 Inside Lambda  5600
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004695199997513555
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0030839999963063747
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003072800005611498
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0036152999964542687
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.0984329000057187
-lambda = 5600, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 0 7 8 2 6 1 5 3]
 Inside Lambda  5700
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005047699996794108
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003627099998993799
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003041500000108499
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002231700003903825
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.10016629999881843
-lambda = 5700, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 5 2 3 8 0 9 7 4 1]
 Inside Lambda  5800
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0031572000007145107
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003257700001995545
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002341899999009911
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0028142000010120682
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.09738049999577925
-lambda = 5800, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 7 0 8 3 1 6 4 2]
 Inside Lambda  5900
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0037503999992622994
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0030413999993470497
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0040206999983638525
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0022855999995954335
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.09648909999668831
-lambda = 5900, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 1 7 8 0 6 2 5 4]
 Inside Lambda  6000
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006176399998366833
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004177700000582263
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0028154999963589944
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002245800002128817
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.09542990000045393
-lambda = 6000, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 5 7 4 8 3 9 6 0 2]
 Inside Lambda  6100
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004648900001484435
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0031094999940251
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002144699996279087
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004100300000573043
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.08957440000085626
-lambda = 6100, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 0 7 8 2 6 1 5 3]
 Inside Lambda  6200
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0060039000018150546
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002242300004581921
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002886199996282812
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.00811778392349
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0023145000013755634
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.10079280000354629
-lambda = 6200, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[0 5 7 3 8 2 9 6 4 1]
 Inside Lambda  6300
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00330470000335481
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004533600003924221
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003136400002404116
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0028888999950140715
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.1189888000008068
-lambda = 6300, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 7 6 8 3 1 2 4 0]
 Inside Lambda  6400
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006399899997632019
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0028001999962725677
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006396199998562224
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0047272000010707416
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.12117529999522958
-lambda = 6400, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[3 5 7 6 4 1 9 2 0 8]
 Inside Lambda  6500
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004424400001880713
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0019998999996460043
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0019878000020980835
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 20.454440970701555
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003254800001741387
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.10234900000068592
-lambda = 6500, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 3 7 0 8 6 1 5 4 2]
 Inside Lambda  6600
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0059261999995214865
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0026942000040435232
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0026337999952374958
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004059800005052239
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.11408939999819268
-lambda = 6600, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 6 0 8 3 1 7 4 2]
 Inside Lambda  6700
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0046571999992011115
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003577999996196013
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002993300004163757
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021839000037289225
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.0949075000025914
-lambda = 6700, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[3 5 7 4 1 0 8 6 2 9]
 Inside Lambda  6800
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005920299998251721
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00487520000024233
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024002000063774176
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021253000013530254
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.10614480000367621
-lambda = 6800, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 6 2 1 3 0 7 5 8]
 Inside Lambda  6900
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005236600001808256
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004189500003121793
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004466400001547299
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002120899996953085
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-not having some labels
-0.10928379999677418
-lambda = 6900, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 4 0 2 1 3 9 7 5 8]
 Inside Lambda  7000
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005065999997896142
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0025029000025824644
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004822900002181996
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0027823000054922886
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.11738309999782359
-lambda = 7000, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 5 7 0 8 3 9 6 4 2]
 Inside Lambda  7100
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004745099999126978
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002414000002318062
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0030859000034979545
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003068300000450108
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.10146440000244183
-lambda = 7100, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 5 7 3 0 2 9 6 4 8]
 Inside Lambda  7200
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004230200000165496
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0019830000019283034
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0060175999969942495
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0034503999995649792
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-not having some labels
-0.10072519999812357
-lambda = 7200, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 0 7 6 3 4 2 1 5 8]
 Inside Lambda  7300
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0022596999988309108
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0017051000031642616
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004789400001754984
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0023675000047660433
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.09266339999885531
-lambda = 7300, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[0 4 7 3 1 2 9 6 5 8]
 Inside Lambda  7400
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002319599996553734
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024794000055408105
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0034207999997306615
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00454189999436494
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.0957949000003282
-lambda = 7400, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 7 6 2 5 1 0 3 8]
 Inside Lambda  7500
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006664900000032503
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002437699993606657
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004511099999945145
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002404399994702544
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-not having some labels
-0.10602630000357749
-lambda = 7500, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 2 1 3 0 4 9 7 5 8]
 Inside Lambda  7600
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003196699995896779
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002921800005424302
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00416370000311872
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003625500001362525
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.0946101000008639
-lambda = 7600, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 5 1 0 8 3 9 7 4 2]
 Inside Lambda  7700
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0032785000003059395
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0037493999989237636
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024149000018951483
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024043000012170523
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-not having some labels
-0.0886439000023529
-lambda = 7700, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[5 4 1 7 8 2 9 0 6 3]
 Inside Lambda  7800
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003244999999878928
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0031948000032571144
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004681200000050012
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004564299997582566
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-not having some labels
-0.10228759999881731
-lambda = 7800, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 5 7 3 8 2 9 6 4 0]
 Inside Lambda  7900
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0027495999966049567
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005091799997899216
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004724600003100932
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005728899996029213
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.12374239999917336
-lambda = 7900, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[2 3 7 0 8 5 9 6 4 1]
 Inside Lambda  8000
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005735600003390573
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003095799998845905
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0034853999968618155
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.2180172104565
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0020549999971990474
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.1090492000002996
-lambda = 8000, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 5 3 8 2 1 7 6 0]
 Inside Lambda  8100
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005409299999882933
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004410399997141212
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.007998869430931
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0026789000039570965
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0020520999969448894
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.10407959999429295
-lambda = 8100, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 3 7 4 2 5 9 6 0 8]
 Inside Lambda  8200
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004964300002029631
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0044250999999349006
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024895999958971515
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.00811778392349
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0015914000032353215
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-not having some labels
-0.11641149999923073
-lambda = 8200, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 3 7 6 8 5 9 2 0 4]
 Inside Lambda  8300
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006408000001101755
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005513700001756661
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.02040600000327686
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0016172000032383949
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-not having some labels
-0.1883254000058514
-lambda = 8300, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 0 7 3 2 6 1 5 8]
 Inside Lambda  8400
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0023098000019672327
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002899200000683777
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0027656999955070205
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006256599997868761
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.10179480000078911
-lambda = 8400, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 0 7 6 8 4 2 3 1 5]
 Inside Lambda  8500
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006015999999362975
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0033279000053880736
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002864499998395331
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.00811778392349
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005065199999080505
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-not having some labels
-0.11938129999907687
-lambda = 8500, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 2 1 3 0 4 9 7 5 8]
 Inside Lambda  8600
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0040939000027719885
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002272800003993325
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004714300004707184
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0035245999970356934
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 20.454440970701555
-not having some labels
-0.13510970000061207
-lambda = 8600, 
- fairness_error  26.50 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 3 1 0 8 4 9 7 5 2]
 Inside Lambda  8700
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003821300000709016
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002089599998726044
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0037795999960508198
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0017274000056204386
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 20.454440970701555
-not having some labels
-0.09952699999848846
-lambda = 8700, 
- fairness_error  26.50 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 5 1 2 8 3 9 7 4 0]
 Inside Lambda  8800
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0035062999959336594
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002982099998916965
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003646700002718717
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0039887000020826235
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-not having some labels
-0.13027499999589054
-lambda = 8800, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 6 5 4 1 3 0 7 2 8]
 Inside Lambda  8900
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0032084000049508177
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024451999997836538
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0025247999947168864
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003369499994732905
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.10487599999760278
-lambda = 8900, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 0 7 6 8 5 2 1 4 3]
 Inside Lambda  9000
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004647599998861551
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003199599996150937
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024877999967429787
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0022581000011996366
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.09837829999742098
-lambda = 9000, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 2 3 7 8 5 9 0 6 4]
 Inside Lambda  9100
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005461700005980674
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004396900003484916
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003959100002248306
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0020651000013458543
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.09685609999723965
-lambda = 9100, 
- fairness_error  8.78 and 
- avg_balance =  0.11 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[0 2 7 3 8 5 9 6 4 1]
 Inside Lambda  9200
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0022896000009495765
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021010999989812262
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0022257000018726103
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021833999999216758
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.08046810000087135
-lambda = 9200, 
- fairness_error  26.50 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[0 2 6 3 1 4 9 7 5 8]
 Inside Lambda  9300
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0051147999984095804
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002069199996185489
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0032944000049610622
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0045548999987659045
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-not having some labels
-0.12516730000061216
-lambda = 9300, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[0 2 7 3 8 5 9 6 4 1]
 Inside Lambda  9400
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005479899999045301
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0066995000015595
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.200445052079171
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005621399999654386
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003187700000125915
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.1355764999971143
-lambda = 9400, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[0 2 7 3 8 5 9 6 4 1]
 Inside Lambda  9500
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0056137999999918975
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006109699999797158
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004004499998700339
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.00262020000081975
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-not having some labels
-0.1304346999968402
-lambda = 9500, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 0 3 8 2 6 7 5 1]
 Inside Lambda  9600
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.005098099994938821
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0021293000027071685
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.11645564397255
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003312300003017299
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0031282999989343807
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.069242717451374
-not having some labels
-0.12987580000481103
-lambda = 9600, 
- fairness_error  8.67 and 
- avg_balance =  0.17 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[6 4 0 2 1 3 9 7 5 8]
 Inside Lambda  9700
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0066397999980836175
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0025128999986918643
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.002059599995845929
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.006757099996320903
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-not having some labels
-0.13549310000234982
-lambda = 9700, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 4 0 7 8 2 6 1 5 3]
 Inside Lambda  9800
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003399000001081731
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003664500000013504
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 18.875429706973392
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024784999986877665
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.743091357717702
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004524700001638848
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.11734989999968093
-lambda = 9800, 
- fairness_error  26.56 and 
- avg_balance =  0.33 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[1 6 7 3 0 2 9 5 4 8]
 Inside Lambda  9900
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003225400003429968
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.004605000001902226
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 16.39803521131077
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.003753699995286297
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 15.36979282986922
-try with new seeds
-Inside k-means update
-Inside Bound Update . . .
-[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%Converged
-
- Elapsed Time in bound_update 0.0024124999981722794
-fairness_error = nan
-compute energy
-fair clustering energy = nan
-clustering energy = 14.51175972357183
-not having some labels
-0.11414649999642279
-lambda = 9900, 
- fairness_error  26.52 and 
- avg_balance =  0.00 
- min_balance =  0.00
-Best fairness_error 8.6677 |Error lambda =  700
-Best  Avg balance 0.3333 | Avg Balance lambda =  100
-Best  Min balance 0.0000 | Min Balance lambda =  0
---------------------------------------->>>>>>>> E_Cluster - 
-{'fair_cluster_E': [nan, nan, nan, nan], 'fair_E': [nan, nan, nan, nan], 'cluster_E': [nan, nan, nan, nan], 'cluster_E_discrete': [16.39803521131077, 16.39803521131077, 15.36979282986922, 14.51175972357183]}
-avg elapsed  0.11752427100000204
+[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%[>           ] 0.0%C - 
+(10, 3)
+S - 
+(10, 10)
+l - 
+[9 5 1 7 8 3 6 2 4 0]

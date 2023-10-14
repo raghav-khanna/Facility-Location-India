@@ -136,7 +136,7 @@ def compute_energy_fair_clustering(X, C, l, S, u_V, V_list, bound_lambda, A = No
     compute fair clustering energy
     
     """
-    print('compute energy')
+    # print('compute energy')
     J = len(u_V)
     N,K = S.shape
     clustering_E_discrete = []
@@ -163,8 +163,8 @@ def compute_energy_fair_clustering(X, C, l, S, u_V, V_list, bound_lambda, A = No
     
     E = clustering_E + fairness_E
 
-    print('fair clustering energy = {}'.format(E))
-    print('clustering energy = {}'.format(clustering_E_discrete))
+    # print('fair clustering energy = {}'.format(E))
+    # print('clustering energy = {}'.format(clustering_E_discrete))
 
     return E, clustering_E, fairness_E, clustering_E_discrete
     
@@ -196,14 +196,14 @@ def restore_nonempty_cluster (X,K,oldl,oldC,oldS,ts):
         ts_limit = 2
         C_init = 'kmeans'
         if ts>ts_limit:
-            print('not having some labels')
+            # print('not having some labels')
             trivial_status = True
             l =oldl.copy()
             C =oldC.copy()
             S = oldS.copy()
 
         else:
-            print('try with new seeds')
+            # print('try with new seeds')
             
             C,l =  km_init(X,K,C_init)
             sqdist = ecdist(X,C,squared=True)
@@ -233,7 +233,7 @@ def fair_clustering(X, K, u_V, V_list, lmbda, L, fairness = False, method = 'kme
     fairness_error = 0.0
     oldE = 1e100
 
-    maxiter = 100
+    maxiter = 10
     pool = multiprocessing.Pool(processes=20)
     X_s = utils.init(X_s =X)
     if A is not None:
@@ -263,7 +263,7 @@ def fair_clustering(X, K, u_V, V_list, lmbda, L, fairness = False, method = 'kme
             
         elif method == 'kmeans':
             
-            print ('Inside k-means update')
+            # print ('Inside k-means update')
             tmp_list = [np.where(l==k)[0] for k in range(K)]
             C_list = pool.map(kmeans_update,tmp_list)
             C = np.asarray(np.vstack(C_list))
@@ -301,7 +301,7 @@ def fair_clustering(X, K, u_V, V_list, lmbda, L, fairness = False, method = 'kme
 
             l,S,bound_E = bound_update(a_p, u_V, V_list, lmbda, L, bound_iterations)
             fairness_error = get_fair_accuracy_proportional(u_V,V_list,l,N,K)
-            print('fairness_error = {:0.4f}'.format(fairness_error))
+            # print('fairness_error = {:0.4f}'.format(fairness_error))
 
         else:
                 
@@ -338,8 +338,10 @@ def fair_clustering(X, K, u_V, V_list, lmbda, L, fairness = False, method = 'kme
     pool.join()
     pool.terminate()
     elapsed = timeit.default_timer() - start_time
-    print(elapsed)
+    # print(elapsed)
     E = {'fair_cluster_E':E_org,'fair_E':E_fair,'cluster_E':E_cluster, 'cluster_E_discrete':E_cluster_discrete}
+    # print("C - ")
+    # print(C)
     return C,l,elapsed,S,E
 
 #if __name__ == '__main__':
