@@ -1,6 +1,7 @@
 import numpy as np
 from scipy import sparse
 import math
+import os
 from sklearn.metrics.pairwise import euclidean_distances as ecdist
 from sklearn.metrics import pairwise_distances_chunked as pdist_chunk
 from sklearn.cluster import KMeans
@@ -9,10 +10,12 @@ from src.bound_update import bound_update, normalize_2, get_S_discrete
 from src.utils  import get_fair_accuracy, get_fair_accuracy_proportional
 import timeit
 import src.utils as utils
-import multiprocessing
+import multiprocessing.dummy as multiprocessing
 from numba import  jit
 import numexpr as ne
+import time
 # import pdb
+
 def kmeans_update(tmp):
     """
     """
@@ -20,7 +23,6 @@ def kmeans_update(tmp):
     X = utils.SHARED_VARS['X_s']
     X_tmp = X[tmp, :]
     c1 = X_tmp.mean(axis = 0)
-
     return c1
 
 @jit
@@ -232,8 +234,8 @@ def fair_clustering(X, K, u_V, V_list, lmbda, L, fairness = False, method = 'kme
     oldE = 1e100
 
     maxiter = 100
-    X_s = utils.init(X_s =X)
     pool = multiprocessing.Pool(processes=20)
+    X_s = utils.init(X_s =X)
     if A is not None:
         d =  A.sum(axis=1)
 

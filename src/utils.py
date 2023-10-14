@@ -9,7 +9,7 @@ from sklearn.neighbors import NearestNeighbors
 from scipy import sparse
 import scipy.sparse as sps
 import timeit
-from pyflann3 import FLANN
+from pyflann import FLANN
 import multiprocessing
 
 SHARED_VARS = {}
