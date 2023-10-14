@@ -22,7 +22,7 @@ def read_dataset(name, data_dir):
         raise KeyError("Dataset not implemented:", name)
 
     elif name == 'Facility':
-        K = 2
+        K = 7
         print("IN FACILITY ->>>>>>>>>>>>>>>>>>>>>>>>>>>>")
         _path = 'Facility.data'  # Big dataset with 41108 samples
         data_path = os.path.join(data_dir, _path)
@@ -38,7 +38,7 @@ def read_dataset(name, data_dir):
         df = [df1, df2, df3]
         df = pandas.concat(df)
 
-        df = df[['id', 'latitude', 'longitude']].values
+        df = df[['latitude', 'longitude']].values
         # df = df[['age','duration','balance']].values
 
         sex_num = np.zeros(df.shape[0], dtype=int)

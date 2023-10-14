@@ -9,3 +9,4 @@ id,name,state,pop_density,latitude,longitude
 8,Pune,Maharashtra,603,0.322582,1.289061
 9,Mumbai Suburban,Maharashtra,20980,0.333909,1.272195
 10,Barddhaman,West Bengal,1099,0.405518,1.533587
+11,Nadia,West Bengal,1316,0.408495,1.542186

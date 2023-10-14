@@ -233,7 +233,7 @@ def fair_clustering(X, K, u_V, V_list, lmbda, L, fairness = False, method = 'kme
     fairness_error = 0.0
     oldE = 1e100
 
-    maxiter = 10
+    maxiter = 15
     pool = multiprocessing.Pool(processes=20)
     X_s = utils.init(X_s =X)
     if A is not None:
