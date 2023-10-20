@@ -4,6 +4,8 @@ from pyclustering.cluster.kmeans import kmeans, kmeans_visualizer
 from pyclustering.cluster.center_initializer import kmeans_plusplus_initializer
 from pyclustering.utils.metric import distance_metric, type_metric
 from math import cos, sin, asin, sqrt
+import time
+import argparse
 
 # Function for defining the custom distance metric (Haversine distance, in this case)
 def haversine(point1, point2):
@@ -18,26 +20,40 @@ def haversine(point1, point2):
 
 # The function for performing kmeans using the pyclustering library
 def perform_kmeans(data, no_of_facilities):
-    # Get initial centers using kmeans++ initializer
-    initial_centers = kmeans_plusplus_initializer(data, no_of_facilities).initialize()
-    print(initial_centers)
+
+    try:
+        # Get initial centers using kmeans++ initializer
+        initial_centers = kmeans_plusplus_initializer(data, no_of_facilities).initialize()
+        print(initial_centers)
+    except Exception as error:
+        # If the error is printed as - module 'numpy' has no attribute 'warnings'
+        # Then do - pip uninstall numpy 
+        # Then do - pip install numpy==1.23.4
+        print(error)
 
     # Create instance of K-Means algorithm with custom distance metric
     haversine_distance = distance_metric(type_metric.USER_DEFINED, func=haversine)
     kmeans_instance = kmeans(data, initial_centers, metric=haversine_distance)
 
-    # Are these final centers different from the initial centers? -> Most probably, NO
+
+    # CHECK if this is NECESSARY? -> Most probably, yes
+    kmeans_instance.process()
+
+    # Get the FINAL CENTERS
     final_centers = kmeans_instance.get_centers()
     print(); print(final_centers)
 
-    # CHECK if this is NECESSARY? -> Most probably, yes
-    # kmeans_instance.process()
+    # Get the FINAL CLUSTERS
+    clusters = kmeans_instance.get_clusters()
 
-    # Get the final clusters
-    # clusters = kmeans_instance.get_clusters()
+    # Get SSE
+    sse = kmeans_instance.get_total_wce()
+    print("SSE: ", sse)
 
     # visualise using the pyclustering visualiser function
-    # plt = kmeans_visualizer.show_clusters(data, clusters, final_centers, initial_centers=initial_centers)
+    plt = kmeans_visualizer.show_clusters(data, clusters, final_centers, initial_centers=initial_centers, display=False)
+    mapFileName = "data/results/" + str(no_of_facilities) + "-map.png"
+    plt.savefig(mapFileName)
 
     # CHECK if this function produces an animation?!
     # plt = kmeans_visualizer.animate_cluster_allocation(data, clusters, observer...)
@@ -62,7 +78,7 @@ def main():
 
         try:
             # Perform kmeans++ on the data
-            final_cluster = perform_kmeans(coordinates, int(db_details['NO_OF_FACILITIES']))
+            final_cluster = perform_kmeans(coordinates, int(args.no_of_facilities))
             # print(final_cluster)
 
             # Get the final district names and states
@@ -87,4 +103,10 @@ def main():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-f", "--no_of_facilities", help="Number of facilities to be chosen", type=int)
+    args = parser.parse_args()
+    start = time.time()
     main()
+    end = time.time()
+    print("Time taken: ", (end - start)*1000, "ms")
