@@ -3,88 +3,104 @@ from dotenv import dotenv_values
 from pyclustering.cluster.kmeans import kmeans, kmeans_visualizer
 from pyclustering.cluster.center_initializer import kmeans_plusplus_initializer
 from pyclustering.utils.metric import distance_metric, type_metric
-from math import cos, sin, asin, sqrt
+from constants import haversine
+import time
 
-# Function for defining the custom distance metric (Haversine distance, in this case)
-def haversine(point1, point2):
-    lat1, lon1 = point1[0], point1[1]
-    lat2, lon2 = point2[0], point2[1]
-    dlon = lon2 - lon1
-    dlat = lat2 - lat1
-    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
-    c = 2 * asin(sqrt(a))
-    r = 6371  # Radius of earth in kilometers. Use 3956 for miles. Determines return value units.
-    return c * r
 
 # The function for performing kmeans using the pyclustering library
 def perform_kmeans(data, no_of_facilities):
-    # Get initial centers using kmeans++ initializer
-    initial_centers = kmeans_plusplus_initializer(data, no_of_facilities).initialize()
-    print(initial_centers)
+    print('***********************************************************************\nProcessing of data starts')
+    try:
+        initial_centers = kmeans_plusplus_initializer(data, no_of_facilities).initialize()
+    except:
+        print('Error in center initialization in Kmeanspp')
+        return []
+    print('Initialised centers are:\n', initial_centers)
+    print('***********************************************************************')
 
-    # Create instance of K-Means algorithm with custom distance metric
     haversine_distance = distance_metric(type_metric.USER_DEFINED, func=haversine)
     kmeans_instance = kmeans(data, initial_centers, metric=haversine_distance)
+    print('K-means algorithm starts')
 
-    # Are these final centers different from the initial centers? -> Most probably, NO
+    try:
+        kmeans_instance.process()
+    except:
+        print('Error in kmeans processing')
+        return []
+
+    return initial_centers, kmeans_instance
+
+
+def display_results(coordinates, initial_centers, kmeans_instance):
+    print('***********************************************************************')
     final_centers = kmeans_instance.get_centers()
-    print(); print(final_centers)
+    print('Final centers are:\n', final_centers)
 
-    # CHECK if this is NECESSARY? -> Most probably, yes
-    # kmeans_instance.process()
+    print('***********************************************************************')
+    final_clusters = kmeans_instance.get_clusters()
+    print('Final clusters are:\n', final_clusters)
 
-    # Get the final clusters
-    # clusters = kmeans_instance.get_clusters()
+    print('***********************************************************************')
+    sse = kmeans_instance.get_total_wce()
+    print('SSE of the clustering is', sse)
 
-    # visualise using the pyclustering visualiser function
-    # plt = kmeans_visualizer.show_clusters(data, clusters, final_centers, initial_centers=initial_centers)
+    plt = kmeans_visualizer.show_clusters(coordinates, final_clusters, final_centers, initial_centers=initial_centers, display=False)
+    plt.savefig('map.png')
 
+    # pip install numpy==1.23.4
     # CHECK if this function produces an animation?!
     # plt = kmeans_visualizer.animate_cluster_allocation(data, clusters, observer...)
-
-    return final_centers
 
 
 def main():
     # Establish connection with the database
+    print('***********************************************************************\nConnecting to the database...')
     db_details = dotenv_values('.env')
     conn = psycopg2.connect(dbname=db_details['DB_NAME'], user=db_details['DB_USER'], password=db_details['DB_PASS'], host=db_details['DB_HOST'])
     cur = conn.cursor()
     try:
-        # Retrieve the data from the database
         cur.execute("SELECT pop_density, latitude, longitude FROM districts;")
         data = cur.fetchall()
-        coordinates = []
-        # Iterate through the whole data and create an array of pairs (latitude and longitude for each district)
-        for row in data:
-            for num in range(0, row[0]):
-                coordinates.append([float(row[1]), float(row[2])])
-
-        try:
-            # Perform kmeans++ on the data
-            final_cluster = perform_kmeans(coordinates, int(db_details['NO_OF_FACILITIES']))
-            # print(final_cluster)
-
-            # Get the final district names and states
-            chosen_districts = []
-            for point in final_cluster:
-                cur.execute("SELECT name, state FROM districts WHERE latitude = (%s) AND longitude = (%s);", (point[0], point[1]))
-                res = cur.fetchone()
-                chosen_districts.append(res)
-
-            print(chosen_districts)
-
-        except:
-            print("failed to perform kmeans")
-        # print(data[0][0])
-        print("Data Retrieved")
     except:
-        print("failed to retrieve data")
+        print('Error in retrieving the data')
+        exit(0)
+    print('Data retrieved')
+
+    # Iterate through the whole data and create an array of pairs (latitude and longitude for each district)
+    coordinates = []
+    for row in data:
+        for num in range(0, row[0]):
+            coordinates.append([float(row[1]), float(row[2])])
+
+    try:
+        initial_centers, kmeans_instance = perform_kmeans(coordinates, int(db_details['NO_OF_FACILITIES']))
+        try:
+            display_results(coordinates, initial_centers, kmeans_instance)
+        except:
+            print('Error while displaying the data')
+        # CODE FOR RETRIEVING NAMES OF DISTRICTS BASED ON THEIR LATITUDE AND LONGITUDE
+        # try:
+        #     chosen_districts = []
+        #     print('Retriving names of final_centers from the database')
+        #     for point in final_centers:
+        #         cur.execute("SELECT name, state FROM districts WHERE latitude = (%s) AND longitude = (%s);", (point[0], point[1]))
+        #         res = cur.fetchone()
+        #         chosen_districts.append(res)
+        #     print(chosen_districts)
+        #     print('***********************************************************************')
+        # except:
+    except:
+        print("Error while performing Kmeans")
+        exit(0)
     finally:
+        print('Code terminates correctly')
         cur.close()
         conn.close()
         return
 
 
 if __name__ == "__main__":
+    start = time.time()
     main()
+    end = time.time()
+    print("The time of execution of above program is :", (end-start) * 10**3, "ms")
