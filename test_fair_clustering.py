@@ -128,11 +128,17 @@ def main(args):
         else:
 
             C, l, elapsed, S, E = fair_clustering(X, K, u_V, V_list, lmbda, args.L, fairness, cluster_option, C_init=C_init, l_init=l_init)
+            print("C - ") 
+            print(C.shape)
+            print("S - ")
+            print(S.shape)
+            print("l - ")
+            print(l)
 
         min_balance, avg_balance = get_fair_accuracy(u_V, V_list, l, N, K)
         fairness_error = get_fair_accuracy_proportional(u_V, V_list, l, N, K)
 
-        print('lambda = {}, \n fairness_error {: .2f} and \n avg_balance = {: .2f} \n min_balance = {: .2f}'.format(lmbda, fairness_error, avg_balance, min_balance))
+        # print('lambda = {}, \n fairness_error {: .2f} and \n avg_balance = {: .2f} \n min_balance = {: .2f}'.format(lmbda, fairness_error, avg_balance, min_balance))
 
         # Plot the figure with clusters
 
@@ -162,9 +168,9 @@ def main(args):
             E_fair = E['fair_cluster_E']
             plot_convergence(cluster_option, filename, E_fair)
 
-        print('Best fairness_error %0.4f' % bestacc, '|Error lambda = ', best_lambda_acc)
-        print('Best  Avg balance %0.4f' % best_avg_balance, '| Avg Balance lambda = ', best_lambda_avg_balance)
-        print('Best  Min balance %0.4f' % best_min_balance, '| Min Balance lambda = ', best_lambda_min_balance)
+        # print('Best fairness_error %0.4f' % bestacc, '|Error lambda = ', best_lambda_acc)
+        # print('Best  Avg balance %0.4f' % best_avg_balance, '| Avg Balance lambda = ', best_lambda_avg_balance)
+        # print('Best  Min balance %0.4f' % best_min_balance, '| Min Balance lambda = ', best_lambda_min_balance)
         elapsetimes.append(elapsed)
         avg_balance_set.append(avg_balance)
         min_balance_set.append(min_balance)
@@ -172,11 +178,11 @@ def main(args):
         E_cluster_set.append(E['cluster_E'][-1])
         E_cluster_discrete_set.append(E['cluster_E_discrete'][-1])
 
-    print("--------------------------------------->>>>>>>> E_Cluster - ")
-    print(E)
+    # print("--------------------------------------->>>>>>>> E_Cluster - ")
+    # print(float(E['fair_cluster_E'][0]))
 
     avgelapsed = sum(elapsetimes)/len(elapsetimes)
-    print('avg elapsed ', avgelapsed)
+    # print('avg elapsed ', avgelapsed)
 
     if plot_option_fairness_vs_clusterE == True and length_lmbdas > 1:
 
@@ -193,7 +199,7 @@ def main(args):
 
 
 if __name__ == '__main__':
-    print("------------------------------------->>>>>")
+    # print("------------------------------------->>>>>")
     parser = argparse.ArgumentParser(description="Clustering with Fairness Constraints")
     parser.add_argument('--seed', type=int, default=None)
     # dataset

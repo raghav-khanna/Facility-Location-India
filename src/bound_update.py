@@ -60,7 +60,7 @@ def bound_update(a_p, u_V, V_list, bound_lambda, L, bound_iteration = 200, debug
     """
     """
     start_time = timeit.default_timer()
-    print("Inside Bound Update . . .")
+    # print("Inside Bound Update . . .")
     N,K = a_p.shape
     oldE = float('inf')
     J = len(u_V)
@@ -86,10 +86,10 @@ def bound_update(a_p, u_V, V_list, bound_lambda, L, bound_iteration = 200, debug
         S = ne.evaluate('S_in * S_in_2')
         S = normalize_2(S)
         if debug:
-            print('b_term = {}'.format(b_term[0:10]))
-            print('a_p = {}'.format(a_p[0:10]))
-            print('terms = {}'.format(terms[0:10]))
-            print('S = {}'.format(S[0:10]))
+            # print('b_term = {}'.format(b_term[0:10]))
+            # print('a_p = {}'.format(a_p[0:10]))
+            # print('terms = {}'.format(terms[0:10]))
+            # print('S = {}'.format(S[0:10]))
             #Check for trivial solutions
             l = np.argmax(S,axis=1)
             if len(np.unique(l))<S.shape[1]:
@@ -100,14 +100,14 @@ def bound_update(a_p, u_V, V_list, bound_lambda, L, bound_iteration = 200, debug
         report_E = E
 
         if (i>1 and (abs(E-oldE)<= 1e-5*abs(oldE))):
-            print('Converged')
+            # print('Converged')
             break
 
         else:
             oldE = E; report_E = E
 
     elapsed = timeit.default_timer() - start_time
-    print('\n Elapsed Time in bound_update', elapsed)
+    # print('\n Elapsed Time in bound_update', elapsed)
     l = np.argmax(S,axis=1)
 
     return l,S,report_E
