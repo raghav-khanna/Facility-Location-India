@@ -7,8 +7,9 @@ from constants import haversine
 import time
 import argparse
 
-
 # The function for performing kmeans using the pyclustering library
+
+
 def perform_kmeans(data, no_of_facilities):
     print('***********************************************************************\nProcessing of data starts')
     try:
@@ -32,14 +33,23 @@ def perform_kmeans(data, no_of_facilities):
     return initial_centers, kmeans_instance
 
 
-def display_results(coordinates, initial_centers, kmeans_instance):
+def display_results(coordinates, coordinate_id_mapper, initial_centers, kmeans_instance):
     print('***********************************************************************')
     final_centers = kmeans_instance.get_centers()
     print('Final centers are:\n', final_centers)
 
     print('***********************************************************************')
     final_clusters = kmeans_instance.get_clusters()
-    print('Final clusters are:\n', final_clusters)
+    final_printing_clusters = []
+    cluster_districts = {}
+    for cluster in final_clusters:
+        current_cluster = []
+        for num in cluster:
+            if coordinate_id_mapper[num] not in cluster_districts:
+                cluster_districts[coordinate_id_mapper[num]] = 1
+                current_cluster.append(coordinate_id_mapper[num])
+        final_printing_clusters.append(current_cluster)
+    print('Final clusters are:\n', final_printing_clusters)
 
     print('***********************************************************************')
     sse = kmeans_instance.get_total_wce()
@@ -61,7 +71,7 @@ def main():
     conn = psycopg2.connect(dbname=db_details['DB_NAME'], user=db_details['DB_USER'], password=db_details['DB_PASS'], host=db_details['DB_HOST'])
     cur = conn.cursor()
     try:
-        cur.execute("SELECT pop_density, latitude, longitude FROM districts;")
+        cur.execute("SELECT id, pop_density, latitude, longitude FROM districts;")
         data = cur.fetchall()
     except:
         print('Error in retrieving the data')
@@ -69,15 +79,18 @@ def main():
     print('Data retrieved')
 
     # Iterate through the whole data and create an array of pairs (latitude and longitude for each district)
+
+    coordinate_id_mapper = {}
     coordinates = []
     for row in data:
-        for num in range(0, row[0]):
-            coordinates.append([float(row[1]), float(row[2])])
+        for num in range(0, row[1]):
+            coordinates.append([float(row[2]), float(row[3])])
+            coordinate_id_mapper[len(coordinates) - 1] = row[0]
 
     try:
         initial_centers, kmeans_instance = perform_kmeans(coordinates, int(args.no_of_facilities))
         try:
-            display_results(coordinates, initial_centers, kmeans_instance)
+            display_results(coordinates, coordinate_id_mapper, initial_centers, kmeans_instance)
         except:
             print('Error while displaying the data')
         # CODE FOR RETRIEVING NAMES OF DISTRICTS BASED ON THEIR LATITUDE AND LONGITUDE
