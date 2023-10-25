@@ -9,7 +9,6 @@ from sklearn.neighbors import NearestNeighbors
 from scipy import sparse
 import scipy.sparse as sps
 import timeit
-from pyflann import FLANN
 import multiprocessing
 
 SHARED_VARS = {}
@@ -120,52 +119,6 @@ def get_fair_accuracy_proportional(u_V,V_list,l,N,K):
         fairness_error[k] = (-u_V*np.log(np.maximum(clustered_uV[:,k],1e-20))+u_V*np.log(u_V)).sum()
     
     return fairness_error.sum()
-
-
-def create_affinity(X, knn, scale = None, alg = "annoy", savepath = None, W_path = None):
-    N,D = X.shape
-    if W_path is not None:
-        if W_path.endswith('.mat'):
-            W = sio.loadmat(W_path)['W']
-        elif W_path.endswith('.npz'):
-            W = sparse.load_npz(W_path)
-    else:
-        
-        print('Compute Affinity ')
-        start_time = timeit.default_timer()
-        if alg == "flann":
-            print('with Flann')
-            flann = FLANN()
-            knnind,dist = flann.nn(X,X,knn, algorithm = "kdtree",target_precision = 0.9,cores = 5);
-            # knnind = knnind[:,1:]
-        else:
-            nbrs = NearestNeighbors(n_neighbors=knn).fit(X)
-            dist, knnind = nbrs.kneighbors(X)
-
-        row = np.repeat(range(N),knn-1)
-        col = knnind[:,1:].flatten()
-        if scale is None:
-            data = np.ones(X.shape[0]*(knn-1))
-        elif scale is True:
-            scale = np.median(dist[:,1:])
-            data = np.exp((-dist[:,1:]**2)/(2 * scale ** 2)).flatten() 
-        else:
-            data = np.exp((-dist[:,1:]**2)/(2 * scale ** 2)).flatten()
-
-        W = sparse.csc_matrix((data, (row, col)), shape=(N,N),dtype=np.float)
-        W = (W + W.transpose(copy=True)) /2
-        elapsed = timeit.default_timer() - start_time
-        print(elapsed)         
-
-        if isinstance(savepath,str):
-            if savepath.endswith('.npz'):
-                sparse.save_npz(savepath,W)
-            elif savepath.endswith('.mat'):
-                sio.savemat(savepath,{'W':W})
-            
-    return W
-
-
 
 ### supporting functions to make parallel updates of clusters
     

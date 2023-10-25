@@ -44,58 +44,6 @@ def kmedian_update(tmp):
     c1 = X_tmp[j,:]
     return c1
 
-def NormalizedCutEnergy(A, S, clustering):
-    if isinstance(A, np.ndarray):
-        d = np.sum(A, axis=1)
-
-    elif isinstance(A, sparse.csc_matrix):
-        
-        d = A.sum(axis=1)
-
-    maxclusterid = np.max(clustering)
-    nassoc_e = 0;
-    num_cluster = 0;
-    for k in range(maxclusterid+1):
-        S_k = S[:,k]
-        #print S_k
-        if 0 == np.sum(clustering==k):
-             continue # skip empty cluster
-        num_cluster = num_cluster + 1
-        if isinstance(A, np.ndarray):
-            nassoc_e = nassoc_e + np.dot( np.dot(np.transpose(S_k),  A) , S_k) / np.dot(np.transpose(d), S_k)
-        elif isinstance(A, sparse.csc_matrix):
-            nassoc_e = nassoc_e + np.dot(np.transpose(S_k), A.dot(S_k)) / np.dot(np.transpose(d), S_k)
-            nassoc_e = nassoc_e[0,0]
-    ncut_e = num_cluster - nassoc_e
-
-    return ncut_e
-
-def NormalizedCutEnergy_discrete(A, clustering):
-    if isinstance(A, np.ndarray):
-        d = np.sum(A, axis=1)
-
-    elif isinstance(A, sparse.csc_matrix):
-
-        d = A.sum(axis=1)
-
-    maxclusterid = np.max(clustering)
-    nassoc_e = 0;
-    num_cluster = 0;
-    for k in range(maxclusterid+1):
-        S_k = np.array(clustering == k,dtype=np.float)
-        #print S_k
-        if 0 == np.sum(clustering==k):
-             continue # skip empty cluster
-        num_cluster = num_cluster + 1
-        if isinstance(A, np.ndarray):
-            nassoc_e = nassoc_e + np.dot( np.dot(np.transpose(S_k),  A) , S_k) / np.dot(np.transpose(d), S_k)
-        elif isinstance(A, sparse.csc_matrix):
-            nassoc_e = nassoc_e + np.dot(np.transpose(S_k), A.dot(S_k)) / np.dot(np.transpose(d), S_k)
-            nassoc_e = nassoc_e[0,0]
-    ncut_e = num_cluster - nassoc_e
-
-    return ncut_e
-
 # @jit
 def KernelBound_k(A, d, S_k, N):
     # S_k = S[:,k]
@@ -145,11 +93,6 @@ def compute_energy_fair_clustering(X, C, l, S, u_V, V_list, bound_lambda, A = No
         clustering_E = ne.evaluate('S*e_dist').sum()
         clustering_E_discrete = [km_discrete_energy(e_dist,l,k) for k in range(K)]
         clustering_E_discrete = sum(clustering_E_discrete)
-
-    elif method_cl =='ncut':
-        
-        clustering_E = NormalizedCutEnergy(A,S,l)
-        clustering_E_discrete = NormalizedCutEnergy_discrete(A,l)
 
     elif method_cl =='kmedian':
         e_dist = ecdist(X,C)
@@ -254,13 +197,6 @@ def fair_clustering(X, K, u_V, V_list, lmbda, L, fairness = False, method = 'kme
                 sqdist = ecdist(X,C)
                 a_p = sqdist.copy()
 
-            if method == 'ncut':
-                S = get_S_discrete(l,N,K)
-                sqdist_list = [KernelBound_k(A, d, S[:,k], N) for k in range(K)]
-                sqdist = np.asarray(np.vstack(sqdist_list).T)
-                a_p = sqdist.copy()
-
-            
         elif method == 'kmeans':
             
             # print ('Inside k-means update')
@@ -277,13 +213,6 @@ def fair_clustering(X, K, u_V, V_list, lmbda, L, fairness = False, method = 'kme
             C_list = pool.map(kmedian_update,tmp_list)
             C = np.asarray(np.vstack(C_list))
             sqdist = ecdist(X,C)
-            a_p = sqdist.copy()
-
-        elif method == 'ncut':
-            print ('Inside ncut update')
-            S = get_S_discrete(l,N,K)
-            sqdist_list = [KernelBound_k(A, d, S[:,k], N) for k in range(K)]
-            sqdist = np.asarray(np.vstack(sqdist_list).T)
             a_p = sqdist.copy()
 
         if fairness ==True and lmbda!=0.0:
@@ -304,14 +233,8 @@ def fair_clustering(X, K, u_V, V_list, lmbda, L, fairness = False, method = 'kme
             # print('fairness_error = {:0.4f}'.format(fairness_error))
 
         else:
-                
-            if method == 'ncut':
-                l = a_p.argmin(axis=1)
-                S = get_S_discrete(l,N,K)
-            
-            else:
-                S = get_S_discrete(l,N,K)
-                l = km_le(X,C)
+            S = get_S_discrete(l,N,K)
+            l = km_le(X,C)
             
         currentE, clusterE, fairE, clusterE_discrete = compute_energy_fair_clustering(X, C, l, S, u_V, V_list,lmbda, A = A, method_cl=method)
         E_org.append(currentE)

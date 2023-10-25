@@ -97,15 +97,6 @@ def main(args):
 
     l = None
 
-    if (not 'A' in locals()) and cluster_option == 'ncut':
-        alg_option = 'flann' if N > 50000 else 'None'
-        affinity_path = osp.join(data_dir, dataset + '_affinity_ncut.npz')
-        knn = 4
-        if not osp.exists(affinity_path):
-            A = utils.create_affinity(X, knn, savepath=affinity_path, alg=alg_option)
-        else:
-            A = utils.create_affinity(X, knn, W_path=affinity_path)
-
     init_C_path = osp.join(data_dir, '{}_init_{}_{}.npz'.format(dataset, cluster_option, K))
     if not osp.exists(init_C_path):
         print('Generating initial seeds')
@@ -121,19 +112,13 @@ def main(args):
 
         print('Inside Lambda ', lmbda)
 
-        if cluster_option == 'ncut':
-
-            C, l, elapsed, S, E = fair_clustering(X, K, u_V, V_list, lmbda, args.L, fairness, cluster_option, C_init=C_init, l_init=l_init,  A=A,)
-
-        else:
-
-            C, l, elapsed, S, E = fair_clustering(X, K, u_V, V_list, lmbda, args.L, fairness, cluster_option, C_init=C_init, l_init=l_init)
-            print("C - ") 
-            print(C.shape)
-            print("S - ")
-            print(S.shape)
-            print("l - ")
-            print(l)
+        C, l, elapsed, S, E = fair_clustering(X, K, u_V, V_list, lmbda, args.L, fairness, cluster_option, C_init=C_init, l_init=l_init)
+        print("C - ") 
+        print(C.shape)
+        print("S - ")
+        print(S.shape)
+        print("l - ")
+        print(l)
 
         min_balance, avg_balance = get_fair_accuracy(u_V, V_list, l, N, K)
         fairness_error = get_fair_accuracy_proportional(u_V, V_list, l, N, K)
