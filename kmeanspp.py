@@ -60,7 +60,7 @@ def display_results(coordinates, coordinate_id_mapper, initial_centers, kmeans_i
     # mapFileName = "data/results/" + str(args.no_of_facilities) + "-map.png"
     # plt.savefig(mapFileName)
 
-    movieFileName = "data/results/" + str(args.no_of_facilities) + "-movie.gif"
+    movieFileName = "data/results/" + str(args.no_of_facilities) + "-movie.mov"
     kmeans_visualizer.animate_cluster_allocation(coordinates, observer, save_movie=movieFileName)
 
     # pip install numpy==1.23.4
@@ -75,7 +75,7 @@ def main():
     conn = psycopg2.connect(dbname=db_details['DB_NAME'], user=db_details['DB_USER'], password=db_details['DB_PASS'], host=db_details['DB_HOST'])
     cur = conn.cursor()
     try:
-        cur.execute("SELECT id, pop_density, latitude, longitude FROM districts LIMIT 10;")
+        cur.execute("SELECT id, pop_density, latitude, longitude FROM districts;")
         data = cur.fetchall()
     except:
         print('Error in retrieving the data')
