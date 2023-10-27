@@ -120,67 +120,67 @@ def main(args):
         print("l - ")
         print(l)
 
-        min_balance, avg_balance = get_fair_accuracy(u_V, V_list, l, N, K)
-        fairness_error = get_fair_accuracy_proportional(u_V, V_list, l, N, K)
+        # min_balance, avg_balance = get_fair_accuracy(u_V, V_list, l, N, K)
+        # fairness_error = get_fair_accuracy_proportional(u_V, V_list, l, N, K)
 
         # print('lambda = {}, \n fairness_error {: .2f} and \n avg_balance = {: .2f} \n min_balance = {: .2f}'.format(lmbda, fairness_error, avg_balance, min_balance))
 
         # Plot the figure with clusters
 
-        if dataset in ['Synthetic', 'Synthetic-unequal'] and plot_option_clusters_vs_lambda == True:
-            cluster_plot_location = osp.join(output_path, 'cluster_output')
-            if not osp.exists(cluster_plot_location):
-                os.makedirs(cluster_plot_location)
+    #     if dataset in ['Synthetic', 'Synthetic-unequal'] and plot_option_clusters_vs_lambda == True:
+    #         cluster_plot_location = osp.join(output_path, 'cluster_output')
+    #         if not osp.exists(cluster_plot_location):
+    #             os.makedirs(cluster_plot_location)
 
-            filename = osp.join(cluster_plot_location, 'cluster-plot_fair_{}-{}_lambda_{}.png'.format(cluster_option, dataset, lmbda))
-            plot_clusters_vs_lambda(X_org, l, filename, dataset, lmbda, fairness_error)
+    #         filename = osp.join(cluster_plot_location, 'cluster-plot_fair_{}-{}_lambda_{}.png'.format(cluster_option, dataset, lmbda))
+    #         plot_clusters_vs_lambda(X_org, l, filename, dataset, lmbda, fairness_error)
 
-        if avg_balance > best_avg_balance:
-            best_avg_balance = avg_balance
-            best_lambda_avg_balance = lmbda
+    #     if avg_balance > best_avg_balance:
+    #         best_avg_balance = avg_balance
+    #         best_lambda_avg_balance = lmbda
 
-        if min_balance > best_min_balance:
-            best_min_balance = min_balance
-            best_lambda_min_balance = lmbda
+    #     if min_balance > best_min_balance:
+    #         best_min_balance = min_balance
+    #         best_lambda_min_balance = lmbda
 
-        if fairness_error < bestacc:
-            bestacc = fairness_error
-            best_lambda_acc = lmbda
+    #     if fairness_error < bestacc:
+    #         bestacc = fairness_error
+    #         best_lambda_acc = lmbda
 
-        if plot_option_convergence == True and count == 0:
+    #     if plot_option_convergence == True and count == 0:
 
-            filename = osp.join(output_path, 'Fair_{}_convergence_{}.png'.format(cluster_option, dataset))
-            E_fair = E['fair_cluster_E']
-            plot_convergence(cluster_option, filename, E_fair)
+    #         filename = osp.join(output_path, 'Fair_{}_convergence_{}.png'.format(cluster_option, dataset))
+    #         E_fair = E['fair_cluster_E']
+    #         plot_convergence(cluster_option, filename, E_fair)
 
-        # print('Best fairness_error %0.4f' % bestacc, '|Error lambda = ', best_lambda_acc)
-        # print('Best  Avg balance %0.4f' % best_avg_balance, '| Avg Balance lambda = ', best_lambda_avg_balance)
-        # print('Best  Min balance %0.4f' % best_min_balance, '| Min Balance lambda = ', best_lambda_min_balance)
-        elapsetimes.append(elapsed)
-        avg_balance_set.append(avg_balance)
-        min_balance_set.append(min_balance)
-        fairness_error_set.append(fairness_error)
-        E_cluster_set.append(E['cluster_E'][-1])
-        E_cluster_discrete_set.append(E['cluster_E_discrete'][-1])
+    #     # print('Best fairness_error %0.4f' % bestacc, '|Error lambda = ', best_lambda_acc)
+    #     # print('Best  Avg balance %0.4f' % best_avg_balance, '| Avg Balance lambda = ', best_lambda_avg_balance)
+    #     # print('Best  Min balance %0.4f' % best_min_balance, '| Min Balance lambda = ', best_lambda_min_balance)
+    #     elapsetimes.append(elapsed)
+    #     avg_balance_set.append(avg_balance)
+    #     min_balance_set.append(min_balance)
+    #     fairness_error_set.append(fairness_error)
+    #     E_cluster_set.append(E['cluster_E'][-1])
+    #     E_cluster_discrete_set.append(E['cluster_E_discrete'][-1])
 
-    # print("--------------------------------------->>>>>>>> E_Cluster - ")
-    # print(float(E['fair_cluster_E'][0]))
+    # # print("--------------------------------------->>>>>>>> E_Cluster - ")
+    # # print(float(E['fair_cluster_E'][0]))
 
-    avgelapsed = sum(elapsetimes)/len(elapsetimes)
-    # print('avg elapsed ', avgelapsed)
+    # avgelapsed = sum(elapsetimes)/len(elapsetimes)
+    # # print('avg elapsed ', avgelapsed)
 
-    if plot_option_fairness_vs_clusterE == True and length_lmbdas > 1:
+    # if plot_option_fairness_vs_clusterE == True and length_lmbdas > 1:
 
-        savefile = osp.join(data_dir, 'Fair_{}_fairness_vs_clusterEdiscrete_{}.npz'.format(cluster_option, dataset))
-        filename = osp.join(output_path, 'Fair_{}_fairness_vs_clusterEdiscrete_{}.png'.format(cluster_option, dataset))
-        plot_fairness_vs_clusterE(cluster_option, savefile, filename, lmbdas, fairness_error_set, min_balance_set, avg_balance_set, E_cluster_discrete_set)
+    #     savefile = osp.join(data_dir, 'Fair_{}_fairness_vs_clusterEdiscrete_{}.npz'.format(cluster_option, dataset))
+    #     filename = osp.join(output_path, 'Fair_{}_fairness_vs_clusterEdiscrete_{}.png'.format(cluster_option, dataset))
+    #     plot_fairness_vs_clusterE(cluster_option, savefile, filename, lmbdas, fairness_error_set, min_balance_set, avg_balance_set, E_cluster_discrete_set)
 
-    if plot_option_balance_vs_clusterE == True and length_lmbdas > 1:
+    # if plot_option_balance_vs_clusterE == True and length_lmbdas > 1:
 
-        savefile = osp.join(data_dir, 'Fair_{}_balance_vs_clusterEdiscrete_{}.npz'.format(cluster_option, dataset))
-        filename = osp.join(output_path, 'Fair_{}_balance_vs_clusterEdiscrete_{}.png'.format(cluster_option, dataset))
+    #     savefile = osp.join(data_dir, 'Fair_{}_balance_vs_clusterEdiscrete_{}.npz'.format(cluster_option, dataset))
+    #     filename = osp.join(output_path, 'Fair_{}_balance_vs_clusterEdiscrete_{}.png'.format(cluster_option, dataset))
 
-        plot_balance_vs_clusterE(cluster_option, savefile, filename, lmbdas, fairness_error_set, min_balance_set, avg_balance_set, E_cluster_discrete_set)
+    #     plot_balance_vs_clusterE(cluster_option, savefile, filename, lmbdas, fairness_error_set, min_balance_set, avg_balance_set, E_cluster_discrete_set)
 
 
 if __name__ == '__main__':
