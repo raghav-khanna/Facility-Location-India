@@ -1,6 +1,6 @@
 import psycopg2
 from dotenv import dotenv_values
-from pyclustering.cluster.kmeans import kmeans, kmeans_visualizer
+from pyclustering.cluster.kmeans import kmeans, kmeans_visualizer, kmeans_observer
 from pyclustering.cluster.center_initializer import kmeans_plusplus_initializer
 from pyclustering.utils.metric import distance_metric, type_metric
 from constants import haversine
@@ -21,7 +21,8 @@ def perform_kmeans(data, no_of_facilities):
     print('***********************************************************************')
 
     haversine_distance = distance_metric(type_metric.USER_DEFINED, func=haversine)
-    kmeans_instance = kmeans(data, initial_centers, metric=haversine_distance)
+    observer = kmeans_observer()
+    kmeans_instance = kmeans(data, initial_centers, observer=observer, metric=haversine_distance)
     print('K-means algorithm starts')
 
     try:
@@ -30,10 +31,10 @@ def perform_kmeans(data, no_of_facilities):
         print('Error in kmeans processing')
         return []
 
-    return initial_centers, kmeans_instance
+    return initial_centers, kmeans_instance, observer
 
 
-def display_results(coordinates, coordinate_id_mapper, initial_centers, kmeans_instance):
+def display_results(coordinates, coordinate_id_mapper, initial_centers, kmeans_instance, observer):
     print('***********************************************************************')
     final_centers = kmeans_instance.get_centers()
     print('Final centers are:\n', final_centers)
@@ -58,6 +59,8 @@ def display_results(coordinates, coordinate_id_mapper, initial_centers, kmeans_i
     plt = kmeans_visualizer.show_clusters(coordinates, final_clusters, final_centers, initial_centers=initial_centers, display=False)
     mapFileName = "data/results/" + str(args.no_of_facilities) + "-map.png"
     plt.savefig(mapFileName)
+
+    kmeans_visualizer.animate_cluster_allocation(coordinates, observer, save_movie='movie.png')
 
     # pip install numpy==1.23.4
     # CHECK if this function produces an animation?!
@@ -88,9 +91,9 @@ def main():
             coordinate_id_mapper[len(coordinates) - 1] = row[0]
 
     try:
-        initial_centers, kmeans_instance = perform_kmeans(coordinates, int(args.no_of_facilities))
+        initial_centers, kmeans_instance, observer = perform_kmeans(coordinates, int(args.no_of_facilities))
         try:
-            display_results(coordinates, coordinate_id_mapper, initial_centers, kmeans_instance)
+            display_results(coordinates, coordinate_id_mapper, initial_centers, kmeans_instance, observer)
         except:
             print('Error while displaying the data')
         # CODE FOR RETRIEVING NAMES OF DISTRICTS BASED ON THEIR LATITUDE AND LONGITUDE
