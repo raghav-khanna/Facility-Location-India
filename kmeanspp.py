@@ -56,11 +56,12 @@ def display_results(coordinates, coordinate_id_mapper, initial_centers, kmeans_i
     sse = kmeans_instance.get_total_wce()
     print('SSE of the clustering is', sse)
 
-    plt = kmeans_visualizer.show_clusters(coordinates, final_clusters, final_centers, initial_centers=initial_centers, display=False)
-    mapFileName = "data/results/" + str(args.no_of_facilities) + "-map.png"
-    plt.savefig(mapFileName)
+    # plt = kmeans_visualizer.show_clusters(coordinates, final_clusters, final_centers, initial_centers=initial_centers, display=False)
+    # mapFileName = "data/results/" + str(args.no_of_facilities) + "-map.png"
+    # plt.savefig(mapFileName)
 
-    kmeans_visualizer.animate_cluster_allocation(coordinates, observer, save_movie='movie.png')
+    movieFileName = "data/results/" + str(args.no_of_facilities) + "-movie.gif"
+    kmeans_visualizer.animate_cluster_allocation(coordinates, observer, save_movie=movieFileName)
 
     # pip install numpy==1.23.4
     # CHECK if this function produces an animation?!
@@ -74,7 +75,7 @@ def main():
     conn = psycopg2.connect(dbname=db_details['DB_NAME'], user=db_details['DB_USER'], password=db_details['DB_PASS'], host=db_details['DB_HOST'])
     cur = conn.cursor()
     try:
-        cur.execute("SELECT id, pop_density, latitude, longitude FROM districts;")
+        cur.execute("SELECT id, pop_density, latitude, longitude FROM districts LIMIT 10;")
         data = cur.fetchall()
     except:
         print('Error in retrieving the data')
