@@ -42,8 +42,6 @@ def plot_fairness_vs_clusterE(cluster_option, savefile, filename, lmbdas, fairne
         # pdb.set_trace()
         if cluster_option == 'kmeans':
             label_cluster = 'K-means'
-        elif cluster_option == 'ncut':
-            label_cluster = 'Ncut'
         elif cluster_option == 'kmedian':
             label_cluster = 'K-medians'
             
@@ -90,8 +88,6 @@ def plot_K_vs_clusterE(cluster_option, savefile, filename, K_list, E_cluster_set
         # pdb.set_trace()
         if cluster_option == 'kmeans':
             label_cluster = 'K-means'
-        elif cluster_option == 'ncut':
-            label_cluster = 'Ncut'
         elif cluster_option == 'kmedian':
             label_cluster = 'K-medians'
 
@@ -132,8 +128,6 @@ def plot_balance_vs_clusterE(cluster_option, savefile, filename, lmbdas, fairnes
         # pdb.set_trace()
         if cluster_option == 'kmeans':
             label_cluster = 'K-means'
-        elif cluster_option == 'ncut':
-            label_cluster = 'Ncut'
         elif cluster_option == 'kmedian':
             label_cluster = 'K-medians'
 
@@ -172,8 +166,6 @@ def plot_convergence(cluster_option, filename, E_fair):
     
     if cluster_option == 'kmeans':
         label_cluster = 'K-means'
-    elif cluster_option == 'ncut':
-        label_cluster = 'Ncut'
     elif cluster_option == 'kmedian':
         label_cluster = 'K-medians'
         

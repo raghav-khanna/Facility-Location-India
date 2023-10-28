@@ -7,7 +7,7 @@ conv=False # Set true to see if the algorithm converges.
 lmd_tune=False
 
 dataset=Synthetic-unequal
-cluster_option=ncut
+cluster_option=kmeans
 lmd=10
 py test_fair_clustering.py -d $dataset \
                              --cluster_option $cluster_option \
@@ -21,52 +21,6 @@ py test_fair_clustering.py -d $dataset \
 #dataset=Bank
 #cluster_option=ncut
 #lmd=40
-#python test_fair_clustering.py -d $dataset \
-#                             --cluster_option $cluster_option \
-#                             --lmbda-tune $lmd_tune \
-#                             --lmbda $lmd \
-#                             --L 1.0 \
-#                             --plot_option_clusters_vs_lambda $c_v_l \
-#                             --plot_option_fairness_vs_clusterE $f_v_E \
-#                             --plot_option_convergence $conv
-
-# dataset=Synthetic-unequal
-# cluster_option=kmeans
-# lmd=60.0
-# python test_fair_clustering.py -d $dataset \
-#                              --cluster_option $cluster_option \
-#                              --lmbda-tune $lmd_tune \
-#                              --lmbda $lmd \
-#                              --plot_option_clusters_vs_lambda $c_v_l \
-#                              --plot_option_fairness_vs_clusterE $f_v_E \
-#                              --plot_option_convergence $conv
-
-#Synthetic
-#dataset=Synthetic
-#cluster_option=kmeans
-#lmd=60.0
-#python test_fair_clustering.py -d $dataset \
-#                             --cluster_option $cluster_option \
-#                             --lmbda-tune $lmd_tune \
-#                             --lmbda $lmd \
-#                             --plot_option_clusters_vs_lambda $c_v_l \
-#                             --plot_option_fairness_vs_clusterE $f_v_E \
-#                             --plot_option_convergence $conv
-##Census II
-#dataset=CensusII
-#cluster_option=kmeans
-#lmd=10000
-#python test_fair_clustering.py -d $dataset \
-#                             --cluster_option $cluster_option \
-#                             --lmbda-tune $lmd_tune \
-#                             --lmbda $lmd \
-#                             --plot_option_clusters_vs_lambda $c_v_l \
-#                             --plot_option_fairness_vs_clusterE $f_v_E \
-#                             --plot_option_convergence $conv
-
-#dataset=Adult
-#cluster_option=ncut
-#lmd=10
 #python test_fair_clustering.py -d $dataset \
 #                             --cluster_option $cluster_option \
 #                             --lmbda-tune $lmd_tune \
