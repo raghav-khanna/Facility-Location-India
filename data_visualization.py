@@ -163,7 +163,6 @@ def plotMap(X, C):
     print("Showing the plot")
     # Create a scatter plot
     plt.scatter(x_coordinates, y_coordinates, marker='x', color='b', label='Data Points')
-
     x_coordinates = [point[0] for point in C]
     y_coordinates = [point[1] for point in C]
 
