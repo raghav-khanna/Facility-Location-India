@@ -8,9 +8,10 @@ from src.fair_clustering import fair_clustering, km_init
 import src.utils as utils
 from src.dataset_load import read_dataset
 from src.utils import get_fair_accuracy, get_fair_accuracy_proportional, normalizefea, Logger, str2bool
-from data_visualization import plot_clusters_vs_lambda, plot_fairness_vs_clusterE, plot_convergence, plot_balance_vs_clusterE
+from data_visualization import plot_clusters_vs_lambda, plot_fairness_vs_clusterE, plot_convergence, plot_balance_vs_clusterE, plotMap
 import random
 import warnings
+import matplotlib.pyplot as plt
 warnings.filterwarnings('ignore')
 
 
@@ -54,6 +55,7 @@ def main(args):
 # Scale and Normalize Features
     X_unnormalised = scale(X_unnormalised, axis=0)
     X = normalizefea(X_unnormalised)
+    # X = X_unnormalised
 
 # Store and print necessary variables for future use
     N, Tot_dim = X.shape
@@ -99,15 +101,17 @@ def main(args):
         labels_init = temp['labels_init']
 
 # Repeated iterations of fair_clustering
+    C = []
+
     for count, lmbda in enumerate(lmbdas):
         print('Inside Lambda ', lmbda)
 
     # Calculate clustering measures
         C, labels, elapsed, S, E = fair_clustering(X, K, U, V, lmbda, args.L, fairness, cluster_option, cluster_init=C_init, labels_init=labels_init)
         print("C - ")
-        print(C.shape)
+        print(C)
         print("S - ")
-        print(S.shape)
+        print(S)
         print("l - ")
         print(labels)
 
@@ -144,6 +148,13 @@ def main(args):
         fairness_error_set.append(fairness_error)
         E_cluster_set.append(E['cluster_E'][-1])
         E_cluster_discrete_set.append(E['cluster_E_discrete'][-1])
+
+    # denormalized_final_cluster = utils.denormalizefea(normalized_final_cluster, X_unnormalised)
+    # print("DENORMALIZED - ")
+    # print(denormalized_final_cluster)
+    print("Final Cluster - ")
+    print(C)
+    plotMap(X, C)
 
 # Calculate elapsed time used by loop
     avgelapsed = sum(elapsetimes)/len(elapsetimes)
