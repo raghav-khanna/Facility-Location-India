@@ -53,9 +53,9 @@ def main(args):
     sys.stdout = Logger(log_path)
 
 # Scale and Normalize Features
-    # X_unnormalised = scale(X_unnormalised, axis=0)
-    # X = normalizefea(X_unnormalised)
-    X = X_unnormalised
+    X_unnormalised = scale(X_unnormalised, axis=0)
+    X = normalizefea(X_unnormalised)
+    # X = X_unnormalised
 
 # Store and print necessary variables for future use
     N, Tot_dim = X.shape
@@ -109,9 +109,9 @@ def main(args):
     # Calculate clustering measures
         C, labels, elapsed, S, E = fair_clustering(X, K, U, V, lmbda, args.L, fairness, cluster_option, cluster_init=C_init, labels_init=labels_init)
         print("C - ")
-        print(C.shape)
+        print(C)
         print("S - ")
-        print(S.shape)
+        print(S)
         print("l - ")
         print(labels)
 
