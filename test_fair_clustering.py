@@ -147,7 +147,7 @@ def main(args):
 
 # Calculate elapsed time used by loop
     avgelapsed = sum(elapsetimes)/len(elapsetimes)
-    print('avg elapsed ', avgelapsed)
+    # print('avg elapsed ', avgelapsed)
 
 # Add few more plots if cluster options have them
     if plot_option_fairness_vs_clusterE is True and length_lmbdas > 1:

@@ -12,7 +12,6 @@ from numba import jit
 import numexpr as ne
 import time
 
-
 def kmeans_update(tmp):
     # print("ID of process running worker: {}".format(os.getpid()))
     X = utils.SHARED_VARS['X_i']
@@ -84,7 +83,6 @@ def compute_energy_fair_clustering(X, C, labels, S, U, V, bound_lambda, A=None, 
     E = clustering_E + fairness_E
     return E, clustering_E, fairness_E, clustering_E_discrete
 
-
 # Initialise cluster centers
 def km_init(X, K, cluster_init, labels_init=None):
 
@@ -105,7 +103,6 @@ def km_init(X, K, cluster_init, labels_init=None):
     del cluster_init, labels_init
 
     return C, labels
-
 
 def restore_nonempty_cluster(X, K, oldlabels, oldC, oldS, ts):
     ts_limit = 2
