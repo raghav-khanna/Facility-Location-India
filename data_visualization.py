@@ -183,6 +183,30 @@ def plot_convergence(cluster_option, filename, E_fair):
     plt.savefig(filename, format='png', dpi = 800, bbox_inches='tight')
     plt.show()
     plt.close('all')
+
+def plotMap(X, C) : 
+    x_coordinates = [point[0] for point in X]
+    y_coordinates = [point[1] for point in X]
+
+    print("Showing the plot")
+    # Create a scatter plot
+    plt.scatter(x_coordinates, y_coordinates, marker='x', color='b', label='Data Points')
+    
+    x_coordinates = [point[0] for point in C]
+    y_coordinates = [point[1] for point in C]
+
+    plt.scatter(x_coordinates, y_coordinates, marker='o', color='r', label='Cluster Centers', s=80)
+
+
+    # Customize the plot (optional)
+    plt.title('Scatter Plot of Data Points')
+    plt.xlabel('X-axis')
+    plt.ylabel('Y-axis')
+
+    # Show the plot
+    plt.legend()
+    plt.grid(True)
+    plt.savefig('scatter_plot.png')
     
 if __name__ == '__main__':
     cluster_option = 'ncut'

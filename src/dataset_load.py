@@ -7,7 +7,7 @@ def read_dataset(data_dir):
     # Initialise variables
     data = []
     protected_groups = []
-    K = 7
+    K = 15
     _path = 'Facility.data'  # Big dataset with 41108 samples
     data_path = os.path.join(data_dir, _path)
 

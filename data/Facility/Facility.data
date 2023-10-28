@@ -9,4 +9,633 @@ id,name,state,pop_density,latitude,longitude
 8,Pune,Maharashtra,603,0.322582,1.289061
 9,Mumbai Suburban,Maharashtra,20980,0.333909,1.272195
 10,Barddhaman,West Bengal,1099,0.405518,1.533587
-11,Nadia,West Bengal,1316,0.408495,1.542186
+11,Ahmadabad,Gujarat,890,0.401980,1.265899
+12,Murshidabad,West Bengal,1334,0.421878,1.540808
+13,Jaipur,Rajasthan,595,0.469577,1.322206
+14,Nashik,Maharashtra,393,0.348765,1.287309
+15,Surat,Gujarat,1337,0.369784,1.271465
+16,Allahabad,Uttar Pradesh,1086,0.444159,1.428241
+17,Paschim Medinipur,West Bengal,631,0.390751,1.523267
+18,Patna,Bihar,1823,0.446876,1.485046
+19,Hugli,West Bengal,1753,0.399208,1.538872
+20,Rangareddy,Andhra Pradesh,707,0.302232,1.360064
+21,Nadia,West Bengal,1316,0.408495,1.542186
+22,East Godavari,Andhra Pradesh,477,0.296216,1.435373
+23,Purba Champaran,Bihar,1285,0.464404,1.482697
+24,Purba Medinipur,West Bengal,1081,0.383172,1.532444
+25,Guntur,Andhra Pradesh,429,0.284531,1.404016
+26,Haora,West Bengal,3306,0.394717,1.541091
+27,Muzaffarpur,Bihar,1514,0.455925,1.490346
+28,Belgaum,Karnataka,356,0.276900,1.300422
+29,Moradabad,Uttar Pradesh,1283,0.503308,1.374535
+30,Ghaziabad,Uttar Pradesh,3971,0.500665,1.351448
+31,Nagpur,Maharashtra,470,0.369114,1.380523
+32,Chennai,Tamil Nadu,26553,0.228395,1.399104
+33,Azamgarh,Uttar Pradesh,1138,0.455280,1.451934
+34,Lucknow,Uttar Pradesh,1816,0.467626,1.412179
+35,Kanpur Nagar,Uttar Pradesh,1452,0.458991,1.401930
+36,Ahmadnagar,Maharashtra,266,0.411741,1.273569
+37,Krishna,Andhra Pradesh,518,0.282563,1.416161
+38,Kolkata,West Bengal,24306,0.395524,1.543142
+39,Jaunpur,Uttar Pradesh,1113,0.449678,1.443125
+40,Madhubani,Bihar,1282,0.462774,1.479399
+41,Sitapur,Uttar Pradesh,781,0.481302,1.407975
+42,Bareilly,Uttar Pradesh,1080,0.495047,1.386257
+43,Gorakhpur,Uttar Pradesh,1337,0.466850,1.455071
+44,Agra,Uttar Pradesh,1093,0.474587,1.361269
+45,Gaya,Bihar,883,0.432758,1.483454
+46,Solapur,Maharashtra,290,0.308269,1.325013
+47,Visakhapatnam,Andhra Pradesh,384,0.308567,1.452099
+48,Samastipur,Bihar,1467,0.451357,1.497110
+49,Jalgaon,Maharashtra,360,0.366579,1.318773
+50,Chittoor,Andhra Pradesh,275,0.230406,1.380297
+51,Vadodara,Gujarat,552,0.389375,1.277118
+52,Muzaffarnagar,Uttar Pradesh,1034,0.514276,1.356259
+53,Malappuram,Kerala,1157,0.192722,1.327916
+54,Hardoi,Uttar Pradesh,684,0.478105,1.398629
+55,Anantapur,Andhra Pradesh,213,0.256126,1.354202
+56,Raipur,Chhattisgarh,328,0.370534,1.425121
+57,Kurnool,Andhra Pradesh,230,0.276277,1.361847
+58,Mahbubnagar,Andhra Pradesh,220,0.292240,1.361391
+59,Kheri,Uttar Pradesh,524,0.487031,1.410175
+60,Kancheepuram,Tamil Nadu,892,0.223920,1.391097
+61,Maldah,West Bengal,1069,0.439370,1.496785
+62,Saran,Bihar,1496,0.451963,1.480005
+63,Hyderabad,Andhra Pradesh,18172,0.304425,1.369394
+64,Darbhanga,Bihar,1728,0.456283,1.499301
+65,West Godavari,Andhra Pradesh,509,0.291726,1.415394
+66,Vellore,Tamil Nadu,648,0.225195,1.381074
+67,Pashchim Champaran,Bihar,753,0.473175,1.472157
+68,Kolhapur,Maharashtra,504,0.291182,1.295745
+69,Jalpaiguri,West Bengal,622,0.463062,1.548340
+70,Rajkot,Gujarat,340,0.388909,1.235581
+71,Sultanpur,Uttar Pradesh,856,0.458178,1.432451
+72,Karimnagar,Andhra Pradesh,319,0.321885,1.381026
+73,Thiruvallur,Tamil Nadu,1098,0.229175,1.394816
+74,Aurangabad,Maharashtra,366,0.432005,1.472545
+75,Jodhpur,Rajasthan,161,0.458065,1.274115
+76,Bijnor,Uttar Pradesh,807,0.512798,1.363786
+77,Budaun,Uttar Pradesh,712,0.489289,1.381008
+78,Varanasi,Uttar Pradesh,2395,0.441222,1.447620
+79,Alwar,Rajasthan,438,0.481164,1.337159
+80,Aligarh,Uttar Pradesh,1007,0.486850,1.362799
+81,North West,Delhi,8254,0.502142,1.345466
+82,Ghazipur,Uttar Pradesh,1072,0.446593,1.458572
+83,Bankura,West Bengal,523,0.405589,1.519385
+84,Kushinagar,Uttar Pradesh,1227,0.466690,1.464435
+85,Ganjam,Odisha,430,0.337031,1.479957
+86,Warangal,Andhra Pradesh,273,0.314073,1.388655
+87,Birbhum,West Bengal,771,0.416157,1.529509
+88,Ludhiana,Punjab,978,0.539319,1.323926
+89,Vaishali,Bihar,1717,0.445438,1.483390
+90,Nalgonda,Andhra Pradesh,245,0.297534,1.383604
+91,Bahraich,Uttar Pradesh,666,0.481285,1.424176
+92,Salem,Tamil Nadu,665,0.203298,1.362414
+93,Saharanpur,Uttar Pradesh,940,0.523027,1.353386
+94,Viluppuram,Tamil Nadu,481,0.208508,1.387466
+95,Coimbatore,Tamil Nadu,731,0.192784,1.343530
+96,Meerut,Uttar Pradesh,1346,0.505800,1.356111
+97,Gonda,Uttar Pradesh,858,0.473603,1.430432
+98,Sitamarhi,Bihar,1492,0.464074,1.492421
+99,Rae Bareli,Uttar Pradesh,739,0.457637,1.418063
+100,Prakasam,Andhra Pradesh,193,0.271717,1.384782
+101,Nanded,Maharashtra,319,0.334528,1.349347
+102,Durg,Chhattisgarh,392,0.369931,1.418741
+103,Siwan,Bihar,1501,0.457737,1.472384
+104,Nagaur,Rajasthan,187,0.474771,1.286895
+105,Thiruvananthapuram,Kerala,1508,0.148134,1.343081
+106,Ernakulam,Kerala,1072,0.173945,1.331685
+107,Indore,Madhya Pradesh,841,0.396621,1.324120
+108,Purnia,Bihar,1011,0.449868,1.526767
+109,Barabanki,Uttar Pradesh,741,0.469972,1.417125
+110,Ballia,Uttar Pradesh,1087,0.492193,1.385172
+111,Pratapgarh,Uttar Pradesh,863,0.455280,1.451934
+112,Thrissur,Kerala,1031,0.183686,1.330650
+113,Banaskantha,Gujarat,290,0.424224,1.252267
+114,Unnao,Uttar Pradesh,682,0.463081,1.404664
+115,Deoria,Uttar Pradesh,1221,0.457006,1.483705
+116,Kozhikode,Kerala,1316,0.196505,1.322639
+117,Mumbai,Maharashtra,19652,0.333909,1.272195
+118,Tirunelveli,Tamil Nadu,460,0.151985,1.356846
+119,Katihar,Bihar,1005,0.445667,1.528421
+120,Udaipur,Rajasthan,262,0.429211,1.286483
+121,Madurai,Tamil Nadu,819,0.173422,1.363630
+122,Bhagalpur,Bihar,1182,0.440708,1.518258
+123,Medak,Andhra Pradesh,313,0.314932,1.365934
+124,Uttar Dinajpur,West Bengal,958,0.447535,1.539598
+125,Shahjahanpur,Uttar Pradesh,685,0.486573,1.394662
+126,Satara,Maharashtra,287,0.308703,1.291824
+127,Mysore,Karnataka,476,0.215019,1.337359
+128,Begusarai,Bihar,1549,0.443611,1.503351
+129,Sri Potti Sriramulu Nellore,Andhra Pradesh,227,0.252126,1.391786
+130,Rohtas,Bihar,763,0.429842,1.464612
+131,Puruliya,West Bengal,468,0.407163,1.507392
+132,Ranchi,Jharkhand,572,0.407841,1.488737
+133,Amravati,Maharashtra,237,0.365513,1.357169
+134,YSR,Andhra Pradesh,188,0.298052,1.425330
+135,Bhavnagar,Gujarat,287,0.379869,1.259169
+136,Nalanda,Bihar,1222,0.440094,1.491032
+137,Nagaon,Assam,711,0.292468,1.296694
+138,Sangli,Maharashtra,329,0.294209,1.302112
+139,Koch Bihar,West Bengal,832,0.459534,1.561304
+140,Araria,Bihar,993,0.456105,1.526493
+141,Palakkad,Kerala,627,0.188128,1.337921
+142,Khammam,Andhra Pradesh,175,0.301151,1.398889
+143,Yavatmal,Maharashtra,204,0.355774,1.363412
+144,Junagadh,Gujarat,311,0.375585,1.229680
+145,Adilabad,Andhra Pradesh,170,0.343321,1.370591
+146,South,Delhi,11060,0.497934,1.348216
+147,Bhojpur,Bihar,1139,0.405711,1.215986
+148,Tiruchirappalli,Tamil Nadu,604,0.188466,1.373434
+149,Srikakulam,Andhra Pradesh,463,0.319344,1.464376
+150,Maharajganj,Uttar Pradesh,909,0.473756,1.458399
+151,Dhanbad,Jharkhand,1316,0.415542,1.508516
+152,Tumkur,Karnataka,253,0.232699,1.345794
+153,Sikar,Rajasthan,346,0.481726,1.311675
+154,Bilaspur,Chhattisgarh,322,0.385112,1.433746
+155,Kollam,Kerala,1061,0.155086,1.336702
+156,Raigad,Maharashtra,368,0.323162,1.277270
+157,Fatehpur,Uttar Pradesh,634,0.452651,1.410400
+158,Cuttack,Odisha,667,0.357138,1.499176
+159,Cuddalore,Tamil Nadu,704,0.205248,1.392193
+160,Barmer,Rajasthan,92,0.449432,1.246279
+161,Buldana,Maharashtra,268,0.358341,1.329536
+162,Bid,Maharashtra,242,0.331468,1.322099
+163,Ajmer,Rajasthan,305,0.461982,1.302681
+164,Gulbarga,Karnataka,234,0.302656,1.340968
+165,Gopalganj,Bihar,1260,0.460999,1.474115
+166,Siddharthnagar,Uttar Pradesh,884,0.475792,1.447018
+167,Nizamabad,Andhra Pradesh,321,0.325816,1.363011
+168,Bharatpur,Rajasthan,503,0.475057,1.352670
+169,Mathura,Uttar Pradesh,763,0.343151,1.480537
+170,West,Delhi,19563,0.500045,1.345020
+171,Aurangabad,Bihar,769,0.432005,1.472545
+172,Kannur,Kerala,852,0.207118,1.315385
+173,Mayurbhanj,Odisha,242,0.382100,1.508162
+174,Firozabad,Uttar Pradesh,1038,0.473953,1.368330
+175,Mirzapur,Uttar Pradesh,567,0.438745,1.441110
+176,Amritsar,Punjab,928,0.552273,1.306668
+177,Tiruppur,Tamil Nadu,478,0.194192,1.349708
+178,Faizabad,Uttar Pradesh,1056,0.467252,1.433779
+179,Tiruvannamalai,Tamil Nadu,398,0.213579,1.379819
+180,Basti,Uttar Pradesh,917,0.467691,1.444113
+181,Jabalpur,Madhya Pradesh,473,0.404380,1.395153
+182,Latur,Maharashtra,343,0.321124,1.336208
+183,Bellary,Karnataka,290,0.264304,1.342629
+184,Giridih,Jharkhand,493,0.422140,1.506259
+185,Sabarkantha,Gujarat,328,0.412417,1.274125
+186,Bhilwara,Rajasthan,230,0.442399,1.302612
+187,Thanjavur,Tamil Nadu,705,0.187861,1.380983
+188,Ambedkar Nagar,Uttar Pradesh,1020,0.461220,1.442065
+189,Panchmahal,Gujarat,457,0.499632,1.349313
+190,Sagar,Madhya Pradesh,232,0.416019,1.374383
+191,Bhopal,Madhya Pradesh,855,0.405623,1.351430
+192,Rewa,Madhya Pradesh,375,0.428457,1.419371
+193,Bikaner,Rajasthan,78,0.488976,1.279578
+194,Surguja,Chhattisgarh,150,0.409237,1.452191
+195,Vizianagaram,Andhra Pradesh,359,0.316168,1.455815
+196,Rampur,Uttar Pradesh,987,0.502461,1.379293
+197,Baleshwar,Odisha,610,0.375174,1.517044
+198,Kheda,Gujarat,582,0.397087,1.268607
+199,Gurdaspur,Punjab,647,0.559211,1.316069
+200,Purbi Singhbhum,Jharkhand,644,0.393166,1.508996
+201,South West,Delhi,5446,0.498833,1.343521
+202,Erode,Tamil Nadu,391,0.198217,1.355863
+203,Khordha,Odisha,800,0.352171,1.494292
+204,North East,Delhi,36155,0.501002,1.348611
+205,Supaul,Bihar,919,0.455883,1.511424
+206,Satna,Madhya Pradesh,297,0.428938,1.411053
+207,Nawada,Bihar,890,0.434422,1.492942
+208,Mau,Uttar Pradesh,1288,0.452645,1.458506
+209,Chandrapur,Maharashtra,193,0.348274,1.384085
+210,Jalandhar,Punjab,836,0.546692,1.319206
+211,Dhar,Madhya Pradesh,268,0.394375,1.314345
+212,Bijapur,Karnataka,207,0.293721,1.321549
+213,Jamnagar,Gujarat,152,0.392122,1.222746
+214,Dindigul,Tamil Nadu,358,0.180952,1.360925
+215,Balrampur,Uttar Pradesh,642,0.459076,1.449987
+216,Jhunjhunun,Rajasthan,361,0.490847,1.315838
+217,Alappuzha,Kerala,1504,0.165773,1.332365
+218,Dahod,Gujarat,584,0.398682,1.295895
+219,Sundargarh,Odisha,216,0.386087,1.466782
+220,Anand,Gujarat,653,0.393731,1.273411
+221,Kachchh,Gujarat,46,0.410433,1.215081
+222,Chhindwara,Madhya Pradesh,177,0.385071,1.377701
+223,Dakshina Kannada,Karnataka,430,0.224564,1.314192
+224,Bokaro,Jharkhand,715,0.412884,1.503512
+225,Dhule,Maharashtra,285,0.364650,1.305023
+226,Churu,Rajasthan,147,0.493914,1.308388
+227,Pali,Rajasthan,164,0.449785,1.279708
+228,Mahesana,Gujarat,462,0.411947,1.263260
+229,Banka,Bihar,674,0.434308,1.517077
+230,Gwalior,Madhya Pradesh,446,0.457618,1.364616
+231,Pilibhit,Uttar Pradesh,551,0.499620,1.392967
+232,Firozpur,Punjab,382,0.539831,1.302249
+233,Madhepura,Bihar,1120,0.453354,1.516256
+234,Jhansi,Uttar Pradesh,398,0.444140,1.371138
+235,Ujjain,Madhya Pradesh,326,0.404534,1.322828
+236,Kottayam,Kerala,895,0.167323,1.335549
+237,Ganganagar,Rajasthan,179,0.522036,1.289389
+238,Morena,Madhya Pradesh,394,0.462562,1.361385
+239,Jalna,Maharashtra,254,0.346300,1.324483
+240,Chandauli,Uttar Pradesh,768,0.440821,1.453298
+241,Kota,Rajasthan,374,0.438840,1.323820
+242,Dhubri,Assam,896,0.454149,1.570488
+243,Davanagere,Karnataka,328,0.252339,1.325016
+244,Virudhunagar,Tamil Nadu,458,0.167328,1.360689
+245,Palamu,Jharkhand,442,0.422623,1.469546
+246,Raichur,Karnataka,228,0.282807,1.350065
+247,Sonitpur,Assam,370,0.467433,1.613541
+248,Saharsa,Bihar,1127,0.451750,1.511492
+249,Patiala,Punjab,570,0.529576,1.333312
+250,Hardwar,Uttarakhand,801,0.522503,1.363121
+251,Bagalkot,Karnataka,288,0.282031,1.320443
+252,Farrukhabad,Uttar Pradesh,864,0.477877,1.389397
+253,Krishnagiri,Tamil Nadu,367,0.408409,1.544559
+254,Khargone,Madhya Pradesh,233,0.380805,1.319695
+255,Kanniyakumari,Tamil Nadu,1111,0.141097,1.353496
+256,Mainpuri,Uttar Pradesh,677,0.475242,1.379367
+257,Sonbhadra,Uttar Pradesh,270,0.430895,1.449737
+258,Dharwad,Karnataka,434,0.269694,1.309014
+259,Darjiling,West Bengal,586,0.471802,1.540424
+260,Jyotiba Phule Nagar,Uttar Pradesh,818,0.503984,1.366316
+261,Parbhani,Maharashtra,295,0.336272,1.340076
+262,Jalor,Rajasthan,172,0.442440,1.267564
+263,Jajapur,Odisha,630,0.363830,1.506757
+264,Akola,Maharashtra,320,0.361462,1.343986
+265,Faridabad,Hariyana,2442,0.495987,1.349271
+266,Mandya,Karnataka,364,0.218518,1.341997
+267,Kendujhar,Odisha,217,0.375481,1.495124
+268,Banda,Uttar Pradesh,408,0.444799,1.402156
+269,Banswara,Rajasthan,397,0.411008,1.299131
+270,Kanpur Dehat,Uttar Pradesh,595,0.461411,1.393856
+271,Hassan,Karnataka,261,0.227142,1.328238
+272,Hanumangarh,Rajasthan,184,0.517016,1.296645
+273,Etah,Uttar Pradesh,730,0.481038,1.372768
+274,Chhatarpur,Madhya Pradesh,203,0.434652,1.389159
+275,Jamui,Bihar,568,0.435143,1.504938
+276,Surendranagar,Gujarat,168,0.396702,1.250366
+277,Shimoga,Karnataka,207,0.243279,1.318830
+278,Thoothukkudi,Tamil Nadu,369,0.153750,1.363757
+279,Hisar,Hariyana,438,0.508642,1.321747
+280,Cachar,Assam,459,0.433046,1.621265
+281,Hazaribagh,Jharkhand,488,0.418561,1.489796
+282,Namakkal,Tamil Nadu,505,0.195876,1.364321
+283,Shivpuri,Madhya Pradesh,171,0.443695,1.355311
+284,West Tripura,Tripura,577,0.415746,1.595445
+285,Sant Kabir Nagar,Uttar Pradesh,1042,0.468894,1.448895
+286,East,Delhi,27132,0.499606,1.349037
+287,Buxar,Bihar,1002,0.446174,1.465649
+288,Valsad,Gujarat,567,0.359670,1.272787
+289,Bidar,Karnataka,313,0.312641,1.352815
+290,Bhind,Madhya Pradesh,382,0.463542,1.375077
+291,Balaghat,Madhya Pradesh,184,0.380703,1.399589
+292,Puri,Odisha,488,0.345804,1.498104
+293,Dehradun,Uttarakhand,549,0.529004,1.362131
+294,Barpeta,Assam,742,0.459389,1.588273
+295,Kishanganj,Bihar,897,0.455599,1.535027
+296,Jalaun,Uttar Pradesh,370,0.456294,1.384660
+297,Dakshin Dinajpur,West Bengal,755,0.442445,1.546267
+298,Khagaria,Bihar,1122,0.445234,1.509313
+299,Chitradurga,Karnataka,197,0.248391,1.333421
+300,Osmanabad,Maharashtra,219,0.317461,1.327066
+301,Kannauj,Uttar Pradesh,792,0.472198,1.394872
+302,Sangrur,Punjab,457,0.527934,1.323718
+303,Balangir,Odisha,251,0.361289,1.457062
+304,Udham Singh Nagar,Uttarakhand,649,0.505389,1.389840
+305,Nandurbar,Maharashtra,277,0.373008,1.295863
+306,Gautam Buddha Nagar,Uttar Pradesh,1286,0.497551,1.353202
+307,Bhiwani,Hariyana,342,0.502651,1.328859
+308,Dausa,Rajasthan,476,0.469428,1.332193
+309,Kaimur,Bihar,488,0.436790,1.458709
+310,Janjgir - Champa,Chhattisgarh,420,0.384118,1.441341
+311,Pudukkottai,Tamil Nadu,348,0.181124,1.375539
+312,Nagapattinam,Tamil Nadu,629,0.188336,1.393475
+313,Ratnagiri,Maharashtra,197,0.296557,1.279536
+314,Kaushambi,Uttar Pradesh,899,0.444569,1.421545
+315,Haveri,Karnataka,331,0.258236,1.316001
+316,Hoshiarpur,Punjab,469,0.550223,1.324930
+317,Etawah,Uttar Pradesh,684,0.467458,1.379194
+318,Sant Ravidas Nagar,Uttar Pradesh,1555,0.442415,1.439340
+319,Kalahandi,Odisha,199,0.346773,1.450362
+320,Betul,Madhya Pradesh,157,0.382354,1.359641
+321,Mahamaya Nagar,Uttar Pradesh,850,0.368592,1.380728
+322,Dewas,Madhya Pradesh,223,0.400674,1.327218
+323,Bharuch,Gujarat,238,0.378853,1.274034
+324,Rajgarh,Madhya Pradesh,251,0.419017,1.339154
+325,Chittaurgarh,Rajasthan,197,0.434232,1.302407
+326,Rajnandgaon,Chhattisgarh,190,0.368149,1.414190
+327,Kolar,Karnataka,386,0.229251,1.363570
+328,Jammu,Jammu and Kashmir,653,0.570757,1.306761
+329,Kamrup,Assam,489,0.453795,1.593296
+330,Gurgaon,Hariyana,1204,0.496715,1.344984
+331,Amreli,Gujarat,205,0.377006,1.243037
+332,Shajapur,Madhya Pradesh,244,0.408836,1.331271
+333,Kangra,Himachal Pradesh,263,0.560278,1.331219
+334,Dharmapuri,Tamil Nadu,335,0.211880,1.364117
+335,Bhadrak,Odisha,601,0.367624,1.509800
+336,Karnal,Hariyana,597,0.518112,1.343707
+337,Pashchimi Singhbhum,Jharkhand,208,0.392104,1.491852
+338,Raigarh,Chhattisgarh,211,0.382182,1.455517
+339,Deoghar,Jharkhand,602,0.427528,1.513044
+340,Bargarh,Odisha,254,0.372492,1.459614
+341,Vidisha,Madhya Pradesh,198,0.410510,1.358130
+342,Karauli,Rajasthan,264,0.462455,1.344260
+343,Ratlam,Madhya Pradesh,299,0.407209,1.309647
+344,Sonipat,Hariyana,683,0.506050,1.344356
+345,Tikamgarh,Madhya Pradesh,286,0.432077,1.375847
+346,Kendrapara,Odisha,545,0.358052,1.508257
+347,Uttara Kannada,Karnataka,140,0.258162,1.303756
+348,Kanshiram Nagar,Uttar Pradesh,735,0.368592,1.380728
+349,Tonk,Rajasthan,198,0.456659,1.322771
+350,Bastar,Chhattisgarh,135,0.335129,1.429966
+351,Jhalawar,Rajasthan,227,0.429238,1.329314
+352,Gandhinagar,Gujarat,650,0.405529,1.267910
+353,Koppal,Karnataka,250,0.267985,1.329087
+354,Dungarpur,Rajasthan,368,0.416347,1.286547
+355,Bathinda,Punjab,414,0.527233,1.308182
+356,Barwani,Madhya Pradesh,255,0.384575,1.307340
+357,Koraput,Odisha,157,0.328298,1.443578
+358,Auraiya,Uttar Pradesh,684,0.461875,1.387674
+359,Seoni,Madhya Pradesh,157,0.385547,1.388422
+360,Munger,Bihar,964,0.442942,1.509204
+361,Ramanathapuram,Tamil Nadu,330,0.163454,1.376225
+362,Patan,Gujarat,232,0.416278,1.258895
+363,Mandsaur,Madhya Pradesh,242,0.420257,1.310188
+364,Sivaganga,Tamil Nadu,316,0.172012,1.369864
+365,Sawai Madhopur,Rajasthan,297,0.454135,1.332670
+366,Jind,Hariyana,494,0.511552,1.332198
+367,Raisen,Madhya Pradesh,157,0.407216,1.357560
+368,Navsari,Gujarat,592,0.365584,1.272827
+369,Tinsukia,Assam,350,0.479773,1.664157
+370,Dibrugarh,Assam,392,0.479389,1.656551
+371,Garhwa,Jharkhand,323,0.421622,1.462481
+372,Gondiya,Maharashtra,253,0.374531,1.399672
+373,Dumka,Jharkhand,351,0.423553,1.522774
+374,Godda,Jharkhand,580,0.433262,1.522109
+375,Sehore,Madhya Pradesh,199,0.405031,1.345392
+376,Khandwa,Madhya Pradesh,178,0.380966,1.332532
+377,Kasaragod,Kerala,657,0.218562,1.309216
+378,Baghpat,Uttar Pradesh,986,0.505130,1.347721
+379,Wardha,Maharashtra,206,0.362222,1.371886
+380,Sirsa,Hariyana,303,0.515522,1.309628
+381,Katni,Madhya Pradesh,261,0.416096,1.403585
+382,Anugul,Odisha,200,0.363777,1.485294
+383,Thiruvarur,Tamil Nadu,556,0.187999,1.389772
+384,Damoh,Madhya Pradesh,173,0.415884,1.386482
+385,Chikkaballapura,Karnataka,296,0.236798,1.359000
+386,Kamrup Metropolitan,Assam,1313,0.455932,1.605138
+387,Theni,Tamil Nadu,434,0.175095,1.352387
+388,Guna,Madhya Pradesh,194,0.430163,1.349359
+389,Hoshangabad,Madhya Pradesh,185,0.396949,1.356813
+390,Srinagar,Jammu and Kashmir,625,0.594910,1.305510
+391,Karimganj,Assam,679,0.434052,1.611893
+392,Baran,Rajasthan,175,0.438122,1.335282
+393,Lalitpur,Uttar Pradesh,242,0.430943,1.368554
+394,Nabarangapur,Odisha,231,0.335597,1.440670
+395,Yamunanagar,Hariyana,687,0.526085,1.349057
+396,Korba,Chhattisgarh,183,0.390237,1.443730
+397,Dhaulpur,Rajasthan,398,0.466099,1.359443
+398,Panipat,Hariyana,951,0.512902,1.343441
+399,Bhandara,Maharashtra,294,0.369453,1.390107
+400,Pathanamthitta,Kerala,452,0.161721,1.340150
+401,Washim,Maharashtra,244,0.350970,1.346312
+402,Dhenkanal,Odisha,268,0.360555,1.493825
+403,Singrauli,Madhya Pradesh,208,0.422279,1.442938
+404,Udupi,Karnataka,329,0.232873,1.304587
+405,Hingoli,Maharashtra,244,0.344277,1.346501
+406,Yadgir,Karnataka,223,0.292489,1.346370
+407,Rajsamand,Rajasthan,248,0.437353,1.289555
+408,Sivasagar,Assam,431,0.471065,1.651603
+409,Sahibganj,Jharkhand,558,0.440467,1.529704
+410,Chikmagalur,Karnataka,158,0.232677,1.322445
+411,Jagatsinghapur,Odisha,682,0.353529,1.503970
+412,Ambala,Hariyana,717,0.529776,1.341327
+413,Sidhi,Madhya Pradesh,232,0.426022,1.429082
+414,Jehanabad,Bihar,1209,0.440092,1.483362
+415,Tarn Taran,Punjab,464,0.549023,1.307806
+416,Shrawasti,Uttar Pradesh,681,0.480096,1.431252
+417,Bundi,Rajasthan,192,0.443851,1.320217
+418,Idukki,Kerala,255,0.172102,1.343229
+419,Hamirpur,Uttar Pradesh,275,0.452983,1.398923
+420,Jorhat,Assam,383,0.466846,1.644036
+421,Narsimhapur,Madhya Pradesh,213,0.400577,1.382040
+422,Mewat,Hariyana,723,0.488879,1.344888
+423,Ramanagara,Karnataka,308,0.222016,1.348840
+424,Anantnag,Jammu and Kashmir,302,0.588832,1.311526
+425,Kaithal,Hariyana,464,0.520120,1.333557
+426,Gadchiroli,Maharashtra,74,0.343555,1.398638
+427,Golaghat,Assam,305,0.462682,1.640151
+428,Shahdol,Madhya Pradesh,172,0.406671,1.420064
+429,Saraikela-Kharsawan,Jharkhand,401,0.396173,1.499788
+430,Gadag,Karnataka,229,0.269245,1.320134
+431,Karur,Tamil Nadu,367,0.191073,1.363016
+432,Rohtak,Hariyana,608,0.504343,1.337102
+433,Chandigarh,Chandigarh,9258,0.536306,1.340036
+434,Mandla,Madhya Pradesh,182,0.394565,1.402706
+435,Chatra,Jharkhand,280,0.422473,1.481272
+436,Palwal,Hariyana,767,0.491180,1.349667
+437,Lakhimpur,Assam,458,0.487795,1.409794
+438,Sambalpur,Odisha,157,0.441006,1.536153
+439,Sirohi,Rajasthan,202,0.434343,1.271636
+440,Mahasamund,Chhattisgarh,216,0.368499,1.432883
+441,Gumla,Jharkhand,191,0.402223,1.475704
+442,Jhabua,Madhya Pradesh,285,0.397428,1.301927
+443,Chamarajanagar,Karnataka,181,0.208169,1.342963
+444,Panna,Madhya Pradesh,142,0.431326,1.399443
+445,Goalpara,Assam,553,0.456723,1.581525
+446,Baramula,Jammu and Kashmir,238,0.597088,1.297524
+447,Lakhisarai,Bihar,815,0.439181,1.502572
+448,Mandi,Himachal Pradesh,253,0.553411,1.342703
+449,Moga,Punjab,444,0.537876,1.312030
+450,Sahibzada Ajit Singh Nagar,Punjab,909,0.539038,1.324179
+451,Chitrakoot,Uttar Pradesh,308,0.439455,1.411567
+452,Bangalore Rural,Karnataka,431,0.221113,1.349295
+453,Rayagada,Odisha,137,0.334593,1.455845
+454,Kurukshetra,Hariyana,630,0.524864,1.340590
+455,Nayagarh,Odisha,248,0.351310,1.485199
+456,Jhajjar,Hariyana,523,0.499253,1.337918
+457,Morigaon,Assam,617,0.457946,1.609701
+458,Karbi Anglong,Assam,92,0.457015,1.631217
+459,Nainital,Uttarakhand,225,0.512990,1.386658
+460,Puducherry,Puducherry,3232,0.191009,1.392705
+461,Baksa,Assam,387,0.396639,1.540108
+462,Ramgarh,Jharkhand,708,0.412207,1.492670
+463,Fatehabad,Hariyana,371,0.515095,1.316867
+464,Darrang,Assam,586,0.465389,1.620041
+465,Mahendragarh,Hariyana,486,0.493395,1.329020
+466,Muktsar,Punjab,348,0.531819,1.300611
+467,Pakur,Jharkhand,497,0.429961,1.533223
+468,Rewari,Hariyana,565,0.492087,1.337253
+469,North,Delhi,14557,0.501691,1.347417
+470,Kokrajhar,Assam,269,0.460842,1.575519
+471,South Tripura,Tripura,287,0.408447,1.598979
+472,Mahoba,Uttar Pradesh,279,0.441449,1.394085
+473,Kupwara,Jammu and Kashmir,366,0.593945,1.296154
+474,Pratapgarh,Rajasthan,195,0.455280,1.451934
+475,Jashpur,Chhattisgarh,146,0.399335,1.468431
+476,Sindhudurg,Maharashtra,163,0.283181,1.285576
+477,Ashoknagar,Madhya Pradesh,181,0.428868,1.356744
+478,Udalguri,Assam,413,0.466774,1.607428
+479,Neemuch,Madhya Pradesh,194,0.427194,1.306596
+480,East Khasi Hills,Meghalaya,301,0.499606,1.349037
+481,Kabirdham,Chhattisgarh,194,0.385446,1.418131
+482,North Goa,Goa,471,0.271134,1.290329
+483,Wayanad,Kerala,384,0.203964,1.328073
+484,Kapurthala,Punjab,499,0.547637,1.315804
+485,Shimla,Himachal Pradesh,159,0.542852,1.346896
+486,Tapi,Gujarat,257,0.367370,1.281148
+487,Dhamtari,Chhattisgarh,196,0.361382,1.423272
+488,Jamtara,Jharkhand,437,0.418236,1.515020
+489,Datia,Madhya Pradesh,271,0.454315,1.364038
+490,Nalbari,Assam,733,0.489396,1.277562
+491,Mansa,Punjab,350,0.523510,1.315977
+492,Burhanpur,Madhya Pradesh,221,0.372018,1.330442
+493,Ariyalur,Tamil Nadu,389,0.194445,1.380169
+494,Badgam,Jammu and Kashmir,554,0.593683,1.304119
+495,Anuppur,Madhya Pradesh,200,0.403231,1.425774
+496,Kanker (Uttar Bastar Kanker),Chhattisgarh,105,0.353828,1.422312
+497,Bongaigaon,Assam,676,0.462167,1.580491
+498,The Nilgiris,Tamil Nadu,287,0.199869,1.338323
+499,Kandhamal,Odisha,91,0.352762,1.467840
+500,Alirajpur,Madhya Pradesh,229,0.389283,1.297741
+501,Latehar,Jharkhand,169,0.414387,1.474825
+502,Kodarma,Jharkhand,282,0.426489,1.492769
+503,Dindori,Madhya Pradesh,94,0.352710,1.288536
+504,Arwal,Bihar,1099,0.440562,1.477686
+505,North Tripura,Tripura,341,0.421024,1.609089
+506,Sheopur,Madhya Pradesh,104,0.448041,1.338587
+507,Garhwal,Uttarakhand,129,0.520653,1.374928
+508,Dhemaji,Assam,212,0.479675,1.650791
+509,Rupnagar,Punjab,505,0.540440,1.335541
+510,Jaisalmer,Rajasthan,17,0.469768,1.237739
+511,Hailakandi,Assam,497,0.430765,1.615570
+512,Koriya,Chhattisgarh,100,0.410991,1.436869
+513,Sheohar,Bihar,1880,0.462755,1.488651
+514,Umaria,Madhya Pradesh,158,0.410608,1.410886
+515,West Garo Hills,Meghalaya,175,0.447685,1.574520
+516,Rajouri,Jammu and Kashmir,244,0.582511,1.296926
+517,South Goa,Goa,326,0.263969,1.293609
+518,Sheikhpura,Bihar,924,0.438787,1.498249
+519,Almora,Uttarakhand,198,0.516587,1.390266
+520,Tehri Garhwal,Uttarakhand,170,0.530224,1.369498
+521,Faridkot,Punjab,424,0.535368,1.304789
+522,Kathua,Jammu and Kashmir,246,0.565037,1.318129
+523,Malkangiri,Odisha,106,0.320648,1.428923
+524,Shahid Bhagat Singh Nagar,Punjab,478,0.439165,1.414747
+525,Nuapada,Odisha,158,0.349867,1.443690
+526,Subarnapur,Odisha,261,0.363711,1.464423
+527,Fatehgarh Sahib,Punjab,509,0.534139,1.333510
+528,Simdega,Jharkhand,159,0.394708,1.474779
+529,Barnala,Punjab,402,0.530063,1.318477
+530,Narmada,Gujarat,210,0.379668,1.285482
+531,Porbandar,Gujarat,253,0.377690,1.215066
+532,Central,Delhi,27730,0.500011,1.347447
+533,Solan,Himachal Pradesh,300,0.539430,1.345695
+534,Jharsuguda,Odisha,274,0.381593,1.466304
+535,Gajapati,Odisha,134,0.335456,1.469346
+536,Harda,Madhya Pradesh,171,0.389997,1.345562
+537,Perambalur,Tamil Nadu,322,0.196230,1.376551
+538,Panchkula,Hariyana,625,0.535638,1.341305
+539,Pulwama,Jammu and Kashmir,516,0.591214,1.307244
+540,Udhampur,Jammu and Kashmir,210,0.574693,1.311392
+541,Kodagu,Karnataka,135,0.215173,1.321724
+542,Dakshin Bastar Dantewada,Chhattisgarh,64,0.323772,1.422018
+543,Khunti,Jharkhand,210,0.402650,1.488457
+544,Sirmaur,Himachal Pradesh,188,0.433475,1.420082
+545,Una,Himachal Pradesh,338,0.363414,1.239890
+546,Chamba,Himachal Pradesh,80,0.568224,1.328610
+547,Imphal West,Manipur,998,0.430078,1.625851
+548,Pithoragarh,Uttarakhand,68,0.516367,1.400308
+549,Chirang,Assam,251,0.465213,1.581031
+550,Senapati,Manipur,146,0.442378,1.642614
+551,Punch,Jammu and Kashmir,285,0.589392,1.293151
+552,Lohardaga,Jharkhand,307,0.409217,1.478058
+553,Imphal East,Manipur,643,0.432938,1.639059
+554,Hamirpur,Himachal Pradesh,407,0.452983,1.398923
+555,Baudh,Odisha,142,0.361701,1.468452
+556,Kullu,Himachal Pradesh,80,0.557780,1.345810
+557,Kulgam,Jammu and Kashmir,1035,0.587209,1.309323
+558,Thoubal,Manipur,821,0.430028,1.640546
+559,Doda,Jammu and Kashmir,46,0.578555,1.318528
+560,Aizawl,Mizoram,112,0.414236,1.618236
+561,Jaintia Hills,Meghalaya,103,0.441933,1.612248
+562,Bandipora,Jammu and Kashmir,1137,0.602267,1.305001
+563,Chamoli,Uttarakhand,49,0.530627,1.384623
+564,West Khasi Hills,Meghalaya,73,0.447685,1.574520
+565,Bilaspur,Himachal Pradesh,327,0.385112,1.433746
+566,Dimapur,Nagaland,409,0.452190,1.635748
+567,Dhalai,Tripura,158,0.416863,1.604663
+568,Dadra & Nagar Haveli,Dadra and Nagar Haveli,700,0.353284,1.274389
+569,Uttarkashi,Uttarakhand,41,0.536307,1.369062
+570,Samba,Jammu and Kashmir,353,0.568293,1.311062
+571,East Garo Hills,Meghalaya,122,0.448729,1.581867
+572,Reasi,Jammu and Kashmir,183,0.577375,1.306072
+573,Debagarh,Odisha,106,0.375903,1.478882
+574,Ganderbal,Jammu and Kashmir,1148,0.597425,1.305128
+575,Ramban,Jammu and Kashmir,213,0.580161,1.313145
+576,East District,Sikkim,297,0.476249,1.547724
+577,Churachandpur,Manipur,60,0.424700,1.634850
+578,Kohima,Nagaland,183,0.448092,1.642504
+579,Shupiyan,Jammu and Kashmir,853,0.588477,1.306102
+580,Bageshwar,Uttarakhand,116,0.520764,1.392274
+581,Champawat,Uttarakhand,147,0.511982,1.397887
+582,Bijapur,Chhattisgarh,30,0.293721,1.321549
+583,Mon,Nagaland,140,0.466628,1.659082
+584,Rudraprayag,Uttarakhand,122,0.532912,1.379517
+585,South Andaman,Andaman and Nicobar,89,0.205470,1.616570
+586,Bishnupur,Manipur,479,0.429838,1.636420
+587,Kishtwar,Jammu and Kashmir,140,0.581430,1.322388
+588,The Dangs,Gujarat,129,0.362955,1.285882
+589,Dima Hasao,Assam,44,0.442577,1.623882
+590,Karaikal,Puducherry,1275,0.190807,1.393404
+591,Tuensang,Nagaland,78,0.458011,1.654829
+592,Mokokchung,Nagaland,121,0.459440,1.649706
+593,Daman,Daman and Diu,2655,0.356914,1.271598
+594,Ukhrul,Manipur,40,0.438419,1.646965
+595,Papum Pare,Arunachal Pradesh,51,0.473991,1.632243
+596,Wokha,Nagaland,102,0.455498,1.645087
+597,Phek,Nagaland,81,0.447968,1.649336
+598,Lunglei,Mizoram,36,0.399542,1.618702
+599,Changlang,Arunachal Pradesh,32,0.473539,1.670889
+600,South District,Sikkim,196,0.497934,1.348216
+601,Lohit,Arunachal Pradesh,28,0.485837,1.679047
+602,Chandel,Manipur,44,0.422710,1.642328
+603,South Garo Hills,Meghalaya,75,0.441512,1.581012
+604,New Delhi,Delhi,4057,0.498417,1.346760
+605,Kargil,Jammu and Kashmir,10,0.603145,1.328653
+606,Zunheboto,Nagaland,112,0.453204,1.649627
+607,Tamenglong,Manipur,32,0.436619,1.631629
+608,Narayanpur,Chhattisgarh,30,0.311695,1.343443
+609,West District,Sikkim,117,0.477218,1.539052
+610,Leh,Jammu and Kashmir,3,0.596073,1.353962
+611,Champhai,Mizoram,39,0.411188,1.627274
+612,Lawngtlai,Mizoram,46,0.393267,1.621394
+613,West Siang,Arunachal Pradesh,13,0.492505,1.651837
+614,Tirap,Arunachal Pradesh,47,0.470409,1.665692
+615,North & Middle Andaman,Andaman and Nicobar,28,0.230629,1.622170
+616,East Siang,Arunachal Pradesh,28,0.488589,1.660420
+617,Peren,Nagaland,58,0.445031,1.633957
+618,Kurung Kumey,Arunachal Pradesh,15,0.488011,1.632130
+619,Mamit,Mizoram,29,0.417605,1.614249
+620,Kinnaur,Himachal Pradesh,13,0.551930,1.368595
+621,Kolasib,Mizoram,61,0.422786,1.617548
+622,West Kameng,Arunachal Pradesh,11,0.476988,1.612729
+623,Upper Subansiri,Arunachal Pradesh,12,0.492153,1.642771
+624,Lower Subansiri,Arunachal Pradesh,24,0.482096,1.640044
+625,East Kameng,Arunachal Pradesh,19,0.479196,1.624069
+626,Kiphire,Nagaland,65,0.452005,1.653346
+627,Serchhip,Mizoram,46,0.406542,1.620482
+628,Lakshadweep,Lakshadweep,2149,0.196823,1.292295
+629,Saiha,Mizoram,40,0.392556,1.622832
+630,Yanam,Puducherry,1854,0.292027,1.434834
+631,Lower Dibang Valley,Arunachal Pradesh,14,0.492811,1.671964
+632,Diu,Daman and Diu,1335,0.361487,1.238311
+633,Longleng,Nagaland,90,0.462336,1.654881
+634,Tawang,Arunachal Pradesh,23,0.481260,1.604383
+635,North District,Sikkim,10,0.484119,1.545312
+636,Mahe,Puducherry,4646,0.204233,1.318380
+637,Upper Siang,Arunachal Pradesh,5,0.503631,1.657685
+638,Lahul & Spiti,Himachal Pradesh,2,0.568110,1.354642
+639,Anjaw,Arunachal Pradesh,3,0.489835,1.689981
+640,Dibang Valley,Arunachal Pradesh,1,0.506346,1.672633

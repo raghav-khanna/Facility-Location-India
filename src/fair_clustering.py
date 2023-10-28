@@ -71,7 +71,7 @@ def compute_energy_fair_clustering(X, C, labels, S, U, V, bound_lambda, A=None, 
     # Clustering term
     h_dist = hs_dist(X, C)
     h_dist2 = h_dist**2
-    clustering_E = ne.evaluate('S*e_dist').sum()
+    clustering_E = ne.evaluate('S*h_dist2').sum()
     clustering_E_discrete = [km_discrete_energy(h_dist2, labels, k) for k in range(K)]
     clustering_E_discrete = sum(clustering_E_discrete)
 
@@ -183,13 +183,13 @@ def fair_clustering(X, K, U, V, lmbda, L, fairness=False, method='kmeans', clust
             S = get_S_discrete(labels, N, K)
             labels = km_le(X, C)
 
-        currentE, clusterE, fairE, clusterE_discrete = compute_energy_fair_clustering(X, C, labels, S, bound_update, V, lmbda, A=A, method_cl=method)
+        currentE, clusterE, fairE, clusterE_discrete = compute_energy_fair_clustering(X, C, labels, S, U, V, lmbda, A=A, method_cl=method)
         E_org.append(currentE)
         E_cluster.append(clusterE)
         E_fair.append(fairE)
         E_cluster_discrete.append(clusterE_discrete)
 
-        if (len(np.unique(l)) != K) or math.isnan(fairness_error):
+        if (len(np.unique(labels)) != K) or math.isnan(fairness_error):
             labels, C, S, trivial_status = restore_nonempty_cluster(X, K, oldlabels, oldC, oldS, ts)
             ts = ts+1
             if trivial_status:
