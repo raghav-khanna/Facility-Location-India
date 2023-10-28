@@ -1,7 +1,6 @@
 numpy
 numba
 pandas
-pyflann3
 numexpr
 scipy
 requests
