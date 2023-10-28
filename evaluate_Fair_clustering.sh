@@ -17,15 +17,3 @@ py test_fair_clustering.py -d $dataset \
                             #  --plot_option_clusters_vs_lambda $c_v_l \
                             #  --plot_option_fairness_vs_clusterE $f_v_E \
                             #  --plot_option_convergence $conv
-
-#dataset=Bank
-#cluster_option=ncut
-#lmd=40
-#python test_fair_clustering.py -d $dataset \
-#                             --cluster_option $cluster_option \
-#                             --lmbda-tune $lmd_tune \
-#                             --lmbda $lmd \
-#                             --L 1.0 \
-#                             --plot_option_clusters_vs_lambda $c_v_l \
-#                             --plot_option_fairness_vs_clusterE $f_v_E \
-#                             --plot_option_convergence $conv
