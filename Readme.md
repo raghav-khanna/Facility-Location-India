@@ -3,14 +3,18 @@
 ## Description of codebase
 
 	1. data folder
-		1. 
+		1. Contains the final CSV file with combined extracted data of districts (districtsCompleteData.csv) and the first visualization using K=15 (CLUSTERING_FIGURE_FIRST.png)
+        2. results folder 
+            1. Contains example animation(gif), output(txt), image(png)
     2. constants.py
        1. Contains code to calculate haversine distance between 2 geolocations (as a distance measure for kmeans clustering)
 	3. dataCollection.py
-      	1. 
+      	1. get_districts('https://www.censusindia.co.in/districts') is used for extracting information of districts (name, state and population density) from the 2011 census website
+        2. getLatLong() is used for extracting the Latitude and Longitude for each district using the API provided by 'http://api.positionstack.com/v1/forward' and finally making a new CSV by combining the information of districts and their location information
+        3. get_location_info(district) is a helper function for getLatLong() that makes the API call for the district(passed as an argument)
 	4. kmeanspp.py
       	1. NOTE: Ensure that the data is already exists in the postgres database before running this file
-      	2. File takes flag input 
+      	2. File takes flag input (use -f for number of clusters(K), for ex. - py kmeanspp.py -f 3)
       	3. Primarily uses PyClustering library
       	4. Contains code for
          	1. Retrieve features of the dataset
@@ -34,6 +38,6 @@ The console output file is present [here](/Data/results/28-output.txt)
 <div align="center"><img src="Data/results/28-map.png" alt=""/></div>
 
 #### Animation
-<div align="center"><img src="Data/results/28-map.gif" alt=""/></div>
+<div align="center"><img src="Data/results/28-movie.gif" alt=""/></div>
 
 ---
