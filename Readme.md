@@ -31,8 +31,8 @@ Locate facilities all across India based on district-wise population density. As
     1. Contains code for Kmeans clustering with Kmeans++ initialization.
     2. The implementation uses Pyclustering library, outputs final centers, final clusters, SSE, plot and animation of the clustering
 3. Ziko_etal Branch
-    1. Based on [Variational Fair Clustering](https://arxiv.org/abs/1906.08207)
-    2. This clustering method helps you to find clusters with specified proportions of different demographic groups pertaining to a sensitive attribute of the dataset (population density in our case)
+    1. Based on the paper, Variational Fair Clustering by Ziko et.al (https://arxiv.org/abs/1906.08207)
+    2. This clustering method, based on balance fairness notion, helps you to find clusters with specified proportions of different demographic groups pertaining to a sensitive attribute of the dataset (population density in our case)
 4. CMLBDA Branch
     1. The purpose of this branch was to simulate Vanilla Kmeans batch jobs for a set of values of K (no. of clusters) on the lab workstations.
     2. Vanilla Kmeans output for all values of K from 1 to 640 was collected and stored using this branch.
