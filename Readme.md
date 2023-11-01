@@ -5,14 +5,14 @@ Welcome to Facility location repository.
 ---
 
 ## Purpose
-The motivation behind this repository and study is to compare of performance of (Vanilla) Clustering algorithm (K-means) and algorithms based on fairness notions for the same dataset.
+The motivation behind this repository and the analysis behind it, is to compare performance of (Vanilla) K-means Clustering algorithm and algorithms based on fairness notions for the same dataset.
 
 ---
 
 ## Problem Description 
 
 #### The Facility-Location problem: 
-This problem concerned with the optimal placement of facilities based on certain parameters like distance and ease of transportation.
+This problem is concerned with the optimal placement of facilities based on certain parameters like distance and ease of transportation.
 
 #### Dataset:
 Locate facilities all across India based on district-wise population density. As per 2011 Census, there are 640 Districts of India.
