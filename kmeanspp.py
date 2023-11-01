@@ -7,9 +7,8 @@ from constants import haversine
 import time
 import argparse
 
+
 # The function for performing kmeans using the pyclustering library
-
-
 def perform_kmeans(data, no_of_facilities):
     print('***********************************************************************\nProcessing of data starts')
     try:
@@ -126,4 +125,3 @@ if __name__ == "__main__":
     main()
     end = time.time()
     print("Time taken: ", (end - start)*1000, "ms")
-
