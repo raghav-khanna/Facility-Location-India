@@ -127,11 +127,6 @@ def getLatLong():
 
 if __name__ == "__main__":
     main()
-
-    # # lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
-    # districts_url = 'https://www.censusindia.co.in/districts'
-    # get_districts(districts_url)
-
     # # Creates the combined data CSV file
     # getLatLong()
     # # print("Hello")
