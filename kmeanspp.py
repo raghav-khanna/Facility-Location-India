@@ -55,16 +55,14 @@ def display_results(coordinates, coordinate_id_mapper, initial_centers, kmeans_i
     sse = kmeans_instance.get_total_wce()
     print('SSE of the clustering is', sse)
 
-    # plt = kmeans_visualizer.show_clusters(coordinates, final_clusters, final_centers, initial_centers=initial_centers, display=False)
-    # mapFileName = "data/results/" + str(args.no_of_facilities) + "-map.png"
-    # plt.savefig(mapFileName)
+# Code for Visualization - Creating image(PNG) for clusters
+    plt = kmeans_visualizer.show_clusters(coordinates, final_clusters, final_centers, initial_centers=initial_centers, display=False)
+    mapFileName = "data/results/" + str(args.no_of_facilities) + "-map.png"
+    plt.savefig(mapFileName)
 
+# Code for Visualization - Creating animation(GIF) for clusters
     movieFileName = "data/results/" + str(args.no_of_facilities) + "-movie.mov"
     kmeans_visualizer.animate_cluster_allocation(coordinates, observer, save_movie=movieFileName)
-
-    # pip install numpy==1.23.4
-    # CHECK if this function produces an animation?!
-    # plt = kmeans_visualizer.animate_cluster_allocation(data, clusters, observer...)
 
 
 def main():
