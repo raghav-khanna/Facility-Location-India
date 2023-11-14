@@ -1,5 +1,6 @@
 .env
 .flake8
+data/
 .pep8
 try.py
 .DS_Store
