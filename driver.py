@@ -43,15 +43,15 @@ def plotter(data, info):
 
 def input_max_K():
     K = int(input("Till what value of K do you want to plot (number should be less than 645 and greater than 1)): "))
-    if K.isnumeric() is False or K > 645 or K < 1:
+    if str(K).isnumeric() is False or K > 645 or K < 1:
         exit(0)
     else:
         return K
 
 
 def main():
-    plot_till_value = 30
-    # plot_till_value = input_max_K()
+    plot_till_value = 640
+    plot_till_value = input_max_K()
     SSE, Time_taken = Collate_SSE_time_taken(plot_till_value)
     plotter(SSE, "SSE")
     plotter(Time_taken, "Time Taken")
