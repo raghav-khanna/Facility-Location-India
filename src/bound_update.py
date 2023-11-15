@@ -66,7 +66,7 @@ def bound_update(a_p, u_V, V_list, bound_lambda, L, bound_iteration=200, debug=F
     S = normalize_2(S)
 
     for i in range(bound_iteration):
-        printProgressBar(i + 1, bound_iteration, length=12)
+        # printProgressBar(i + 1, bound_iteration, length=12)
         # S = np.maximum(S, 1e-20)
         S_in = S.copy()
 

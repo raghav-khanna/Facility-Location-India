@@ -3,6 +3,7 @@ import os
 import sys
 import os.path as osp
 import numpy as np
+import sys
 from sklearn.preprocessing import scale
 from src.fair_clustering import fair_clustering, km_init
 import src.utils as utils
@@ -14,6 +15,33 @@ import warnings
 import matplotlib.pyplot as plt
 warnings.filterwarnings('ignore')
 
+np.set_printoptions(threshold=sys.maxsize)
+
+
+def showSensibleOutput(X, C, labels, protected_groups):
+    # For each cluster, find the number of points in each protected group
+    mapping = {}
+    print("----------------------------")
+    print("MAKING SENSE OF THE OUTPUT")
+    print("----------------------------")
+    for i in range(len(labels)):
+        if labels[i] not in mapping:
+            mapping[labels[i]] = {}
+            mapping[labels[i]][protected_groups[i]] = 1
+        elif protected_groups[i] not in mapping[labels[i]]:
+            mapping[labels[i]][protected_groups[i]] = 1
+        else:
+            mapping[labels[i]][protected_groups[i]] += 1
+
+    for key in mapping:
+        print("<-------------------------->")
+        print("Cluster Center : ", C[key])
+        print("Cluster Details -> ")
+        for k in mapping[key]:
+            print("Protected Group : ", k, " Count : ", mapping[key][k])
+        print("<-------------------------->")
+
+    print(mapping)
 
 def main(args):
     if args.seed is not None:
@@ -108,12 +136,12 @@ def main(args):
 
     # Calculate clustering measures
         C, labels, elapsed, S, E = fair_clustering(X, K, U, V, lmbda, args.L, fairness, cluster_option, cluster_init=C_init, labels_init=labels_init)
-        print("C - ")
-        print(C)
-        print("S - ")
-        print(S)
-        print("l - ")
-        print(labels)
+        # print("C - ")
+        # print(C)
+        # print("S - ")
+        # print(S)
+        # print("l - ")
+        # print(labels)
 
     # Calculate fairness measures
         min_balance, avg_balance = get_fair_accuracy(U, V, labels, N, K)
@@ -152,11 +180,14 @@ def main(args):
     # denormalized_final_cluster = utils.denormalizefea(normalized_final_cluster, X_unnormalised)
     # print("DENORMALIZED - ")
     # print(denormalized_final_cluster)
-    print("-------------------")
+    print("********************FINAL OUTPUT**************************")
     print(X.shape)
+    print("---------------FINAL LABELS-------------------")
+    print(labels)
     print("Final Cluster - ")
     print(C)
-    plotMap(X, C)
+    plotMap(X, C, protected_groups, labels)
+    showSensibleOutput(X, C, labels, protected_groups)
 
 # Calculate elapsed time used by loop
     avgelapsed = sum(elapsetimes)/len(elapsetimes)

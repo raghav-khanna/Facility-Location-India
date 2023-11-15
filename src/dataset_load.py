@@ -9,7 +9,7 @@ def read_dataset(data_dir):
     data = []
     dataMap = {}
     protected_groups = []
-    K = 2
+    K = 6
     _path = 'Facility.data'  # Big dataset with 41108 samples
     data_path = os.path.join(data_dir, _path)
 

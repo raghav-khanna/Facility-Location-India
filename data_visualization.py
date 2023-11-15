@@ -156,17 +156,19 @@ def plot_convergence(cluster_option, filename, E_fair):
 
 
 # Create and save scatterplot (latitude, longitude)
-def plotMap(X, C):
-    x_coordinates = [point[0] for point in X]
-    y_coordinates = [point[1] for point in X]
+def plotMap(X, C, protected_groups, labels):
+    # Plotting Cluster Centers with 15 different colors hex values and marker='o' and s = 80
+    colors = ['#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#00FFFF', '#FF00FF', '#800000', '#008000', '#000080', '#808000', '#800080', '#008080', '#808080', '#C0C0C0', '#FFA500']
+    for i in range(len(C)):
+        plt.scatter(C[i][0], C[i][1], marker='o', color=colors[i], s=100)
+
+    # Plotting Data Points with colors based on their cluster labels and 12 different markers based on protected_groups
+    markers = ['x', 'd', 'v', '^', '<', '>', '1', '2', '3', '4', '8', 's']
+    for i in range(len(X)):
+        plt.scatter(X[i][0], X[i][1], marker=markers[protected_groups[i]], color=colors[labels[i]])
+
 
     print("Showing the plot")
-    # Create a scatter plot
-    plt.scatter(x_coordinates, y_coordinates, marker='x', color='b', label='Data Points')
-    x_coordinates = [point[0] for point in C]
-    y_coordinates = [point[1] for point in C]
-
-    plt.scatter(x_coordinates, y_coordinates, marker='o', color='r', label='Cluster Centers', s=80)
 
     # Customize the plot (optional)
     plt.title('Scatter Plot of Data Points')
