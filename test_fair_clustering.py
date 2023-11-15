@@ -53,9 +53,9 @@ def main(args):
     sys.stdout = Logger(log_path)
 
 # Scale and Normalize Features
-    X_unnormalised = scale(X_unnormalised, axis=0)
-    X = normalizefea(X_unnormalised)
-    # X = X_unnormalised
+    # X_unnormalised = scale(X_unnormalised, axis=0)
+    # X = normalizefea(X_unnormalised)
+    X = X_unnormalised
 
 # Store and print necessary variables for future use
     N, Tot_dim = X.shape
@@ -152,6 +152,8 @@ def main(args):
     # denormalized_final_cluster = utils.denormalizefea(normalized_final_cluster, X_unnormalised)
     # print("DENORMALIZED - ")
     # print(denormalized_final_cluster)
+    print("-------------------")
+    print(X.shape)
     print("Final Cluster - ")
     print(C)
     plotMap(X, C)
