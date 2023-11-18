@@ -50,7 +50,7 @@ def input_max_K():
 
 
 def main():
-    plot_till_value = 640
+    plot_till_value = 630
     plot_till_value = input_max_K()
     SSE, Time_taken = Collate_SSE_time_taken(plot_till_value)
     plotter(SSE, "SSE")

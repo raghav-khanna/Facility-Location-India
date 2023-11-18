@@ -27,8 +27,8 @@ def plotHeatMap():
     plt.show()
 
 
-def plotDemographicsOfCity(city_list):
-    city_res_pair = {}
+def plotDemographicsOfCities(city_list):
+    city_res_pair: dict[str, list[int]] = {}
     X = ['5-9', '10-14', '15-19', '20-24', '25-29', '30-34', '35-39', '40-49', '50-59', '60-69', '70-79', '80+']
     for city in city_list:
         try:
@@ -40,12 +40,12 @@ def plotDemographicsOfCity(city_list):
 
         Y: int = []
         for i in range(1, len(data)):
-            Y.append(int(data[i]/data[0]))
+            Y.append(int(data[i] / data[0]))
 
         city_res_pair[city] = Y
 
     x = np.arange(len(X))
-    width = 0.25  # the width of the bars
+    width = 0.75 / len(city_list)
     multiplier = 0
 
     fig, ax = plt.subplots(layout='constrained')
@@ -71,8 +71,16 @@ def main():
     conn = psycopg2.connect(dbname=db_details['DB_NAME'], user=db_details['DB_USER'], password=db_details['DB_PASS'], host=db_details['DB_HOST'])
     global cur
     cur = conn.cursor()
-    # plotHeatMap()
-    plotDemographicsOfCity(["Mumbai", "Lucknow", "Sambalpur"])
+    choice = int(input('Press 0 for heatmap and 1 for Demographics of Cities: '))
+    if choice == 0:
+        plotHeatMap()
+    elif choice == 1:
+        cities = input("Enter space-seperated cities: ")
+        if len(cities) == 0:
+            cities = ["Mumbai", "Lucknow", "Sambalpur"]
+            plotDemographicsOfCities(cities)
+    else:
+        exit(0)
 
 
 if __name__ == '__main__':
