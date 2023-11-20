@@ -4,9 +4,11 @@ from dotenv import dotenv_values
 import matplotlib
 import numpy as np
 cur = []
+C = [[0.50495261, 1.34617382], [0.31906353, 1.38396952], [0.41431652, 1.54980307], [0.34886035, 1.27571029], [0.20874683, 1.36621215], [0.44776925, 1.4599872]]
+C3 = [[0.4979076, 1.34766025], [0.27470139, 1.33591127], [0.42529846, 1.5141709]]
 
 
-def plotHeatMap():
+def plotHeatMap(showClusters: bool):
     try:
         cur.execute("SELECT latitude, longitude, pop_density FROM districts;")
         data = cur.fetchall()
@@ -14,8 +16,8 @@ def plotHeatMap():
         print('Error in retrieving the data')
         exit(0)
     print('Data retrieved')
-    X: float = []
-    Y: float = []
+    X: list[float] = []
+    Y: list[float] = []
     pop_density: int = []
 
     for point in data:
@@ -24,6 +26,14 @@ def plotHeatMap():
         pop_density.append(point[2])
     plt.scatter(X, Y, marker='x', c=pop_density, cmap='hot_r', norm=matplotlib.colors.LogNorm())
     plt.colorbar()
+
+    if showClusters is True:
+        X_c: list[float] = []
+        Y_c: list[float] = []
+        for point in C3:
+            X_c.append(point[0])
+            Y_c.append(point[1])
+        plt.scatter(X_c, Y_c, marker='o', c='b')
     plt.show()
 
 
@@ -60,7 +70,7 @@ def plotDemographicsOfCities(city_list):
     ax.set_title('Cities')
     ax.set_xticks(x + width, X)
     ax.legend(loc='upper left', ncols=3)
-    ax.set_xlabel('Demographics')
+    ax.set_xlabel('Demographics based on Age')
     # ax.set_ylim(0, 250)
     plt.show()
 
@@ -73,7 +83,8 @@ def main():
     cur = conn.cursor()
     choice = int(input('Press 0 for heatmap and 1 for Demographics of Cities: '))
     if choice == 0:
-        plotHeatMap()
+        showClusters = bool(input('Do you want to display cluster centers: '))
+        plotHeatMap(showClusters)
     elif choice == 1:
         cities = input("Enter space-seperated cities: ")
         if len(cities) == 0:
