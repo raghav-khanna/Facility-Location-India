@@ -1,5 +1,5 @@
-from typing import Dict
 import matplotlib.pyplot as plt
+from dotenv import dotenv_values
 
 
 def Retreive_SSE_time_taken(f):
@@ -16,11 +16,11 @@ def Retreive_SSE_time_taken(f):
     return SSE, time_taken
 
 
-def Collate_SSE_time_taken(plot_till_value):
-    SSE_of_clustering: Dict[int, float] = {}
-    Time_taken_by_clustering: Dict[int, float] = {}
+def Collate_SSE_time_taken(plot_till_value: int, loc: str):
+    SSE_of_clustering: dict[int, float] = {}
+    Time_taken_by_clustering: dict[int, float] = {}
     for i in range(1, plot_till_value):
-        location = "./data/" + str(i) + "-output.txt"
+        location = loc + "/data/vanilla/" + str(i) + "-output.txt"
         f = open(location, "r")
         SSE, time_taken = Retreive_SSE_time_taken(f)
         SSE_of_clustering[i] = SSE
@@ -50,11 +50,12 @@ def input_max_K():
 
 
 def main():
+    env_details = dotenv_values('.env')
     plot_till_value = 630
     plot_till_value = input_max_K()
-    SSE, Time_taken = Collate_SSE_time_taken(plot_till_value)
+    SSE, Time_taken = Collate_SSE_time_taken(plot_till_value, env_details['PWD'])
     plotter(SSE, "SSE")
-    plotter(Time_taken, "Time Taken")
+    plotter(Time_taken, "Time Taken (in millisec)")
 
 
 if __name__ == '__main__':

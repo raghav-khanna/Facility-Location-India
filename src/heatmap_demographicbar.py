@@ -4,11 +4,27 @@ from dotenv import dotenv_values
 import matplotlib
 import numpy as np
 cur = []
-C = [[0.50495261, 1.34617382], [0.31906353, 1.38396952], [0.41431652, 1.54980307], [0.34886035, 1.27571029], [0.20874683, 1.36621215], [0.44776925, 1.4599872]]
-C3 = [[0.4979076, 1.34766025], [0.27470139, 1.33591127], [0.42529846, 1.5141709]]
 
 
-def plotHeatMap(showClusters: bool):
+def readVals(K: int, loc: str):
+    f = open(loc + "/data/ziko_etal/centers.txt", "r")
+    nums3 = f.read()
+    while nums3[-1] == ' ' or nums3[-1] == '\n':
+        nums3 = nums3[:len(nums3) - 1]
+    f.close()
+    C: list[list[float]] = []
+    i = 0
+    for L in nums3.split('], ['):
+        if i == 0:
+            L = L.strip(' [[')
+        elif i == K - 1:
+            L = L.strip(']]\n')
+        i += 1
+        C.append([float(x) for x in L.split(', ')])
+    return C
+
+
+def plotHeatMap(showClusters: bool, K: int, loc: str):
     try:
         cur.execute("SELECT latitude, longitude, pop_density FROM districts;")
         data = cur.fetchall()
@@ -28,9 +44,10 @@ def plotHeatMap(showClusters: bool):
     plt.colorbar()
 
     if showClusters is True:
+        C = readVals(K, loc)
         X_c: list[float] = []
         Y_c: list[float] = []
-        for point in C3:
+        for point in C:
             X_c.append(point[0])
             Y_c.append(point[1])
         plt.scatter(X_c, Y_c, marker='o', c='b')
@@ -66,7 +83,7 @@ def plotDemographicsOfCities(city_list):
         ax.bar_label(rects, padding=3)
         multiplier += 1
 
-    ax.set_ylabel('Population Density')
+    ax.set_ylabel('Population Density (per km²)')
     ax.set_title('Cities')
     ax.set_xticks(x + width, X)
     ax.legend(loc='upper left', ncols=3)
@@ -77,14 +94,17 @@ def plotDemographicsOfCities(city_list):
 
 def main():
     print('***********************************************************************\nConnecting to the database...')
-    db_details = dotenv_values('.env')
-    conn = psycopg2.connect(dbname=db_details['DB_NAME'], user=db_details['DB_USER'], password=db_details['DB_PASS'], host=db_details['DB_HOST'])
+    env_details = dotenv_values('.env')
+    conn = psycopg2.connect(dbname=env_details['DB_NAME'], user=env_details['DB_USER'], password=env_details['DB_PASS'], host=env_details['DB_HOST'])
     global cur
     cur = conn.cursor()
     choice = int(input('Press 0 for heatmap and 1 for Demographics of Cities: '))
     if choice == 0:
         showClusters = bool(input('Do you want to display cluster centers: '))
-        plotHeatMap(showClusters)
+        K = input("Enter Value of K for which you need the K-means Balance graph (default 3): ")
+        if K == '':
+            K = 3
+        plotHeatMap(showClusters, int(K), env_details['PWD'])
     elif choice == 1:
         cities = input("Enter space-seperated cities: ")
         if len(cities) == 0:
