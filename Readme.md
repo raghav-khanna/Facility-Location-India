@@ -1,50 +1,36 @@
-# Facility Location using Fairness in clustering
+# Plotter
 
-Welcome to Facility location repository.
+### Purpose
+The purpose of this branch is to create all the necessary plots for analysing the outputs of Vanilla Clustering and Variational Fair Clustering (Ziko Et al. 2021).
 
----
-
-## Purpose
-The motivation behind this repository and the analysis behind it, is to compare performance of (Vanilla) K-means Clustering algorithm and algorithms based on fairness notions for the same dataset.
-
----
-
-## Problem Description 
-
-#### The Facility-Location problem: 
-This problem is concerned with the optimal placement of facilities based on certain parameters like distance and ease of transportation.
-
-#### Dataset:
-Locate facilities all across India based on district-wise population density. As per 2011 Census, there are 640 Districts of India.
+It contains code for creating following plots (K is the no. of clusters):
+1.  ```src/vanilla/```
+    1.  Plot (SSE vs K) and (Time taken vs K) plots from the data that was collected from CMLBDA: ```sse_timeTaken_linegraph.py```
+    2.  Plot balance graph of vanilla clustering output and calculate overall balance of clustering: ```balance_bar.py```
+2. ```src/ziko_etal/```
+   1. Plot balance graph of fair clustering output and calculate overall balance of clustering: ```balance_fair_bar.py```
+3. ```src/heatmap_demographicbar.py```: Plot Heatmap of 640 districts of India (optionally with cluster centers of Variational Fair Clustering)
 
 ---
 
-## Repository Structure
-```
-1. Dataset
-    1. Contains 640 districts with following attributes:
-        1. District Name
-        2. Population Density
-        3. Coordinates (Latitude and Longitude)
-    2. The file 'districtsCompleteData.csv' contains the data used for all the clustering methods
-2. Kmeans Branch
-    1. Contains code for Kmeans clustering with Kmeans++ initialization.
-    2. The implementation uses Pyclustering library, outputs final centers, final clusters, SSE, plot and animation of the clustering
-3. Ziko_etal Branch
-    1. Based on the paper, Variational Fair Clustering by Ziko et.al (https://arxiv.org/abs/1906.08207)
-    2. This clustering method, based on balance fairness notion, helps you to find clusters with specified proportions of different demographic groups pertaining to a sensitive attribute of the dataset (population density in our case)
-4. CMLBDA Branch
-    1. The purpose of this branch was to simulate Vanilla Kmeans batch jobs for a set of values of K (no. of clusters) on the lab workstations.
-    2. Vanilla Kmeans output for all values of K from 1 to 640 was collected and stored using this branch.
-
-```
+### How to use (Steps)
+        1. Install dependencies from 'requirements.txt': pip install -r requirements.txt
+        2. Create database and import from the .sql present in data folder
+        3. Create .env file and add the required details (refer .env.sample)
+        4. Vanilla Clustering:
+           1. Add all the required output.txt files to the data/vanilla folder
+           2. NOTE: There is a very specific format of the output.txt files which has to be followed strictly (refer output files collected at CMLBDA)
+        5. Variational Fair Clustering:
+           1. Add protected.txt, labels.txt and centers.txt as obtained from running the code from ziko_etal to data/ziko_etal
+           2. NOTE: There is a very specific format of the these files which has to be followed strictly (refer ziko_etal code)
+           3. NOTE: the repo by default, in the folder data/ziko_etal, contains the output files for K=3
+        6. NOTE: The algorithms are tightly coupled with specific use case of age-demographic, do not use for other use cases.
 
 ---
 
 ### Log
 
-    Created: 4 September 2023
-    Last Edit: 1 November 2023
-    
+    Created: 14 November 2023
+    Last Edit: 30 November 2023
 
 ---
