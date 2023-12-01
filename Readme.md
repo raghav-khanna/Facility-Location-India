@@ -7,7 +7,7 @@ It contains code for creating following plots (K is the no. of clusters):
 1.  ```src/vanilla/```
     1.  Plot (SSE vs K) and (Time taken vs K) plots from the data that was collected from CMLBDA: ```sse_timeTaken_linegraph.py```
     2.  Plot balance graph of vanilla clustering output and calculate overall balance of clustering: ```balance_bar.py```
-2. ```src/ziko_etal```
+2. ```src/ziko_etal/```
    1. Plot balance graph of fair clustering output and calculate overall balance of clustering: ```balance_fair_bar.py```
 3. ```src/heatmap_demographicbar.py```: Plot Heatmap of 640 districts of India (optionally with cluster centers of Variational Fair Clustering)
 
@@ -22,8 +22,8 @@ It contains code for creating following plots (K is the no. of clusters):
            2. NOTE: There is a very specific format of the output.txt files which has to be followed strictly (refer output files collected at CMLBDA)
         5. Variational Fair Clustering:
            1. Add protected.txt, labels.txt and centers.txt as obtained from running the code from ziko_etal to data/ziko_etal
-           2. NOTE: There is a very specific format of the output.txt files which has to be followed strictly (refer ziko_etal code)
-           3. NOTE: data/ziko_etal contains the output files for K=3
+           2. NOTE: There is a very specific format of the these files which has to be followed strictly (refer ziko_etal code)
+           3. NOTE: the repo by default, in the folder data/ziko_etal, contains the output files for K=3
         6. NOTE: The algorithms are tightly coupled with specific use case of age-demographic, do not use for other use cases.
 
 ---
@@ -31,6 +31,6 @@ It contains code for creating following plots (K is the no. of clusters):
 ### Log
 
     Created: 14 November 2023
-    Last Edit: 30 December 2023
-    
+    Last Edit: 30 November 2023
+
 ---
